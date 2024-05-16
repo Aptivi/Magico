@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "Magico.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "Magico.dll"
+    },
+    "Magico.Console - systemwide": {
+      "commandName": "Project",
+      "commandLineArgs": "Magico.dll -s"
+    },
+    "Magico.Console - verbose": {
+      "commandName": "Project",
+      "commandLineArgs": "Magico.dll -v"
+    },
+    "Magico.Console - verbose, systemwide": {
+      "commandName": "Project",
+      "commandLineArgs": "Magico.dll -s -v"
+    }
+  }
+}

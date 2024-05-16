@@ -1,0 +1,8 @@
+<Project>
+    <Target Name="CopyToOutputFolder" BeforeTargets="Build">
+        <ItemGroup>
+            <FilesToCopy Include="$(MSBuildThisFileDirectory)\..\magic\magic.mgc" />
+        </ItemGroup>
+        <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(TargetDir)" />
+    </Target>
+</Project>

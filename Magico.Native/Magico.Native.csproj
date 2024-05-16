@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net48</TargetFrameworks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Magico.Native</PackageId>
+    <Title>Magico.Native</Title>
+    <PackageDescription>libmagic native library wrapper for C#</PackageDescription>
+    <PackageTags>Magico;native;runtime;csharp;library</PackageTags>
+    <PackageProjectUrl>https://github.com/Aptivi/Magico</PackageProjectUrl>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageIcon>OfficialAppIcon-Magico-512.png</PackageIcon>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Aptivi/Magico.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="runtimes\osx-x64\native\" />
+    <Folder Include="runtimes\linux-x64\native\" />
+    <Folder Include="runtimes\linux-x86\native\" />
+    <Folder Include="runtimes\win-x64\native\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- This is the only way to reliably copy all the runtimes -->
+    <None Include="runtimes\**\*.*" Pack="True" PackagePath="runtimes">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+
+    <!-- Necessary targets -->
+    <None Include="Magico.Native.targets" Pack="True" PackagePath="/" />
+
+    <!-- For packaging -->
+    <None Include="../Magico/OfficialAppIcon-Magico-512.png" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NativeLand" Version="1.0.1" Condition="'$(TargetFramework)' == 'net48'" />
+    <PackageReference Include="SpecProbe.Software" Version="1.4.2" />
+  </ItemGroup>
+
+</Project>

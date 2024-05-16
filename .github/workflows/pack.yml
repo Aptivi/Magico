@@ -1,0 +1,25 @@
+name: NuGet Gallery Push
+
+on:
+  release:
+    types: [published]
+    
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Solution Compilation
+        run: make
+      - name: Package Publication
+        run: |
+          chmod +x tools/*.sh
+          cd tools ; NUGET_APIKEY=${{ secrets.NUGET_APIKEY }} ./push.sh ; cd ..
