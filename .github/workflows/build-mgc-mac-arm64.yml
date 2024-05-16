@@ -17,6 +17,9 @@ jobs:
         with:
           submodules: 'true'
           ref: ${{ github.ref }}
+      - name: Setting up environment
+        run: |
+          brew install autoconf automake libtool
       - name: libmagic compilation
         run: |
           cd assets/file ; autoreconf -f -i ; ./configure --disable-silent-rules ; make -j4
