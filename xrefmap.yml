@@ -1,0 +1,228 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Magico.Enumeration
+  name: Magico.Enumeration
+  href: api/Magico.Enumeration.html
+  commentId: N:Magico.Enumeration
+  fullName: Magico.Enumeration
+  nameWithType: Magico.Enumeration
+- uid: Magico.Enumeration.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/Magico.Enumeration.EnumerableExtensions.html
+  commentId: T:Magico.Enumeration.EnumerableExtensions
+  fullName: Magico.Enumeration.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: Magico.Enumeration.EnumerableExtensions.GetElementFromIndex(System.Collections.IEnumerable,System.Int32)
+  name: GetElementFromIndex(IEnumerable, int)
+  href: api/Magico.Enumeration.EnumerableExtensions.html#Magico_Enumeration_EnumerableExtensions_GetElementFromIndex_System_Collections_IEnumerable_System_Int32_
+  commentId: M:Magico.Enumeration.EnumerableExtensions.GetElementFromIndex(System.Collections.IEnumerable,System.Int32)
+  name.vb: GetElementFromIndex(IEnumerable, Integer)
+  fullName: Magico.Enumeration.EnumerableExtensions.GetElementFromIndex(System.Collections.IEnumerable, int)
+  fullName.vb: Magico.Enumeration.EnumerableExtensions.GetElementFromIndex(System.Collections.IEnumerable, Integer)
+  nameWithType: EnumerableExtensions.GetElementFromIndex(IEnumerable, int)
+  nameWithType.vb: EnumerableExtensions.GetElementFromIndex(IEnumerable, Integer)
+- uid: Magico.Enumeration.EnumerableExtensions.GetElementFromIndex*
+  name: GetElementFromIndex
+  href: api/Magico.Enumeration.EnumerableExtensions.html#Magico_Enumeration_EnumerableExtensions_GetElementFromIndex_
+  commentId: Overload:Magico.Enumeration.EnumerableExtensions.GetElementFromIndex
+  isSpec: "True"
+  fullName: Magico.Enumeration.EnumerableExtensions.GetElementFromIndex
+  nameWithType: EnumerableExtensions.GetElementFromIndex
+- uid: Magico.Enumeration.EnumerableExtensions.Length(System.Collections.IEnumerable)
+  name: Length(IEnumerable)
+  href: api/Magico.Enumeration.EnumerableExtensions.html#Magico_Enumeration_EnumerableExtensions_Length_System_Collections_IEnumerable_
+  commentId: M:Magico.Enumeration.EnumerableExtensions.Length(System.Collections.IEnumerable)
+  fullName: Magico.Enumeration.EnumerableExtensions.Length(System.Collections.IEnumerable)
+  nameWithType: EnumerableExtensions.Length(IEnumerable)
+- uid: Magico.Enumeration.EnumerableExtensions.Length*
+  name: Length
+  href: api/Magico.Enumeration.EnumerableExtensions.html#Magico_Enumeration_EnumerableExtensions_Length_
+  commentId: Overload:Magico.Enumeration.EnumerableExtensions.Length
+  isSpec: "True"
+  fullName: Magico.Enumeration.EnumerableExtensions.Length
+  nameWithType: EnumerableExtensions.Length
+- uid: Magico.Files
+  name: Magico.Files
+  href: api/Magico.Files.html
+  commentId: N:Magico.Files
+  fullName: Magico.Files
+  nameWithType: Magico.Files
+- uid: Magico.Files.MagicException
+  name: MagicException
+  href: api/Magico.Files.MagicException.html
+  commentId: T:Magico.Files.MagicException
+  fullName: Magico.Files.MagicException
+  nameWithType: MagicException
+- uid: Magico.Files.MagicException.#ctor
+  name: MagicException()
+  href: api/Magico.Files.MagicException.html#Magico_Files_MagicException__ctor
+  commentId: M:Magico.Files.MagicException.#ctor
+  name.vb: New()
+  fullName: Magico.Files.MagicException.MagicException()
+  fullName.vb: Magico.Files.MagicException.New()
+  nameWithType: MagicException.MagicException()
+  nameWithType.vb: MagicException.New()
+- uid: Magico.Files.MagicException.#ctor(System.String)
+  name: MagicException(string)
+  href: api/Magico.Files.MagicException.html#Magico_Files_MagicException__ctor_System_String_
+  commentId: M:Magico.Files.MagicException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Magico.Files.MagicException.MagicException(string)
+  fullName.vb: Magico.Files.MagicException.New(String)
+  nameWithType: MagicException.MagicException(string)
+  nameWithType.vb: MagicException.New(String)
+- uid: Magico.Files.MagicException.#ctor(System.String,System.Exception)
+  name: MagicException(string, Exception)
+  href: api/Magico.Files.MagicException.html#Magico_Files_MagicException__ctor_System_String_System_Exception_
+  commentId: M:Magico.Files.MagicException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Magico.Files.MagicException.MagicException(string, System.Exception)
+  fullName.vb: Magico.Files.MagicException.New(String, System.Exception)
+  nameWithType: MagicException.MagicException(string, Exception)
+  nameWithType.vb: MagicException.New(String, Exception)
+- uid: Magico.Files.MagicException.#ctor*
+  name: MagicException
+  href: api/Magico.Files.MagicException.html#Magico_Files_MagicException__ctor_
+  commentId: Overload:Magico.Files.MagicException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Magico.Files.MagicException.MagicException
+  fullName.vb: Magico.Files.MagicException.New
+  nameWithType: MagicException.MagicException
+  nameWithType.vb: MagicException.New
+- uid: Magico.Files.MagicHandler
+  name: MagicHandler
+  href: api/Magico.Files.MagicHandler.html
+  commentId: T:Magico.Files.MagicHandler
+  fullName: Magico.Files.MagicHandler
+  nameWithType: MagicHandler
+- uid: Magico.Files.MagicHandler.GetMagicCustomType(System.String,Magico.Native.Interop.MagicFlags,Magico.Native.Interop.MagicParameters,System.Int32)
+  name: GetMagicCustomType(string, MagicFlags, MagicParameters, int)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicCustomType_System_String_Magico_Native_Interop_MagicFlags_Magico_Native_Interop_MagicParameters_System_Int32_
+  commentId: M:Magico.Files.MagicHandler.GetMagicCustomType(System.String,Magico.Native.Interop.MagicFlags,Magico.Native.Interop.MagicParameters,System.Int32)
+  name.vb: GetMagicCustomType(String, MagicFlags, MagicParameters, Integer)
+  fullName: Magico.Files.MagicHandler.GetMagicCustomType(string, Magico.Native.Interop.MagicFlags, Magico.Native.Interop.MagicParameters, int)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicCustomType(String, Magico.Native.Interop.MagicFlags, Magico.Native.Interop.MagicParameters, Integer)
+  nameWithType: MagicHandler.GetMagicCustomType(string, MagicFlags, MagicParameters, int)
+  nameWithType.vb: MagicHandler.GetMagicCustomType(String, MagicFlags, MagicParameters, Integer)
+- uid: Magico.Files.MagicHandler.GetMagicCustomType(System.String,System.String,Magico.Native.Interop.MagicFlags,Magico.Native.Interop.MagicParameters,System.Int32)
+  name: GetMagicCustomType(string, string, MagicFlags, MagicParameters, int)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicCustomType_System_String_System_String_Magico_Native_Interop_MagicFlags_Magico_Native_Interop_MagicParameters_System_Int32_
+  commentId: M:Magico.Files.MagicHandler.GetMagicCustomType(System.String,System.String,Magico.Native.Interop.MagicFlags,Magico.Native.Interop.MagicParameters,System.Int32)
+  name.vb: GetMagicCustomType(String, String, MagicFlags, MagicParameters, Integer)
+  fullName: Magico.Files.MagicHandler.GetMagicCustomType(string, string, Magico.Native.Interop.MagicFlags, Magico.Native.Interop.MagicParameters, int)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicCustomType(String, String, Magico.Native.Interop.MagicFlags, Magico.Native.Interop.MagicParameters, Integer)
+  nameWithType: MagicHandler.GetMagicCustomType(string, string, MagicFlags, MagicParameters, int)
+  nameWithType.vb: MagicHandler.GetMagicCustomType(String, String, MagicFlags, MagicParameters, Integer)
+- uid: Magico.Files.MagicHandler.GetMagicCustomType*
+  name: GetMagicCustomType
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicCustomType_
+  commentId: Overload:Magico.Files.MagicHandler.GetMagicCustomType
+  isSpec: "True"
+  fullName: Magico.Files.MagicHandler.GetMagicCustomType
+  nameWithType: MagicHandler.GetMagicCustomType
+- uid: Magico.Files.MagicHandler.GetMagicInfo(System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name: GetMagicInfo(string, MagicParameters, int)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicInfo_System_String_Magico_Native_Interop_MagicParameters_System_Int32_
+  commentId: M:Magico.Files.MagicHandler.GetMagicInfo(System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name.vb: GetMagicInfo(String, MagicParameters, Integer)
+  fullName: Magico.Files.MagicHandler.GetMagicInfo(string, Magico.Native.Interop.MagicParameters, int)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicInfo(String, Magico.Native.Interop.MagicParameters, Integer)
+  nameWithType: MagicHandler.GetMagicInfo(string, MagicParameters, int)
+  nameWithType.vb: MagicHandler.GetMagicInfo(String, MagicParameters, Integer)
+- uid: Magico.Files.MagicHandler.GetMagicInfo(System.String,System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name: GetMagicInfo(string, string, MagicParameters, int)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicInfo_System_String_System_String_Magico_Native_Interop_MagicParameters_System_Int32_
+  commentId: M:Magico.Files.MagicHandler.GetMagicInfo(System.String,System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name.vb: GetMagicInfo(String, String, MagicParameters, Integer)
+  fullName: Magico.Files.MagicHandler.GetMagicInfo(string, string, Magico.Native.Interop.MagicParameters, int)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicInfo(String, String, Magico.Native.Interop.MagicParameters, Integer)
+  nameWithType: MagicHandler.GetMagicInfo(string, string, MagicParameters, int)
+  nameWithType.vb: MagicHandler.GetMagicInfo(String, String, MagicParameters, Integer)
+- uid: Magico.Files.MagicHandler.GetMagicInfo*
+  name: GetMagicInfo
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicInfo_
+  commentId: Overload:Magico.Files.MagicHandler.GetMagicInfo
+  isSpec: "True"
+  fullName: Magico.Files.MagicHandler.GetMagicInfo
+  nameWithType: MagicHandler.GetMagicInfo
+- uid: Magico.Files.MagicHandler.GetMagicMimeInfo(System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name: GetMagicMimeInfo(string, MagicParameters, int)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicMimeInfo_System_String_Magico_Native_Interop_MagicParameters_System_Int32_
+  commentId: M:Magico.Files.MagicHandler.GetMagicMimeInfo(System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name.vb: GetMagicMimeInfo(String, MagicParameters, Integer)
+  fullName: Magico.Files.MagicHandler.GetMagicMimeInfo(string, Magico.Native.Interop.MagicParameters, int)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicMimeInfo(String, Magico.Native.Interop.MagicParameters, Integer)
+  nameWithType: MagicHandler.GetMagicMimeInfo(string, MagicParameters, int)
+  nameWithType.vb: MagicHandler.GetMagicMimeInfo(String, MagicParameters, Integer)
+- uid: Magico.Files.MagicHandler.GetMagicMimeInfo(System.String,System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name: GetMagicMimeInfo(string, string, MagicParameters, int)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicMimeInfo_System_String_System_String_Magico_Native_Interop_MagicParameters_System_Int32_
+  commentId: M:Magico.Files.MagicHandler.GetMagicMimeInfo(System.String,System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name.vb: GetMagicMimeInfo(String, String, MagicParameters, Integer)
+  fullName: Magico.Files.MagicHandler.GetMagicMimeInfo(string, string, Magico.Native.Interop.MagicParameters, int)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicMimeInfo(String, String, Magico.Native.Interop.MagicParameters, Integer)
+  nameWithType: MagicHandler.GetMagicMimeInfo(string, string, MagicParameters, int)
+  nameWithType.vb: MagicHandler.GetMagicMimeInfo(String, String, MagicParameters, Integer)
+- uid: Magico.Files.MagicHandler.GetMagicMimeInfo*
+  name: GetMagicMimeInfo
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicMimeInfo_
+  commentId: Overload:Magico.Files.MagicHandler.GetMagicMimeInfo
+  isSpec: "True"
+  fullName: Magico.Files.MagicHandler.GetMagicMimeInfo
+  nameWithType: MagicHandler.GetMagicMimeInfo
+- uid: Magico.Files.MagicHandler.GetMagicMimeType(System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name: GetMagicMimeType(string, MagicParameters, int)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicMimeType_System_String_Magico_Native_Interop_MagicParameters_System_Int32_
+  commentId: M:Magico.Files.MagicHandler.GetMagicMimeType(System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name.vb: GetMagicMimeType(String, MagicParameters, Integer)
+  fullName: Magico.Files.MagicHandler.GetMagicMimeType(string, Magico.Native.Interop.MagicParameters, int)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicMimeType(String, Magico.Native.Interop.MagicParameters, Integer)
+  nameWithType: MagicHandler.GetMagicMimeType(string, MagicParameters, int)
+  nameWithType.vb: MagicHandler.GetMagicMimeType(String, MagicParameters, Integer)
+- uid: Magico.Files.MagicHandler.GetMagicMimeType(System.String,System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name: GetMagicMimeType(string, string, MagicParameters, int)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicMimeType_System_String_System_String_Magico_Native_Interop_MagicParameters_System_Int32_
+  commentId: M:Magico.Files.MagicHandler.GetMagicMimeType(System.String,System.String,Magico.Native.Interop.MagicParameters,System.Int32)
+  name.vb: GetMagicMimeType(String, String, MagicParameters, Integer)
+  fullName: Magico.Files.MagicHandler.GetMagicMimeType(string, string, Magico.Native.Interop.MagicParameters, int)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicMimeType(String, String, Magico.Native.Interop.MagicParameters, Integer)
+  nameWithType: MagicHandler.GetMagicMimeType(string, string, MagicParameters, int)
+  nameWithType.vb: MagicHandler.GetMagicMimeType(String, String, MagicParameters, Integer)
+- uid: Magico.Files.MagicHandler.GetMagicMimeType*
+  name: GetMagicMimeType
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicMimeType_
+  commentId: Overload:Magico.Files.MagicHandler.GetMagicMimeType
+  isSpec: "True"
+  fullName: Magico.Files.MagicHandler.GetMagicMimeType
+  nameWithType: MagicHandler.GetMagicMimeType
+- uid: Magico.Files.MagicHandler.GetMagicPaths(System.String,System.Boolean)
+  name: GetMagicPaths(string, bool)
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicPaths_System_String_System_Boolean_
+  commentId: M:Magico.Files.MagicHandler.GetMagicPaths(System.String,System.Boolean)
+  name.vb: GetMagicPaths(String, Boolean)
+  fullName: Magico.Files.MagicHandler.GetMagicPaths(string, bool)
+  fullName.vb: Magico.Files.MagicHandler.GetMagicPaths(String, Boolean)
+  nameWithType: MagicHandler.GetMagicPaths(string, bool)
+  nameWithType.vb: MagicHandler.GetMagicPaths(String, Boolean)
+- uid: Magico.Files.MagicHandler.GetMagicPaths*
+  name: GetMagicPaths
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicPaths_
+  commentId: Overload:Magico.Files.MagicHandler.GetMagicPaths
+  isSpec: "True"
+  fullName: Magico.Files.MagicHandler.GetMagicPaths
+  nameWithType: MagicHandler.GetMagicPaths
+- uid: Magico.Files.MagicHandler.MagicVersionId
+  name: MagicVersionId
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_MagicVersionId
+  commentId: P:Magico.Files.MagicHandler.MagicVersionId
+  fullName: Magico.Files.MagicHandler.MagicVersionId
+  nameWithType: MagicHandler.MagicVersionId
+- uid: Magico.Files.MagicHandler.MagicVersionId*
+  name: MagicVersionId
+  href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_MagicVersionId_
+  commentId: Overload:Magico.Files.MagicHandler.MagicVersionId
+  isSpec: "True"
+  fullName: Magico.Files.MagicHandler.MagicVersionId
+  nameWithType: MagicHandler.MagicVersionId

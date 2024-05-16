@@ -1,0 +1,108 @@
+{
+  "sitemap": {
+    "baseUrl": "https://aptivi.github.io/Magico/"
+  },
+  "source_base_path": "/home/runner/work/Magico/Magico/DocGen",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Enumeration.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Enumeration.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Enumeration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Enumeration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Files.MagicException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Files.MagicException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Files.MagicHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Files.MagicHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Files.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Files.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
