@@ -1,0 +1,3 @@
+[submodule "assets/file"]
+	path = assets/file
+	url = https://github.com/file/file.git
