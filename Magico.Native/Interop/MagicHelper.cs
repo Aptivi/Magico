@@ -33,118 +33,104 @@ namespace Magico.Native.Interop
         /// <summary>
         /// file_public struct magic_set* magic_open(int flags)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern MagicSet* magic_open(MagicFlags flags);
+        public delegate MagicSet* magic_open(MagicFlags flags);
 
         /// <summary>
         /// file_public void magic_close(struct magic_set *ms)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern void magic_close(MagicSet* ms);
+        public delegate void magic_close(MagicSet* ms);
 
         /// <summary>
         /// file_public const char *magic_error(struct magic_set *ms)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern nint magic_error(MagicSet* ms);
+        public delegate nint magic_error(MagicSet* ms);
 
         /// <summary>
         /// file_public int magic_errno(struct magic_set *ms)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_errno(MagicSet* ms);
+        public delegate int magic_errno(MagicSet* ms);
 
         /// <summary>
         /// file_public const char *magic_getpath(const char *magicfile, int action)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern nint magic_getpath(nint magicfile, int action);
+        public delegate nint magic_getpath(nint magicfile, int action);
 
         /// <summary>
         /// file_public const char *magic_file(struct magic_set *ms, const char *inname)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern nint magic_file(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string inname);
+        public delegate nint magic_file(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string inname);
 
         /// <summary>
         /// file_public const char *magic_descriptor(struct magic_set *ms, int fd)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern nint magic_descriptor(MagicSet* ms, int fd);
+        public delegate nint magic_descriptor(MagicSet* ms, int fd);
 
         /// <summary>
         /// file_public const char *magic_buffer(struct magic_set *ms, const void *buf, size_t nb)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern nint magic_buffer(MagicSet* ms, nint buf, [MarshalAs(UnmanagedType.SysInt)] int nb);
+        public delegate nint magic_buffer(MagicSet* ms, nint buf, [MarshalAs(UnmanagedType.SysInt)] int nb);
 
         /// <summary>
         /// file_public int magic_getflags(struct magic_set *ms)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_getflags(MagicSet* ms);
+        public delegate int magic_getflags(MagicSet* ms);
 
         /// <summary>
         /// file_public int magic_setflags(struct magic_set *ms, int flags)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_setflags(MagicSet* ms, MagicFlags flags);
+        public delegate int magic_setflags(MagicSet* ms, MagicFlags flags);
 
         /// <summary>
         /// file_public int magic_load(struct magic_set *ms, const char *magicfile)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_load(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string magicfile);
+        public delegate int magic_load(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string magicfile);
 
         /// <summary>
         /// file_public int magic_load_buffers(struct magic_set *ms, void **bufs, size_t *sizes, size_t nbufs)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_load_buffers(MagicSet* ms, ref nint bufs, ref int sizes, [MarshalAs(UnmanagedType.SysInt)] int nbufs);
+        public delegate int magic_load_buffers(MagicSet* ms, ref nint bufs, ref int sizes, [MarshalAs(UnmanagedType.SysInt)] int nbufs);
 
         /// <summary>
         /// file_public int magic_compile(struct magic_set *ms, const char *magicfile)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_compile(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string magicfile);
+        public delegate int magic_compile(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string magicfile);
 
         /// <summary>
         /// file_public int magic_check(struct magic_set *ms, const char *magicfile)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_check(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string magicfile);
+        public delegate int magic_check(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string magicfile);
 
         /// <summary>
         /// file_public int magic_list(struct magic_set *ms, const char *magicfile)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_list(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string magicfile);
+        public delegate int magic_list(MagicSet* ms, [In][MarshalAs(UnmanagedType.LPStr)] string magicfile);
 
         /// <summary>
         /// file_public int magic_setparam(struct magic_set *ms, int param, const void *val)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_setparam(MagicSet* ms, MagicParameters param, nint val);
+        public delegate int magic_setparam(MagicSet* ms, MagicParameters param, nint val);
 
         /// <summary>
         /// file_public int magic_getparam(struct magic_set *ms, int param, void *val)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_getparam(MagicSet* ms, MagicParameters param, nint val);
+        public delegate int magic_getparam(MagicSet* ms, MagicParameters param, nint val);
 
         /// <summary>
         /// int magic_version(void)
         /// </summary>
-        [DllImport("libmagic")]
-        public static extern int magic_version();
+        public delegate int magic_version();
 
         internal static string GetError(MagicSet* handle)
         {
-            var errorHandle = magic_error(handle);
+            var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_error>(nameof(magic_error));
+            var errorHandle = @delegate.Invoke(handle);
             return Marshal.PtrToStringAnsi(errorHandle);
         }
 
-        internal static int GetErrorNumber(MagicSet* handle) =>
-            magic_errno(handle);
+        internal static int GetErrorNumber(MagicSet* handle)
+        {
+            var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_errno>(nameof(magic_errno));
+            return @delegate.Invoke(handle);
+        }
     }
 }
