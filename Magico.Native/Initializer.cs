@@ -21,7 +21,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using NativeLand;
+using SpecProbe.Loader;
 using SpecProbe.Software.Platform;
 
 namespace Magico.Native
