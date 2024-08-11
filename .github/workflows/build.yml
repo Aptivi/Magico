@@ -31,5 +31,7 @@ jobs:
         if: matrix.runs-on != 'windows-latest'
         run: make dbg
       - name: Testing
-        run: dotnet test --no-build --configuration Debug
+        run: |
+          ldd Magico.Console/bin/Debug/net8.0/runtimes/linux-x64/native/libmagic.so
+          dotnet test --no-build --configuration Debug
         
