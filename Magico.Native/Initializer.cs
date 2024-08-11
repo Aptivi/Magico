@@ -31,7 +31,6 @@ namespace Magico.Native
         internal static LibraryManager libManager;
         private static bool _initialized;
         private const string LibraryName = "libmagic";
-        private const string LibraryGnuRxName = "libgnurx-0";
 
         internal static void InitializeNative()
         {
@@ -49,26 +48,22 @@ namespace Magico.Native
                 new LibraryItem(Platform.Linux, Architecture.Arm64, new LibraryFile(libPath)));
             if (PlatformHelper.IsOnWindows())
             {
-                string gnuRxPath = GetLibraryPath(LibraryGnuRxName);
                 string gnuRxTrePath = GetLibraryPath("libsystre-0");
                 string trePath = GetLibraryPath("libtre-5");
                 string intlPath = GetLibraryPath("libintl-8");
                 string convPath = GetLibraryPath("libiconv-2");
-                if (File.Exists(gnuRxPath))
-                {
-                    var libManagerGnuRx = new LibraryManager(
-                        new LibraryItem(Platform.Windows, Architecture.X64,
-                            new LibraryFile(convPath),
-                            new LibraryFile(intlPath),
-                            new LibraryFile(trePath),
-                            new LibraryFile(gnuRxTrePath)),
-                        new LibraryItem(Platform.Windows, Architecture.Arm64,
-                            new LibraryFile(convPath),
-                            new LibraryFile(intlPath),
-                            new LibraryFile(trePath),
-                            new LibraryFile(gnuRxTrePath)));
-                    libManagerGnuRx.LoadNativeLibrary();
-                }
+                var libManagerGnuRx = new LibraryManager(
+                    new LibraryItem(Platform.Windows, Architecture.X64,
+                        new LibraryFile(convPath),
+                        new LibraryFile(intlPath),
+                        new LibraryFile(trePath),
+                        new LibraryFile(gnuRxTrePath)),
+                    new LibraryItem(Platform.Windows, Architecture.Arm64,
+                        new LibraryFile(convPath),
+                        new LibraryFile(intlPath),
+                        new LibraryFile(trePath),
+                        new LibraryFile(gnuRxTrePath)));
+                libManagerGnuRx.LoadNativeLibrary();
             }
             libManager.LoadNativeLibrary();
             _initialized = true;
