@@ -41,14 +41,11 @@ namespace Magico.Native
             if (!File.Exists(libPath))
                 throw new Exception($"Can't load magic library because it isn't found. Magic library was: {libPath}");
             libManager = new LibraryManager(
-                new LibraryItem(Platform.Windows, Architecture.X86, new LibraryFile(libPath)),
                 new LibraryItem(Platform.Windows, Architecture.X64, new LibraryFile(libPath)),
                 new LibraryItem(Platform.Windows, Architecture.Arm64, new LibraryFile(libPath)),
                 new LibraryItem(Platform.MacOS, Architecture.X64, new LibraryFile(libPath)),
                 new LibraryItem(Platform.MacOS, Architecture.Arm64, new LibraryFile(libPath)),
                 new LibraryItem(Platform.Linux, Architecture.X64, new LibraryFile(libPath)),
-                new LibraryItem(Platform.Linux, Architecture.X86, new LibraryFile(libPath)),
-                new LibraryItem(Platform.Linux, Architecture.Arm, new LibraryFile(libPath)),
                 new LibraryItem(Platform.Linux, Architecture.Arm64, new LibraryFile(libPath)));
             if (PlatformHelper.IsOnWindows())
             {
@@ -57,7 +54,6 @@ namespace Magico.Native
                 string trePath = GetLibraryPath("libtre-5");
                 string intlPath = GetLibraryPath("libintl-8");
                 string convPath = GetLibraryPath("libiconv-2");
-                string gccPath = GetLibraryPath("libgcc_s_dw2-1");
                 if (File.Exists(gnuRxPath))
                 {
                     var libManagerGnuRx = new LibraryManager(
@@ -66,9 +62,6 @@ namespace Magico.Native
                             new LibraryFile(intlPath),
                             new LibraryFile(trePath),
                             new LibraryFile(gnuRxTrePath)),
-                        new LibraryItem(Platform.Windows, Architecture.X86,
-                            new LibraryFile(gccPath),
-                            new LibraryFile(gnuRxPath)),
                         new LibraryItem(Platform.Windows, Architecture.Arm64,
                             new LibraryFile(convPath),
                             new LibraryFile(intlPath),
