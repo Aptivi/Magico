@@ -39,13 +39,10 @@ namespace Magico.Native
             string libPath = GetLibraryPath(LibraryName);
             if (!File.Exists(libPath))
                 throw new Exception($"Can't load magic library because it isn't found. Magic library was: {libPath}");
-            libManager = new LibraryManager(
-                new LibraryItem(Platform.Windows, Architecture.X64, new LibraryFile(libPath)),
-                new LibraryItem(Platform.Windows, Architecture.Arm64, new LibraryFile(libPath)),
-                new LibraryItem(Platform.MacOS, Architecture.X64, new LibraryFile(libPath)),
-                new LibraryItem(Platform.MacOS, Architecture.Arm64, new LibraryFile(libPath)),
-                new LibraryItem(Platform.Linux, Architecture.X64, new LibraryFile(libPath)),
-                new LibraryItem(Platform.Linux, Architecture.Arm64, new LibraryFile(libPath)));
+            var architecture = PlatformHelper.GetArchitecture();
+            if (architecture == Architecture.X86 || architecture == Architecture.Arm)
+                throw new PlatformNotSupportedException("32-bit platforms are no longer supported.");
+            libManager = new LibraryManager(new LibraryFile(libPath));
             if (PlatformHelper.IsOnWindows())
             {
                 string gnuRxTrePath = GetLibraryPath("libsystre-0");
@@ -53,16 +50,10 @@ namespace Magico.Native
                 string intlPath = GetLibraryPath("libintl-8");
                 string convPath = GetLibraryPath("libiconv-2");
                 var libManagerGnuRx = new LibraryManager(
-                    new LibraryItem(Platform.Windows, Architecture.X64,
-                        new LibraryFile(convPath),
-                        new LibraryFile(intlPath),
-                        new LibraryFile(trePath),
-                        new LibraryFile(gnuRxTrePath)),
-                    new LibraryItem(Platform.Windows, Architecture.Arm64,
-                        new LibraryFile(convPath),
-                        new LibraryFile(intlPath),
-                        new LibraryFile(trePath),
-                        new LibraryFile(gnuRxTrePath)));
+                    new LibraryFile(convPath),
+                    new LibraryFile(intlPath),
+                    new LibraryFile(trePath),
+                    new LibraryFile(gnuRxTrePath));
                 libManagerGnuRx.LoadNativeLibrary();
             }
             libManager.LoadNativeLibrary();
