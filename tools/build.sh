@@ -32,15 +32,15 @@ fi
 
 # Download packages
 echo Downloading packages...
-"$dotnetpath" msbuild "../Magico.sln" -t:restore -p:Configuration=$releaseconf
+"$dotnetpath" restore "../Magico.sln" --configuration $releaseconf
 if [ ! $? == 0 ]; then
 	echo Download failed.
 	exit 1
 fi
 
-# Build KS
-echo Building KS...
-"$dotnetpath" msbuild "../Magico.sln" -p:Configuration=$releaseconf
+# Build
+echo Building Magico...
+"$dotnetpath" build "../Magico.sln" --configuration $releaseconf
 if [ ! $? == 0 ]; then
 	echo Build failed.
 	exit 1
