@@ -42,6 +42,38 @@ references:
   isSpec: "True"
   fullName: Magico.Enumeration.EnumerableExtensions.Length
   nameWithType: EnumerableExtensions.Length
+- uid: Magico.Enumeration.EnumerableExtensions.ToDictionarySafe*
+  name: ToDictionarySafe
+  href: api/Magico.Enumeration.EnumerableExtensions.html#Magico_Enumeration_EnumerableExtensions_ToDictionarySafe_
+  commentId: Overload:Magico.Enumeration.EnumerableExtensions.ToDictionarySafe
+  isSpec: "True"
+  fullName: Magico.Enumeration.EnumerableExtensions.ToDictionarySafe
+  nameWithType: EnumerableExtensions.ToDictionarySafe
+- uid: Magico.Enumeration.EnumerableExtensions.ToDictionarySafe``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  name: ToDictionarySafe<TSource, TKey, TValue>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TValue>)
+  href: api/Magico.Enumeration.EnumerableExtensions.html#Magico_Enumeration_EnumerableExtensions_ToDictionarySafe__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  commentId: M:Magico.Enumeration.EnumerableExtensions.ToDictionarySafe``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  name.vb: ToDictionarySafe(Of TSource, TKey, TValue)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TValue))
+  fullName: Magico.Enumeration.EnumerableExtensions.ToDictionarySafe<TSource, TKey, TValue>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TValue>)
+  fullName.vb: Magico.Enumeration.EnumerableExtensions.ToDictionarySafe(Of TSource, TKey, TValue)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TValue))
+  nameWithType: EnumerableExtensions.ToDictionarySafe<TSource, TKey, TValue>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TValue>)
+  nameWithType.vb: EnumerableExtensions.ToDictionarySafe(Of TSource, TKey, TValue)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TValue))
+- uid: Magico.Enumeration.EnumerableExtensions.Zip*
+  name: Zip
+  href: api/Magico.Enumeration.EnumerableExtensions.html#Magico_Enumeration_EnumerableExtensions_Zip_
+  commentId: Overload:Magico.Enumeration.EnumerableExtensions.Zip
+  isSpec: "True"
+  fullName: Magico.Enumeration.EnumerableExtensions.Zip
+  nameWithType: EnumerableExtensions.Zip
+- uid: Magico.Enumeration.EnumerableExtensions.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1})
+  name: Zip<TFirst, TSecond>(IEnumerable<TFirst>, IEnumerable<TSecond>)
+  href: api/Magico.Enumeration.EnumerableExtensions.html#Magico_Enumeration_EnumerableExtensions_Zip__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___1__
+  commentId: M:Magico.Enumeration.EnumerableExtensions.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1})
+  name.vb: Zip(Of TFirst, TSecond)(IEnumerable(Of TFirst), IEnumerable(Of TSecond))
+  fullName: Magico.Enumeration.EnumerableExtensions.Zip<TFirst, TSecond>(System.Collections.Generic.IEnumerable<TFirst>, System.Collections.Generic.IEnumerable<TSecond>)
+  fullName.vb: Magico.Enumeration.EnumerableExtensions.Zip(Of TFirst, TSecond)(System.Collections.Generic.IEnumerable(Of TFirst), System.Collections.Generic.IEnumerable(Of TSecond))
+  nameWithType: EnumerableExtensions.Zip<TFirst, TSecond>(IEnumerable<TFirst>, IEnumerable<TSecond>)
+  nameWithType.vb: EnumerableExtensions.Zip(Of TFirst, TSecond)(IEnumerable(Of TFirst), IEnumerable(Of TSecond))
 - uid: Magico.Files
   name: Magico.Files
   href: api/Magico.Files.html
