@@ -19,6 +19,7 @@
 
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Magico.Enumeration
@@ -101,6 +102,61 @@ namespace Magico.Enumeration
             // Here, it's getting uglier as we don't have ElementAt() in IEnumerable, too!
             var generic = enumerable.OfType<object>();
             return generic.ElementAt(index);
+        }
+
+        /// <summary>
+        /// Merges the two input sequences into one
+        /// </summary>
+        /// <typeparam name="TFirst">First type</typeparam>
+        /// <typeparam name="TSecond">Second type</typeparam>
+        /// <param name="source">Source sequence to merge</param>
+        /// <param name="second">Second sequence to merge</param>
+        /// <returns>Merged sequences</returns>
+        public static IEnumerable<(TFirst First, TSecond Second)> Zip<TFirst, TSecond>(
+            this IEnumerable<TFirst> source, IEnumerable<TSecond> second)
+        {
+            // Sanity checks
+            if (source is null)
+                throw new ArgumentNullException(nameof(source));
+            if (second is null)
+                throw new ArgumentNullException(nameof(second));
+
+            return source.Zip(second, (first, second) => (first, second));
+        }
+
+        /// <summary>
+        /// Safely converts the source enumerable to the dictionary
+        /// </summary>
+        /// <typeparam name="TSource">Source element type</typeparam>
+        /// <typeparam name="TKey">Key type</typeparam>
+        /// <typeparam name="TValue">Value type</typeparam>
+        /// <param name="source"></param>
+        /// <param name="keySelector"></param>
+        /// <param name="valueSelector"></param>
+        /// <returns></returns>
+        public static Dictionary<TKey, TValue> ToDictionarySafe<TSource, TKey, TValue>(
+            this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TValue> valueSelector)
+            where TKey : notnull
+        {
+            // Sanity checks
+            if (source is null)
+                throw new ArgumentNullException(nameof(source));
+            if (keySelector is null)
+                throw new ArgumentNullException(nameof(keySelector));
+            if (valueSelector is null)
+                throw new ArgumentNullException(nameof(valueSelector));
+
+            var dictionary = new Dictionary<TKey, TValue>();
+            foreach (var item in source)
+            {
+                // Get the key and the value
+                var key = keySelector(item);
+                var value = valueSelector(item);
+
+                // Set the value
+                dictionary[key] = value;
+            }
+            return dictionary;
         }
     }
 }
