@@ -9,7 +9,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magico.Native", "Magico.Nat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magico.Tests", "Magico.Tests\Magico.Tests.csproj", "{19BBDE36-C683-4752-B6AA-FCA679CBD118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magico.Console", "Magico.Console\Magico.Console.csproj", "{F9960134-7F68-40DB-91AA-A95046D897F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magico.Console", "Magico.Console\Magico.Console.csproj", "{F9960134-7F68-40DB-91AA-A95046D897F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Public", "Public", "{6FD31E96-8BB3-4DB1-95D8-3AE0F6CAB814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Private", "Private", "{331D36D2-86F2-47C5-8612-DD5E55DAAF19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{F0F434CC-6FEF-4ED0-A4A7-8FE6910ED63E}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +45,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B7D3DD5-B086-42ED-A02B-AED489D02088} = {6FD31E96-8BB3-4DB1-95D8-3AE0F6CAB814}
+		{4AB82C17-DE9E-4D25-917A-D85F28DDFE05} = {6FD31E96-8BB3-4DB1-95D8-3AE0F6CAB814}
+		{19BBDE36-C683-4752-B6AA-FCA679CBD118} = {331D36D2-86F2-47C5-8612-DD5E55DAAF19}
+		{F9960134-7F68-40DB-91AA-A95046D897F6} = {331D36D2-86F2-47C5-8612-DD5E55DAAF19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D47F3184-8E12-4367-B5BF-F15E35695944}
