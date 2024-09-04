@@ -230,13 +230,13 @@ references:
   fullName: Magico.Files.MagicHandler.GetMagicMimeType
   nameWithType: MagicHandler.GetMagicMimeType
 - uid: Magico.Files.MagicHandler.GetMagicPaths(System.String,System.Boolean)
-  name: GetMagicPaths(string, bool)
+  name: GetMagicPaths(string?, bool)
   href: api/Magico.Files.MagicHandler.html#Magico_Files_MagicHandler_GetMagicPaths_System_String_System_Boolean_
   commentId: M:Magico.Files.MagicHandler.GetMagicPaths(System.String,System.Boolean)
   name.vb: GetMagicPaths(String, Boolean)
-  fullName: Magico.Files.MagicHandler.GetMagicPaths(string, bool)
+  fullName: Magico.Files.MagicHandler.GetMagicPaths(string?, bool)
   fullName.vb: Magico.Files.MagicHandler.GetMagicPaths(String, Boolean)
-  nameWithType: MagicHandler.GetMagicPaths(string, bool)
+  nameWithType: MagicHandler.GetMagicPaths(string?, bool)
   nameWithType.vb: MagicHandler.GetMagicPaths(String, Boolean)
 - uid: Magico.Files.MagicHandler.GetMagicPaths*
   name: GetMagicPaths
