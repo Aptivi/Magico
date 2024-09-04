@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Private", "Private", "{331D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{F0F434CC-6FEF-4ED0-A4A7-8FE6910ED63E}"
 	ProjectSection(SolutionItems) = preProject
+		CHANGES = CHANGES
+		CHANGES.TITLE = CHANGES.TITLE
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
