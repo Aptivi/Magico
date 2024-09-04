@@ -41,7 +41,10 @@ namespace Magico.Files
         {
             get
             {
-                var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_version>(nameof(MagicHelper.magic_version));
+                if (Initializer.libManager is null)
+                    throw new MagicException("The native library is not initialized yet.");
+                var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_version>(nameof(MagicHelper.magic_version)) ??
+                    throw new MagicException("Can't get delegate");
                 return @delegate.Invoke();
             }
         }
@@ -52,11 +55,14 @@ namespace Magico.Files
         /// <param name="magicPath">Magic path. If null, the libmagic library tries to find the magic database files.</param>
         /// <param name="systemWide">Uses system-wide magic path if <paramref name="magicPath"/> is null. This has no effect if that path is not null</param>
         /// <returns>A colon separated list of magic locations</returns>
-        public static string[] GetMagicPaths(string magicPath = null, bool systemWide = false)
+        public static string[] GetMagicPaths(string? magicPath = null, bool systemWide = false)
         {
             // We need to make another magicPath handle, because if we directly passed the magicPath string, we'll get corrupt
             // string. We need to make a native handle to our string.
-            var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_getpath>(nameof(MagicHelper.magic_getpath));
+            if (Initializer.libManager is null)
+                throw new MagicException("The native library is not initialized yet.");
+            var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_getpath>(nameof(MagicHelper.magic_getpath)) ??
+                throw new MagicException("Can't get delegate");
             var magicPathHandle = !string.IsNullOrEmpty(magicPath) ? Marshal.StringToHGlobalAnsi(magicPath) : IntPtr.Zero;
             var pathsStringHandle = @delegate.Invoke(magicPathHandle, systemWide ? 1 : 0);
             string pathsString = Marshal.PtrToStringAnsi(pathsStringHandle);
@@ -162,7 +168,10 @@ namespace Magico.Files
             unsafe
             {
                 // Open the magic handle
-                var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_open>(nameof(MagicHelper.magic_open));
+                if (Initializer.libManager is null)
+                    throw new MagicException("The native library is not initialized yet.");
+                var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_open>(nameof(MagicHelper.magic_open)) ??
+                    throw new MagicException("Can't get delegate");
                 var handle = @delegate.Invoke(flags);
 
                 // Check to see if we're going to set the parameter
@@ -174,14 +183,16 @@ namespace Magico.Files
                     Marshal.WriteIntPtr(valueHandle, valuePtr);
 
                     // Set the parameter
-                    var delegate2 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_setparam>(nameof(MagicHelper.magic_setparam));
+                    var delegate2 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_setparam>(nameof(MagicHelper.magic_setparam)) ??
+                        throw new MagicException("Can't get delegate");
                     int paramResult = delegate2.Invoke(handle, parameter, valueHandle);
                     if (paramResult != 0)
                         throw new MagicException($"Failed to set parameter {parameter} to {paramValue}: [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
 
                     // Validate the parameter
                     nint result;
-                    var delegate3 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_getparam>(nameof(MagicHelper.magic_getparam));
+                    var delegate3 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_getparam>(nameof(MagicHelper.magic_getparam)) ??
+                        throw new MagicException("Can't get delegate");
                     int paramGetResult = delegate3.Invoke(handle, parameter, valueHandleResult);
                     if (paramGetResult != 0)
                         throw new MagicException($"Failed to get parameter {parameter} value: [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
@@ -195,13 +206,15 @@ namespace Magico.Files
                 }
 
                 // Use this handle to load the magic database
-                var delegate4 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_load>(nameof(MagicHelper.magic_load));
+                var delegate4 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_load>(nameof(MagicHelper.magic_load)) ??
+                    throw new MagicException("Can't get delegate");
                 int loadResult = delegate4.Invoke(handle, magicPath);
                 if (loadResult != 0)
                     throw new MagicException($"Failed to load magic database file from path {magicPath}: [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
 
                 // Now, get the magic
-                var delegate5 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_file>(nameof(MagicHelper.magic_file));
+                var delegate5 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_file>(nameof(MagicHelper.magic_file)) ??
+                    throw new MagicException("Can't get delegate");
                 magicStringHandle = delegate5.Invoke(handle, filePath);
                 if (magicStringHandle == IntPtr.Zero)
                     throw new MagicException($"Failed to get magic of file {filePath} from magic database {magicPath}: [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");

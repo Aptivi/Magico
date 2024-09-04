@@ -47,7 +47,7 @@ namespace Magico.Tests.Enumeration
         public void GetElementFromIndex()
         {
             IEnumerable values = Enumerable.Range(0, 200);
-            object element = values.GetElementFromIndex(3);
+            object? element = values.GetElementFromIndex(3);
             Assert.AreEqual(3, element);
         }
     }

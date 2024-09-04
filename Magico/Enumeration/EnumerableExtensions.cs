@@ -69,7 +69,7 @@ namespace Magico.Enumeration
         /// <param name="enumerable">The target enumerable to get an element</param>
         /// <param name="index">Zero-based index number of an element</param>
         /// <returns>An element from this enumerable</returns>
-        public static object GetElementFromIndex(this IEnumerable enumerable, int index)
+        public static object? GetElementFromIndex(this IEnumerable enumerable, int index)
         {
             if (index < 0)
                 return null;

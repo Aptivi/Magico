@@ -51,7 +51,7 @@ namespace Magico.Console
             }
 
             // Check for custom magic
-            string customMagic = null;
+            string customMagic = "";
             if (args.Length > 1)
             {
                 customMagic = Path.GetFullPath(args[1]);
@@ -74,7 +74,10 @@ namespace Magico.Console
                 string[] magicPathsSystemwide = MagicHandler.GetMagicPaths(customMagic, true);
                 string[] magicPathsProbed = MagicHandler.GetMagicPaths(null);
                 string[] magicPathsProbedSystemwide = MagicHandler.GetMagicPaths(null, true);
-                string finalPath = systemwide ? magicPathsProbedSystemwide[0] : File.Exists(magicPaths[0]) ? magicPaths[0] : File.Exists(customMagic) ? customMagic : "";
+                string finalPath =
+                    systemwide ? magicPathsProbedSystemwide[0] :
+                    File.Exists(magicPaths[0]) ? magicPaths[0] :
+                    File.Exists(customMagic) ? customMagic : "";
                 if (verbose)
                 {
                     TextWriterColor.WriteColor($"libmagic version {MagicHandler.MagicVersionId}", ConsoleColors.Green);

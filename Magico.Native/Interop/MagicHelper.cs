@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using System;
 using System.Runtime.InteropServices;
 
 namespace Magico.Native.Interop
@@ -122,14 +123,20 @@ namespace Magico.Native.Interop
 
         internal static string GetError(MagicSet* handle)
         {
-            var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_error>(nameof(magic_error));
+            if (Initializer.libManager is null)
+                throw new Exception("The native library is not initialized yet.");
+            var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_error>(nameof(magic_error)) ??
+                throw new Exception("Can't get delegate.");
             var errorHandle = @delegate.Invoke(handle);
             return Marshal.PtrToStringAnsi(errorHandle);
         }
 
         internal static int GetErrorNumber(MagicSet* handle)
         {
-            var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_errno>(nameof(magic_errno));
+            if (Initializer.libManager is null)
+                throw new Exception("The native library is not initialized yet.");
+            var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_errno>(nameof(magic_errno)) ??
+                throw new Exception("Can't get delegate.");
             return @delegate.Invoke(handle);
         }
     }

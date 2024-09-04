@@ -28,7 +28,7 @@ namespace Magico.Native
 {
     internal static class Initializer
     {
-        internal static LibraryManager libManager;
+        internal static LibraryManager? libManager;
         private static bool _initialized;
         private const string LibraryName = "libmagic";
 
