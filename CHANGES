@@ -1,10 +1,11 @@
-We've made this version to add support for nullables.
+We've made this version to add some more file magic numbers.
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[+]` Added nullable support
+- `[+]` Added more magic numbers
+- `[*]` Updates to the `libmagic` codebase
 
 Review the commit history if you want to get a deep insight about the changes.
 
