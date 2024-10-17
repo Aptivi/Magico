@@ -1,11 +1,10 @@
-We've made this version to add some more file magic numbers.
+We've made this version to fix a security bug in one of the dependencies.
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[+]` Added more magic numbers
-- `[*]` Updates to the `libmagic` codebase
+- `[*]` Updates to libraries that utilize System.Text.Json
 
 Review the commit history if you want to get a deep insight about the changes.
 
