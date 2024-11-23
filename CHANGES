@@ -1,4 +1,4 @@
-We've made this version to update the libmagic library that brought a lot of changes.
+We've made this version to update the libmagic library to fix a memory leak.
 
 ### Changes
 
