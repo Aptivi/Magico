@@ -1,0 +1,36 @@
+From 0395e406209298ac60a897d65653d90993b83ecd Mon Sep 17 00:00:00 2001
+From: Aptivi <eoflaoevicecity@gmail.com>
+Date: Tue, 3 Dec 2024 09:59:19 +0300
+Subject: [PATCH 144/144] fix - Patch to fix readcdf casting
+
+---
+
+GCC-14 fails to build readcdf because of missing cast to (const time_t *).
+
+---
+
+Type: fix
+Breaking: False
+Doc Required: False
+Backport Required: False
+Part: 1/1
+---
+ src/readcdf.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/readcdf.c b/src/readcdf.c
+index 30c3d246..b4869733 100644
+--- a/src/readcdf.c
++++ b/src/readcdf.c
+@@ -236,7 +236,7 @@ cdf_file_property_info(struct magic_set *ms, const cdf_property_info_t *info,
+ 				} else {
+ 					char *c, *ec;
+ 					cdf_timestamp_to_timespec(&ts, tp);
+-					c = cdf_ctime(&ts.tv_sec, tbuf);
++					c = cdf_ctime((const time_t *)&ts.tv_sec, tbuf);
+ 					if (c != NULL &&
+ 					    (ec = strchr(c, '\n')) != NULL)
+ 						*ec = '\0';
+-- 
+2.43.0.windows.1
+
