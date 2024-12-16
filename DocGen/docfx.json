@@ -3,7 +3,7 @@
         {
             "src": [
                 {
-                    "files": [ "Magico/**.csproj" ],
+                    "files": [ "public/**/*.csproj" ],
                     "src": ".."
                 }
             ],

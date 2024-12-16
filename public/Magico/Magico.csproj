@@ -21,7 +21,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\README.md">
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
@@ -29,15 +29,15 @@
 
   <ItemGroup>
     <None Include="Magico.targets" Pack="True" PackagePath="build" />
-    <None Include="../assets/magic.mgc" Pack="True" PackagePath="magic" CopyToOutputDirectory="Always" />
+    <None Include="../../assets/magic.mgc" Pack="True" PackagePath="magic" CopyToOutputDirectory="Always" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="OfficialAppIcon-Magico-512.png" Pack="true" PackagePath="\" />
+    <None Include="../../assets/OfficialAppIcon-Magico-512.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Magico.Native\Magico.Native.csproj" />
+    <ProjectReference Include="..\..\public\Magico.Native\Magico.Native.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Magico\Magico.csproj" />
+    <ProjectReference Include="..\..\public\Magico\Magico.csproj" />
   </ItemGroup>
 
   <ItemGroup>

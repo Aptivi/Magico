@@ -5,7 +5,7 @@
 <br>
     
 <img
-  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Magico@master/Magico/OfficialAppIcon-Magico-512.png'
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Magico@main/assets/OfficialAppIcon-Magico-512.png'
   width = 256
   align = center
 />
