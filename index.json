@@ -24,6 +24,21 @@
     "title": "Namespace Magico.Files | Magico API - Aptivi",
     "keywords": "Namespace Magico.Files Classes MagicException Creates an instance of magic exception MagicHandler Magic handling tools"
   },
+  "api/Magico.Native.Interop.MagicFlags.html": {
+    "href": "api/Magico.Native.Interop.MagicFlags.html",
+    "title": "Enum MagicFlags | Magico API - Aptivi",
+    "keywords": "Enum MagicFlags Namespace: Magico.Native.Interop Assembly: Magico.Native.dll Syntax public enum MagicFlags Fields Name Description Apple #define MAGIC_APPLE 0x0000800 Check #define MAGIC_CHECK 0x0000040 Compress #define MAGIC_COMPRESS 0x0000004 CompressTransp #define MAGIC_COMPRESS_TRANSP 0x2000000 Continue #define MAGIC_CONTINUE 0x0000020 Debug #define MAGIC_DEBUG 0x0000001 Devices #define MAGIC_DEVICES 0x0000008 Error #define MAGIC_ERROR 0x0000200 Extension #define MAGIC_EXTENSION 0x1000000 Mime #define MAGIC_MIME (MAGIC_MIME_TYPE|MAGIC_MIME_ENCODING) MimeEncoding #define MAGIC_MIME_ENCODING 0x0000400 MimeType #define MAGIC_MIME_TYPE 0x0000010 NoCheckAppType #define MAGIC_NO_CHECK_APPTYPE 0x0008000 NoCheckBuiltin #define MAGIC_NO_CHECK_BUILTIN ... NoCheckCdf #define MAGIC_NO_CHECK_CDF 0x0040000 NoCheckCompress #define MAGIC_NO_CHECK_COMPRESS 0x0001000 NoCheckCsv #define MAGIC_NO_CHECK_CSV 0x0080000 NoCheckElf #define MAGIC_NO_CHECK_ELF 0x0010000 NoCheckEncoding #define MAGIC_NO_CHECK_ENCODING 0x0200000 NoCheckJson #define MAGIC_NO_CHECK_JSON 0x0400000 NoCheckSimh #define MAGIC_NO_CHECK_SIMH 0x0800000 NoCheckSoft #define MAGIC_NO_CHECK_SOFT 0x0004000 NoCheckTar #define MAGIC_NO_CHECK_TAR 0x0002000 NoCheckText #define MAGIC_NO_CHECK_TEXT 0x0020000 NoCheckTokens #define MAGIC_NO_CHECK_TOKENS 0x0100000 NoCompressFork #define MAGIC_NO_COMPRESS_FORK 0x4000000 NoDesc #define MAGIC_NODESC (MAGIC_EXTENSION|MAGIC_MIME|MAGIC_APPLE) None #define MAGIC_NONE 0x0000000 PreserveAccessTime #define MAGIC_PRESERVE_ATIME 0x0000080 Raw #define MAGIC_RAW 0x0000100 Symlink #define MAGIC_SYMLINK 0x0000002"
+  },
+  "api/Magico.Native.Interop.MagicParameters.html": {
+    "href": "api/Magico.Native.Interop.MagicParameters.html",
+    "title": "Enum MagicParameters | Magico API - Aptivi",
+    "keywords": "Enum MagicParameters Magic parameters Namespace: Magico.Native.Interop Assembly: Magico.Native.dll Syntax public enum MagicParameters Fields Name Description BytesMax #define MAGIC_PARAM_BYTES_MAX 6 ElfNotesMax #define MAGIC_PARAM_ELF_NOTES_MAX 4 ElfPhnumMax #define MAGIC_PARAM_ELF_PHNUM_MAX 2 ElfShSizeMax #define MAGIC_PARAM_ELF_SHSIZE_MAX 8 ElfShnumMax #define MAGIC_PARAM_ELF_SHNUM_MAX 3 EncodingMax #define MAGIC_PARAM_ENCODING_MAX 7 InDirMax #define MAGIC_PARAM_INDIR_MAX 0 MagWarnMax #define MAGIC_PARAM_MAGWARN_MAX 9 NameMax #define MAGIC_PARAM_NAME_MAX 1 None No parameters RegexMax #define MAGIC_PARAM_REGEX_MAX 5"
+  },
+  "api/Magico.Native.Interop.html": {
+    "href": "api/Magico.Native.Interop.html",
+    "title": "Namespace Magico.Native.Interop | Magico API - Aptivi",
+    "keywords": "Namespace Magico.Native.Interop Enums MagicFlags MagicParameters Magic parameters"
+  },
   "index.html": {
     "href": "index.html",
     "title": "| Magico API - Aptivi",

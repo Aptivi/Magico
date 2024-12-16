@@ -64,6 +64,36 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Native.Interop.MagicFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Native.Interop.MagicFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Native.Interop.MagicParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Native.Interop.MagicParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Native.Interop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Native.Interop.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
