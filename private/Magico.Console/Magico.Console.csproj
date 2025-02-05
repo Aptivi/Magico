@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Terminaux" Version="5.4.5" />
+    <PackageReference Include="Terminaux" Version="5.4.8" />
   </ItemGroup>
 
   <ItemGroup>

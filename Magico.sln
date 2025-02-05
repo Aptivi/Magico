@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{F0F434
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTargets", "private\BuildTargets\BuildTargets.csproj", "{8787ED6F-0232-467E-9192-F5BBE9138C03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{F9960134-7F68-40DB-91AA-A95046D897F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9960134-7F68-40DB-91AA-A95046D897F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9960134-7F68-40DB-91AA-A95046D897F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8787ED6F-0232-467E-9192-F5BBE9138C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8787ED6F-0232-467E-9192-F5BBE9138C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8787ED6F-0232-467E-9192-F5BBE9138C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8787ED6F-0232-467E-9192-F5BBE9138C03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{4AB82C17-DE9E-4D25-917A-D85F28DDFE05} = {6FD31E96-8BB3-4DB1-95D8-3AE0F6CAB814}
 		{19BBDE36-C683-4752-B6AA-FCA679CBD118} = {331D36D2-86F2-47C5-8612-DD5E55DAAF19}
 		{F9960134-7F68-40DB-91AA-A95046D897F6} = {331D36D2-86F2-47C5-8612-DD5E55DAAF19}
+		{8787ED6F-0232-467E-9192-F5BBE9138C03} = {331D36D2-86F2-47C5-8612-DD5E55DAAF19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D47F3184-8E12-4367-B5BF-F15E35695944}
