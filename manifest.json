@@ -21,7 +21,11 @@
           "relative_path": "api/Magico.Enumeration.EnumerableExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Enumeration.EnumerableExtensions",
+      "Summary": "<p sourcefile=\"api/Magico.Enumeration.EnumerableExtensions.yml\" sourcestartlinenumber=\"1\">Extensions class for non-generic <xref href=\"System.Collections.IEnumerable\" data-throw-if-not-resolved=\"false\"></xref> instances.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/Magico.Enumeration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Enumeration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/Magico.Files.MagicException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Files.MagicException",
+      "Summary": "<p sourcefile=\"api/Magico.Files.MagicException.yml\" sourcestartlinenumber=\"1\">Creates an instance of magic exception</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/Magico.Files.MagicHandler.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Files.MagicHandler",
+      "Summary": "<p sourcefile=\"api/Magico.Files.MagicHandler.yml\" sourcestartlinenumber=\"1\">Magic handling tools</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/Magico.Files.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Files",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -71,7 +91,11 @@
           "relative_path": "api/Magico.Native.Interop.MagicFlags.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Native.Interop.MagicFlags",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -81,7 +105,11 @@
           "relative_path": "api/Magico.Native.Interop.MagicParameters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Native.Interop.MagicParameters",
+      "Summary": "<p sourcefile=\"api/Magico.Native.Interop.MagicParameters.yml\" sourcestartlinenumber=\"1\">Magic parameters</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -91,7 +119,11 @@
           "relative_path": "api/Magico.Native.Interop.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Native.Interop",
+      "Summary": null
     },
     {
       "type": "Toc",
