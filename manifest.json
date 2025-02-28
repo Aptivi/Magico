@@ -95,7 +95,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Magico.Native.Interop.MagicFlags",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Magico.Native.Interop.MagicFlags.yml\" sourcestartlinenumber=\"1\">libmagic flags</p>\n"
     },
     {
       "type": "ManagedReference",
