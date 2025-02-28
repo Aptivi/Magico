@@ -19,6 +19,9 @@
 
 namespace Magico.Native.Interop
 {
+    /// <summary>
+    /// libmagic flags
+    /// </summary>
     public enum MagicFlags
     {
         /// <summary>
