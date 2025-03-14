@@ -12,7 +12,7 @@ jobs:
   build:
     strategy:
       matrix:
-        runs-on: [ubuntu-latest, windows-latest, macos-latest]
+        runs-on: [ubuntu-latest, windows-latest, macos-latest, macos-13]
       fail-fast: false
     runs-on: ${{ matrix.runs-on }}
 
@@ -35,5 +35,9 @@ jobs:
         if: matrix.runs-on != 'windows-latest'
         run: make dbg-ci
       - name: Testing
+        if: matrix.runs-on != 'macos-latest'
         run: dotnet test --no-build --configuration Debug
+      - name: Testing (macOS ARM64)
+        if: matrix.runs-on == 'macos-latest'
+        run: dotnet test --no-build --configuration Debug --framework net8.0
         
