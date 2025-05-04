@@ -1,4 +1,9 @@
 {
+  "api/Magico.Enumeration.ArrayTools.html": {
+    "href": "api/Magico.Enumeration.ArrayTools.html",
+    "title": "Class ArrayTools | Magico API - Aptivi",
+    "summary": "Class ArrayTools Array tools that are useful Inheritance object ArrayTools Namespace: Magico.Enumeration Assembly: Magico.dll Syntax public static class ArrayTools Properties | Edit this page View Source RandomShared Shared random for the random number generator (in case you don't have System.Random.Shared) Declaration public static Random RandomShared { get; } Property Value Type Description Random Methods | Edit this page View Source RandomizeArray<T>(T[]) Randomizes the array by shuffling elements, irrespective of the type, using a type of Schwartzian transform Declaration public static T[]? RandomizeArray<T>(this T[] array) Parameters Type Name Description T[] array Target array to sort randomly Returns Type Description T[] A new array containing elements that are shuffled. Type Parameters Name Description T Target type. It's not necessarily an integer. | Edit this page View Source SortNumbers<T>(T[]) Sorts the byte numbers using the bubble sort algorithm Declaration public static T[] SortNumbers<T>(this T[] unsorted) where T : IConvertible Parameters Type Name Description T[] unsorted An unsorted array of numbers Returns Type Description T[] Sorted array of byte numbers Type Parameters Name Description T"
+  },
   "api/Magico.Enumeration.EnumerableExtensions.html": {
     "href": "api/Magico.Enumeration.EnumerableExtensions.html",
     "title": "Class EnumerableExtensions | Magico API - Aptivi",
@@ -7,7 +12,7 @@
   "api/Magico.Enumeration.html": {
     "href": "api/Magico.Enumeration.html",
     "title": "Namespace Magico.Enumeration | Magico API - Aptivi",
-    "summary": "Namespace Magico.Enumeration Classes EnumerableExtensions Extensions class for non-generic System.Collections.IEnumerable instances."
+    "summary": "Namespace Magico.Enumeration Classes ArrayTools Array tools that are useful EnumerableExtensions Extensions class for non-generic System.Collections.IEnumerable instances."
   },
   "api/Magico.Files.MagicException.html": {
     "href": "api/Magico.Files.MagicException.html",
@@ -38,11 +43,6 @@
     "href": "api/Magico.Native.Interop.html",
     "title": "Namespace Magico.Native.Interop | Magico API - Aptivi",
     "summary": "Namespace Magico.Native.Interop Enums MagicFlags libmagic flags MagicParameters Magic parameters"
-  },
-  "api/Magico.Reflection.ArrayTools.html": {
-    "href": "api/Magico.Reflection.ArrayTools.html",
-    "title": "Class ArrayTools | Magico API - Aptivi",
-    "summary": "Class ArrayTools Array tools that are useful Inheritance object ArrayTools Namespace: Magico.Reflection Assembly: Magico.dll Syntax public static class ArrayTools Properties | Edit this page View Source RandomShared Shared random for the random number generator (in case you don't have System.Random.Shared) Declaration public static Random RandomShared { get; } Property Value Type Description Random Methods | Edit this page View Source RandomizeArray<T>(T[]) Randomizes the array by shuffling elements, irrespective of the type, using a type of Schwartzian transform Declaration public static T[]? RandomizeArray<T>(this T[] array) Parameters Type Name Description T[] array Target array to sort randomly Returns Type Description T[] A new array containing elements that are shuffled. Type Parameters Name Description T Target type. It's not necessarily an integer. | Edit this page View Source SortNumbers<T>(T[]) Sorts the byte numbers Declaration public static T[] SortNumbers<T>(this T[] unsorted) where T : IConvertible Parameters Type Name Description T[] unsorted An unsorted array of numbers Returns Type Description T[] Sorted array of byte numbers Type Parameters Name Description T"
   },
   "api/Magico.Reflection.BaseClassTools.html": {
     "href": "api/Magico.Reflection.BaseClassTools.html",
@@ -77,7 +77,7 @@
   "api/Magico.Reflection.html": {
     "href": "api/Magico.Reflection.html",
     "title": "Namespace Magico.Reflection | Magico API - Aptivi",
-    "summary": "Namespace Magico.Reflection Classes ArrayTools Array tools that are useful BaseClassTools Tools for base classes FieldManager Field management module IntegerTools Tools to manipulate with integers MethodManager Method management module PropertyManager Property management module ReflectionCommon Common reflection tools"
+    "summary": "Namespace Magico.Reflection Classes BaseClassTools Tools for base classes FieldManager Field management module IntegerTools Tools to manipulate with integers MethodManager Method management module PropertyManager Property management module ReflectionCommon Common reflection tools"
   },
   "index.html": {
     "href": "index.html",

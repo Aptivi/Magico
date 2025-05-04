@@ -7,6 +7,57 @@ references:
   commentId: N:Magico.Enumeration
   fullName: Magico.Enumeration
   nameWithType: Magico.Enumeration
+- uid: Magico.Enumeration.ArrayTools
+  name: ArrayTools
+  href: api/Magico.Enumeration.ArrayTools.html
+  commentId: T:Magico.Enumeration.ArrayTools
+  fullName: Magico.Enumeration.ArrayTools
+  nameWithType: ArrayTools
+- uid: Magico.Enumeration.ArrayTools.RandomShared
+  name: RandomShared
+  href: api/Magico.Enumeration.ArrayTools.html#Magico_Enumeration_ArrayTools_RandomShared
+  commentId: P:Magico.Enumeration.ArrayTools.RandomShared
+  fullName: Magico.Enumeration.ArrayTools.RandomShared
+  nameWithType: ArrayTools.RandomShared
+- uid: Magico.Enumeration.ArrayTools.RandomShared*
+  name: RandomShared
+  href: api/Magico.Enumeration.ArrayTools.html#Magico_Enumeration_ArrayTools_RandomShared_
+  commentId: Overload:Magico.Enumeration.ArrayTools.RandomShared
+  isSpec: "True"
+  fullName: Magico.Enumeration.ArrayTools.RandomShared
+  nameWithType: ArrayTools.RandomShared
+- uid: Magico.Enumeration.ArrayTools.RandomizeArray*
+  name: RandomizeArray
+  href: api/Magico.Enumeration.ArrayTools.html#Magico_Enumeration_ArrayTools_RandomizeArray_
+  commentId: Overload:Magico.Enumeration.ArrayTools.RandomizeArray
+  isSpec: "True"
+  fullName: Magico.Enumeration.ArrayTools.RandomizeArray
+  nameWithType: ArrayTools.RandomizeArray
+- uid: Magico.Enumeration.ArrayTools.RandomizeArray``1(``0[])
+  name: RandomizeArray<T>(T[])
+  href: api/Magico.Enumeration.ArrayTools.html#Magico_Enumeration_ArrayTools_RandomizeArray__1___0___
+  commentId: M:Magico.Enumeration.ArrayTools.RandomizeArray``1(``0[])
+  name.vb: RandomizeArray(Of T)(T())
+  fullName: Magico.Enumeration.ArrayTools.RandomizeArray<T>(T[])
+  fullName.vb: Magico.Enumeration.ArrayTools.RandomizeArray(Of T)(T())
+  nameWithType: ArrayTools.RandomizeArray<T>(T[])
+  nameWithType.vb: ArrayTools.RandomizeArray(Of T)(T())
+- uid: Magico.Enumeration.ArrayTools.SortNumbers*
+  name: SortNumbers
+  href: api/Magico.Enumeration.ArrayTools.html#Magico_Enumeration_ArrayTools_SortNumbers_
+  commentId: Overload:Magico.Enumeration.ArrayTools.SortNumbers
+  isSpec: "True"
+  fullName: Magico.Enumeration.ArrayTools.SortNumbers
+  nameWithType: ArrayTools.SortNumbers
+- uid: Magico.Enumeration.ArrayTools.SortNumbers``1(``0[])
+  name: SortNumbers<T>(T[])
+  href: api/Magico.Enumeration.ArrayTools.html#Magico_Enumeration_ArrayTools_SortNumbers__1___0___
+  commentId: M:Magico.Enumeration.ArrayTools.SortNumbers``1(``0[])
+  name.vb: SortNumbers(Of T)(T())
+  fullName: Magico.Enumeration.ArrayTools.SortNumbers<T>(T[])
+  fullName.vb: Magico.Enumeration.ArrayTools.SortNumbers(Of T)(T())
+  nameWithType: ArrayTools.SortNumbers<T>(T[])
+  nameWithType.vb: ArrayTools.SortNumbers(Of T)(T())
 - uid: Magico.Enumeration.EnumerableExtensions
   name: EnumerableExtensions
   href: api/Magico.Enumeration.EnumerableExtensions.html
@@ -534,57 +585,6 @@ references:
   commentId: N:Magico.Reflection
   fullName: Magico.Reflection
   nameWithType: Magico.Reflection
-- uid: Magico.Reflection.ArrayTools
-  name: ArrayTools
-  href: api/Magico.Reflection.ArrayTools.html
-  commentId: T:Magico.Reflection.ArrayTools
-  fullName: Magico.Reflection.ArrayTools
-  nameWithType: ArrayTools
-- uid: Magico.Reflection.ArrayTools.RandomShared
-  name: RandomShared
-  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_RandomShared
-  commentId: P:Magico.Reflection.ArrayTools.RandomShared
-  fullName: Magico.Reflection.ArrayTools.RandomShared
-  nameWithType: ArrayTools.RandomShared
-- uid: Magico.Reflection.ArrayTools.RandomShared*
-  name: RandomShared
-  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_RandomShared_
-  commentId: Overload:Magico.Reflection.ArrayTools.RandomShared
-  isSpec: "True"
-  fullName: Magico.Reflection.ArrayTools.RandomShared
-  nameWithType: ArrayTools.RandomShared
-- uid: Magico.Reflection.ArrayTools.RandomizeArray*
-  name: RandomizeArray
-  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_RandomizeArray_
-  commentId: Overload:Magico.Reflection.ArrayTools.RandomizeArray
-  isSpec: "True"
-  fullName: Magico.Reflection.ArrayTools.RandomizeArray
-  nameWithType: ArrayTools.RandomizeArray
-- uid: Magico.Reflection.ArrayTools.RandomizeArray``1(``0[])
-  name: RandomizeArray<T>(T[])
-  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_RandomizeArray__1___0___
-  commentId: M:Magico.Reflection.ArrayTools.RandomizeArray``1(``0[])
-  name.vb: RandomizeArray(Of T)(T())
-  fullName: Magico.Reflection.ArrayTools.RandomizeArray<T>(T[])
-  fullName.vb: Magico.Reflection.ArrayTools.RandomizeArray(Of T)(T())
-  nameWithType: ArrayTools.RandomizeArray<T>(T[])
-  nameWithType.vb: ArrayTools.RandomizeArray(Of T)(T())
-- uid: Magico.Reflection.ArrayTools.SortNumbers*
-  name: SortNumbers
-  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_SortNumbers_
-  commentId: Overload:Magico.Reflection.ArrayTools.SortNumbers
-  isSpec: "True"
-  fullName: Magico.Reflection.ArrayTools.SortNumbers
-  nameWithType: ArrayTools.SortNumbers
-- uid: Magico.Reflection.ArrayTools.SortNumbers``1(``0[])
-  name: SortNumbers<T>(T[])
-  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_SortNumbers__1___0___
-  commentId: M:Magico.Reflection.ArrayTools.SortNumbers``1(``0[])
-  name.vb: SortNumbers(Of T)(T())
-  fullName: Magico.Reflection.ArrayTools.SortNumbers<T>(T[])
-  fullName.vb: Magico.Reflection.ArrayTools.SortNumbers(Of T)(T())
-  nameWithType: ArrayTools.SortNumbers<T>(T[])
-  nameWithType.vb: ArrayTools.SortNumbers(Of T)(T())
 - uid: Magico.Reflection.BaseClassTools
   name: BaseClassTools
   href: api/Magico.Reflection.BaseClassTools.html

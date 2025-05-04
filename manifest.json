@@ -15,6 +15,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Enumeration.ArrayTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Enumeration.ArrayTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Enumeration.ArrayTools",
+      "Summary": "<p sourcefile=\"api/Magico.Enumeration.ArrayTools.yml\" sourcestartlinenumber=\"1\">Array tools that are useful</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Magico.Enumeration.EnumerableExtensions.yml",
       "output": {
         ".html": {
@@ -124,20 +138,6 @@
       "IsMRef": true,
       "Title": "Magico.Native.Interop",
       "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Magico.Reflection.ArrayTools.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Magico.Reflection.ArrayTools.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Magico.Reflection.ArrayTools",
-      "Summary": "<p sourcefile=\"api/Magico.Reflection.ArrayTools.yml\" sourcestartlinenumber=\"1\">Array tools that are useful</p>\n"
     },
     {
       "type": "ManagedReference",
