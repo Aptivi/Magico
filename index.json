@@ -39,6 +39,16 @@
     "title": "Namespace Magico.Native.Interop | Magico API - Aptivi",
     "summary": "Namespace Magico.Native.Interop Enums MagicFlags libmagic flags MagicParameters Magic parameters"
   },
+  "api/Magico.Reflection.BaseClassTools.html": {
+    "href": "api/Magico.Reflection.BaseClassTools.html",
+    "title": "Class BaseClassTools | Magico API - Aptivi",
+    "summary": "Class BaseClassTools Tools for base classes Inheritance object BaseClassTools Namespace: Magico.Reflection Assembly: Magico.dll Syntax public static class BaseClassTools Methods | Edit this page View Source GetBaseTypes(Type) Gets the base types that a class inherits from Declaration public static Type[] GetBaseTypes(Type sourceType) Parameters Type Name Description Type sourceType Source type to query the base classes Returns Type Description Type[] Type instances that contain information about base classes"
+  },
+  "api/Magico.Reflection.html": {
+    "href": "api/Magico.Reflection.html",
+    "title": "Namespace Magico.Reflection | Magico API - Aptivi",
+    "summary": "Namespace Magico.Reflection Classes BaseClassTools Tools for base classes"
+  },
   "index.html": {
     "href": "index.html",
     "title": "| Magico API - Aptivi",

@@ -126,6 +126,34 @@
       "Summary": null
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Reflection.BaseClassTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Reflection.BaseClassTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Reflection.BaseClassTools",
+      "Summary": "<p sourcefile=\"api/Magico.Reflection.BaseClassTools.yml\" sourcestartlinenumber=\"1\">Tools for base classes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Reflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Reflection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Reflection",
+      "Summary": null
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {

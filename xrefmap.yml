@@ -528,3 +528,28 @@ references:
   commentId: F:Magico.Native.Interop.MagicParameters.RegexMax
   fullName: Magico.Native.Interop.MagicParameters.RegexMax
   nameWithType: MagicParameters.RegexMax
+- uid: Magico.Reflection
+  name: Magico.Reflection
+  href: api/Magico.Reflection.html
+  commentId: N:Magico.Reflection
+  fullName: Magico.Reflection
+  nameWithType: Magico.Reflection
+- uid: Magico.Reflection.BaseClassTools
+  name: BaseClassTools
+  href: api/Magico.Reflection.BaseClassTools.html
+  commentId: T:Magico.Reflection.BaseClassTools
+  fullName: Magico.Reflection.BaseClassTools
+  nameWithType: BaseClassTools
+- uid: Magico.Reflection.BaseClassTools.GetBaseTypes(System.Type)
+  name: GetBaseTypes(Type)
+  href: api/Magico.Reflection.BaseClassTools.html#Magico_Reflection_BaseClassTools_GetBaseTypes_System_Type_
+  commentId: M:Magico.Reflection.BaseClassTools.GetBaseTypes(System.Type)
+  fullName: Magico.Reflection.BaseClassTools.GetBaseTypes(System.Type)
+  nameWithType: BaseClassTools.GetBaseTypes(Type)
+- uid: Magico.Reflection.BaseClassTools.GetBaseTypes*
+  name: GetBaseTypes
+  href: api/Magico.Reflection.BaseClassTools.html#Magico_Reflection_BaseClassTools_GetBaseTypes_
+  commentId: Overload:Magico.Reflection.BaseClassTools.GetBaseTypes
+  isSpec: "True"
+  fullName: Magico.Reflection.BaseClassTools.GetBaseTypes
+  nameWithType: BaseClassTools.GetBaseTypes
