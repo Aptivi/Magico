@@ -534,6 +534,57 @@ references:
   commentId: N:Magico.Reflection
   fullName: Magico.Reflection
   nameWithType: Magico.Reflection
+- uid: Magico.Reflection.ArrayTools
+  name: ArrayTools
+  href: api/Magico.Reflection.ArrayTools.html
+  commentId: T:Magico.Reflection.ArrayTools
+  fullName: Magico.Reflection.ArrayTools
+  nameWithType: ArrayTools
+- uid: Magico.Reflection.ArrayTools.RandomShared
+  name: RandomShared
+  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_RandomShared
+  commentId: P:Magico.Reflection.ArrayTools.RandomShared
+  fullName: Magico.Reflection.ArrayTools.RandomShared
+  nameWithType: ArrayTools.RandomShared
+- uid: Magico.Reflection.ArrayTools.RandomShared*
+  name: RandomShared
+  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_RandomShared_
+  commentId: Overload:Magico.Reflection.ArrayTools.RandomShared
+  isSpec: "True"
+  fullName: Magico.Reflection.ArrayTools.RandomShared
+  nameWithType: ArrayTools.RandomShared
+- uid: Magico.Reflection.ArrayTools.RandomizeArray*
+  name: RandomizeArray
+  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_RandomizeArray_
+  commentId: Overload:Magico.Reflection.ArrayTools.RandomizeArray
+  isSpec: "True"
+  fullName: Magico.Reflection.ArrayTools.RandomizeArray
+  nameWithType: ArrayTools.RandomizeArray
+- uid: Magico.Reflection.ArrayTools.RandomizeArray``1(``0[])
+  name: RandomizeArray<T>(T[])
+  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_RandomizeArray__1___0___
+  commentId: M:Magico.Reflection.ArrayTools.RandomizeArray``1(``0[])
+  name.vb: RandomizeArray(Of T)(T())
+  fullName: Magico.Reflection.ArrayTools.RandomizeArray<T>(T[])
+  fullName.vb: Magico.Reflection.ArrayTools.RandomizeArray(Of T)(T())
+  nameWithType: ArrayTools.RandomizeArray<T>(T[])
+  nameWithType.vb: ArrayTools.RandomizeArray(Of T)(T())
+- uid: Magico.Reflection.ArrayTools.SortNumbers*
+  name: SortNumbers
+  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_SortNumbers_
+  commentId: Overload:Magico.Reflection.ArrayTools.SortNumbers
+  isSpec: "True"
+  fullName: Magico.Reflection.ArrayTools.SortNumbers
+  nameWithType: ArrayTools.SortNumbers
+- uid: Magico.Reflection.ArrayTools.SortNumbers``1(``0[])
+  name: SortNumbers<T>(T[])
+  href: api/Magico.Reflection.ArrayTools.html#Magico_Reflection_ArrayTools_SortNumbers__1___0___
+  commentId: M:Magico.Reflection.ArrayTools.SortNumbers``1(``0[])
+  name.vb: SortNumbers(Of T)(T())
+  fullName: Magico.Reflection.ArrayTools.SortNumbers<T>(T[])
+  fullName.vb: Magico.Reflection.ArrayTools.SortNumbers(Of T)(T())
+  nameWithType: ArrayTools.SortNumbers<T>(T[])
+  nameWithType.vb: ArrayTools.SortNumbers(Of T)(T())
 - uid: Magico.Reflection.BaseClassTools
   name: BaseClassTools
   href: api/Magico.Reflection.BaseClassTools.html
@@ -553,3 +604,1013 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.BaseClassTools.GetBaseTypes
   nameWithType: BaseClassTools.GetBaseTypes
+- uid: Magico.Reflection.FieldManager
+  name: FieldManager
+  href: api/Magico.Reflection.FieldManager.html
+  commentId: T:Magico.Reflection.FieldManager
+  fullName: Magico.Reflection.FieldManager
+  nameWithType: FieldManager
+- uid: Magico.Reflection.FieldManager.CheckField(System.String,System.Type)
+  name: CheckField(string, Type)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_CheckField_System_String_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.CheckField(System.String,System.Type)
+  name.vb: CheckField(String, Type)
+  fullName: Magico.Reflection.FieldManager.CheckField(string, System.Type)
+  fullName.vb: Magico.Reflection.FieldManager.CheckField(String, System.Type)
+  nameWithType: FieldManager.CheckField(string, Type)
+  nameWithType.vb: FieldManager.CheckField(String, Type)
+- uid: Magico.Reflection.FieldManager.CheckField*
+  name: CheckField
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_CheckField_
+  commentId: Overload:Magico.Reflection.FieldManager.CheckField
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.CheckField
+  nameWithType: FieldManager.CheckField
+- uid: Magico.Reflection.FieldManager.GetAllFields(System.Type[])
+  name: GetAllFields(Type[])
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetAllFields_System_Type___
+  commentId: M:Magico.Reflection.FieldManager.GetAllFields(System.Type[])
+  name.vb: GetAllFields(Type())
+  fullName: Magico.Reflection.FieldManager.GetAllFields(System.Type[])
+  fullName.vb: Magico.Reflection.FieldManager.GetAllFields(System.Type())
+  nameWithType: FieldManager.GetAllFields(Type[])
+  nameWithType.vb: FieldManager.GetAllFields(Type())
+- uid: Magico.Reflection.FieldManager.GetAllFields*
+  name: GetAllFields
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetAllFields_
+  commentId: Overload:Magico.Reflection.FieldManager.GetAllFields
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.GetAllFields
+  nameWithType: FieldManager.GetAllFields
+- uid: Magico.Reflection.FieldManager.GetAllFieldsNoEvaluation(System.Type[])
+  name: GetAllFieldsNoEvaluation(Type[])
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetAllFieldsNoEvaluation_System_Type___
+  commentId: M:Magico.Reflection.FieldManager.GetAllFieldsNoEvaluation(System.Type[])
+  name.vb: GetAllFieldsNoEvaluation(Type())
+  fullName: Magico.Reflection.FieldManager.GetAllFieldsNoEvaluation(System.Type[])
+  fullName.vb: Magico.Reflection.FieldManager.GetAllFieldsNoEvaluation(System.Type())
+  nameWithType: FieldManager.GetAllFieldsNoEvaluation(Type[])
+  nameWithType.vb: FieldManager.GetAllFieldsNoEvaluation(Type())
+- uid: Magico.Reflection.FieldManager.GetAllFieldsNoEvaluation*
+  name: GetAllFieldsNoEvaluation
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetAllFieldsNoEvaluation_
+  commentId: Overload:Magico.Reflection.FieldManager.GetAllFieldsNoEvaluation
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.GetAllFieldsNoEvaluation
+  nameWithType: FieldManager.GetAllFieldsNoEvaluation
+- uid: Magico.Reflection.FieldManager.GetAllFields``1(``0,System.Type[])
+  name: GetAllFields<T>(T, Type[])
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetAllFields__1___0_System_Type___
+  commentId: M:Magico.Reflection.FieldManager.GetAllFields``1(``0,System.Type[])
+  name.vb: GetAllFields(Of T)(T, Type())
+  fullName: Magico.Reflection.FieldManager.GetAllFields<T>(T, System.Type[])
+  fullName.vb: Magico.Reflection.FieldManager.GetAllFields(Of T)(T, System.Type())
+  nameWithType: FieldManager.GetAllFields<T>(T, Type[])
+  nameWithType.vb: FieldManager.GetAllFields(Of T)(T, Type())
+- uid: Magico.Reflection.FieldManager.GetField(System.String,System.Type)
+  name: GetField(string, Type)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetField_System_String_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.GetField(System.String,System.Type)
+  name.vb: GetField(String, Type)
+  fullName: Magico.Reflection.FieldManager.GetField(string, System.Type)
+  fullName.vb: Magico.Reflection.FieldManager.GetField(String, System.Type)
+  nameWithType: FieldManager.GetField(string, Type)
+  nameWithType.vb: FieldManager.GetField(String, Type)
+- uid: Magico.Reflection.FieldManager.GetField*
+  name: GetField
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetField_
+  commentId: Overload:Magico.Reflection.FieldManager.GetField
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.GetField
+  nameWithType: FieldManager.GetField
+- uid: Magico.Reflection.FieldManager.GetFieldValue(System.Reflection.FieldInfo)
+  name: GetFieldValue(FieldInfo?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValue_System_Reflection_FieldInfo_
+  commentId: M:Magico.Reflection.FieldManager.GetFieldValue(System.Reflection.FieldInfo)
+  name.vb: GetFieldValue(FieldInfo)
+  fullName: Magico.Reflection.FieldManager.GetFieldValue(System.Reflection.FieldInfo?)
+  fullName.vb: Magico.Reflection.FieldManager.GetFieldValue(System.Reflection.FieldInfo)
+  nameWithType: FieldManager.GetFieldValue(FieldInfo?)
+  nameWithType.vb: FieldManager.GetFieldValue(FieldInfo)
+- uid: Magico.Reflection.FieldManager.GetFieldValue(System.String,System.Type)
+  name: GetFieldValue(string, Type?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValue_System_String_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.GetFieldValue(System.String,System.Type)
+  name.vb: GetFieldValue(String, Type)
+  fullName: Magico.Reflection.FieldManager.GetFieldValue(string, System.Type?)
+  fullName.vb: Magico.Reflection.FieldManager.GetFieldValue(String, System.Type)
+  nameWithType: FieldManager.GetFieldValue(string, Type?)
+  nameWithType.vb: FieldManager.GetFieldValue(String, Type)
+- uid: Magico.Reflection.FieldManager.GetFieldValue*
+  name: GetFieldValue
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValue_
+  commentId: Overload:Magico.Reflection.FieldManager.GetFieldValue
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.GetFieldValue
+  nameWithType: FieldManager.GetFieldValue
+- uid: Magico.Reflection.FieldManager.GetFieldValueInstance*
+  name: GetFieldValueInstance
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValueInstance_
+  commentId: Overload:Magico.Reflection.FieldManager.GetFieldValueInstance
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.GetFieldValueInstance
+  nameWithType: FieldManager.GetFieldValueInstance
+- uid: Magico.Reflection.FieldManager.GetFieldValueInstanceExplicit(System.Object,System.String,System.Type)
+  name: GetFieldValueInstanceExplicit(object, string, Type?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValueInstanceExplicit_System_Object_System_String_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.GetFieldValueInstanceExplicit(System.Object,System.String,System.Type)
+  name.vb: GetFieldValueInstanceExplicit(Object, String, Type)
+  fullName: Magico.Reflection.FieldManager.GetFieldValueInstanceExplicit(object, string, System.Type?)
+  fullName.vb: Magico.Reflection.FieldManager.GetFieldValueInstanceExplicit(Object, String, System.Type)
+  nameWithType: FieldManager.GetFieldValueInstanceExplicit(object, string, Type?)
+  nameWithType.vb: FieldManager.GetFieldValueInstanceExplicit(Object, String, Type)
+- uid: Magico.Reflection.FieldManager.GetFieldValueInstanceExplicit*
+  name: GetFieldValueInstanceExplicit
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValueInstanceExplicit_
+  commentId: Overload:Magico.Reflection.FieldManager.GetFieldValueInstanceExplicit
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.GetFieldValueInstanceExplicit
+  nameWithType: FieldManager.GetFieldValueInstanceExplicit
+- uid: Magico.Reflection.FieldManager.GetFieldValueInstance``1(``0,System.Reflection.FieldInfo)
+  name: GetFieldValueInstance<T>(T, FieldInfo?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValueInstance__1___0_System_Reflection_FieldInfo_
+  commentId: M:Magico.Reflection.FieldManager.GetFieldValueInstance``1(``0,System.Reflection.FieldInfo)
+  name.vb: GetFieldValueInstance(Of T)(T, FieldInfo)
+  fullName: Magico.Reflection.FieldManager.GetFieldValueInstance<T>(T, System.Reflection.FieldInfo?)
+  fullName.vb: Magico.Reflection.FieldManager.GetFieldValueInstance(Of T)(T, System.Reflection.FieldInfo)
+  nameWithType: FieldManager.GetFieldValueInstance<T>(T, FieldInfo?)
+  nameWithType.vb: FieldManager.GetFieldValueInstance(Of T)(T, FieldInfo)
+- uid: Magico.Reflection.FieldManager.GetFieldValueInstance``1(``0,System.String)
+  name: GetFieldValueInstance<T>(T, string)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValueInstance__1___0_System_String_
+  commentId: M:Magico.Reflection.FieldManager.GetFieldValueInstance``1(``0,System.String)
+  name.vb: GetFieldValueInstance(Of T)(T, String)
+  fullName: Magico.Reflection.FieldManager.GetFieldValueInstance<T>(T, string)
+  fullName.vb: Magico.Reflection.FieldManager.GetFieldValueInstance(Of T)(T, String)
+  nameWithType: FieldManager.GetFieldValueInstance<T>(T, string)
+  nameWithType.vb: FieldManager.GetFieldValueInstance(Of T)(T, String)
+- uid: Magico.Reflection.FieldManager.GetFieldValueInstance``1(``0,System.String,System.Type)
+  name: GetFieldValueInstance<T>(T, string, Type?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldValueInstance__1___0_System_String_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.GetFieldValueInstance``1(``0,System.String,System.Type)
+  name.vb: GetFieldValueInstance(Of T)(T, String, Type)
+  fullName: Magico.Reflection.FieldManager.GetFieldValueInstance<T>(T, string, System.Type?)
+  fullName.vb: Magico.Reflection.FieldManager.GetFieldValueInstance(Of T)(T, String, System.Type)
+  nameWithType: FieldManager.GetFieldValueInstance<T>(T, string, Type?)
+  nameWithType.vb: FieldManager.GetFieldValueInstance(Of T)(T, String, Type)
+- uid: Magico.Reflection.FieldManager.GetFields(System.Type)
+  name: GetFields(Type)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFields_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.GetFields(System.Type)
+  fullName: Magico.Reflection.FieldManager.GetFields(System.Type)
+  nameWithType: FieldManager.GetFields(Type)
+- uid: Magico.Reflection.FieldManager.GetFields*
+  name: GetFields
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFields_
+  commentId: Overload:Magico.Reflection.FieldManager.GetFields
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.GetFields
+  nameWithType: FieldManager.GetFields
+- uid: Magico.Reflection.FieldManager.GetFieldsNoEvaluation(System.Type)
+  name: GetFieldsNoEvaluation(Type)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldsNoEvaluation_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.GetFieldsNoEvaluation(System.Type)
+  fullName: Magico.Reflection.FieldManager.GetFieldsNoEvaluation(System.Type)
+  nameWithType: FieldManager.GetFieldsNoEvaluation(Type)
+- uid: Magico.Reflection.FieldManager.GetFieldsNoEvaluation*
+  name: GetFieldsNoEvaluation
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFieldsNoEvaluation_
+  commentId: Overload:Magico.Reflection.FieldManager.GetFieldsNoEvaluation
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.GetFieldsNoEvaluation
+  nameWithType: FieldManager.GetFieldsNoEvaluation
+- uid: Magico.Reflection.FieldManager.GetFields``1(``0,System.Type)
+  name: GetFields<T>(T, Type)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_GetFields__1___0_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.GetFields``1(``0,System.Type)
+  name.vb: GetFields(Of T)(T, Type)
+  fullName: Magico.Reflection.FieldManager.GetFields<T>(T, System.Type)
+  fullName.vb: Magico.Reflection.FieldManager.GetFields(Of T)(T, System.Type)
+  nameWithType: FieldManager.GetFields<T>(T, Type)
+  nameWithType.vb: FieldManager.GetFields(Of T)(T, Type)
+- uid: Magico.Reflection.FieldManager.SetFieldValue(System.Reflection.FieldInfo,System.Object)
+  name: SetFieldValue(FieldInfo?, object?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValue_System_Reflection_FieldInfo_System_Object_
+  commentId: M:Magico.Reflection.FieldManager.SetFieldValue(System.Reflection.FieldInfo,System.Object)
+  name.vb: SetFieldValue(FieldInfo, Object)
+  fullName: Magico.Reflection.FieldManager.SetFieldValue(System.Reflection.FieldInfo?, object?)
+  fullName.vb: Magico.Reflection.FieldManager.SetFieldValue(System.Reflection.FieldInfo, Object)
+  nameWithType: FieldManager.SetFieldValue(FieldInfo?, object?)
+  nameWithType.vb: FieldManager.SetFieldValue(FieldInfo, Object)
+- uid: Magico.Reflection.FieldManager.SetFieldValue(System.String,System.Object,System.Type)
+  name: SetFieldValue(string, object?, Type?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValue_System_String_System_Object_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.SetFieldValue(System.String,System.Object,System.Type)
+  name.vb: SetFieldValue(String, Object, Type)
+  fullName: Magico.Reflection.FieldManager.SetFieldValue(string, object?, System.Type?)
+  fullName.vb: Magico.Reflection.FieldManager.SetFieldValue(String, Object, System.Type)
+  nameWithType: FieldManager.SetFieldValue(string, object?, Type?)
+  nameWithType.vb: FieldManager.SetFieldValue(String, Object, Type)
+- uid: Magico.Reflection.FieldManager.SetFieldValue*
+  name: SetFieldValue
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValue_
+  commentId: Overload:Magico.Reflection.FieldManager.SetFieldValue
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.SetFieldValue
+  nameWithType: FieldManager.SetFieldValue
+- uid: Magico.Reflection.FieldManager.SetFieldValueInstance*
+  name: SetFieldValueInstance
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValueInstance_
+  commentId: Overload:Magico.Reflection.FieldManager.SetFieldValueInstance
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.SetFieldValueInstance
+  nameWithType: FieldManager.SetFieldValueInstance
+- uid: Magico.Reflection.FieldManager.SetFieldValueInstanceExplicit(System.Object,System.String,System.Object,System.Type)
+  name: SetFieldValueInstanceExplicit(object, string, object?, Type?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValueInstanceExplicit_System_Object_System_String_System_Object_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.SetFieldValueInstanceExplicit(System.Object,System.String,System.Object,System.Type)
+  name.vb: SetFieldValueInstanceExplicit(Object, String, Object, Type)
+  fullName: Magico.Reflection.FieldManager.SetFieldValueInstanceExplicit(object, string, object?, System.Type?)
+  fullName.vb: Magico.Reflection.FieldManager.SetFieldValueInstanceExplicit(Object, String, Object, System.Type)
+  nameWithType: FieldManager.SetFieldValueInstanceExplicit(object, string, object?, Type?)
+  nameWithType.vb: FieldManager.SetFieldValueInstanceExplicit(Object, String, Object, Type)
+- uid: Magico.Reflection.FieldManager.SetFieldValueInstanceExplicit*
+  name: SetFieldValueInstanceExplicit
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValueInstanceExplicit_
+  commentId: Overload:Magico.Reflection.FieldManager.SetFieldValueInstanceExplicit
+  isSpec: "True"
+  fullName: Magico.Reflection.FieldManager.SetFieldValueInstanceExplicit
+  nameWithType: FieldManager.SetFieldValueInstanceExplicit
+- uid: Magico.Reflection.FieldManager.SetFieldValueInstance``1(``0,System.Reflection.FieldInfo,System.Object)
+  name: SetFieldValueInstance<T>(T, FieldInfo?, object?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValueInstance__1___0_System_Reflection_FieldInfo_System_Object_
+  commentId: M:Magico.Reflection.FieldManager.SetFieldValueInstance``1(``0,System.Reflection.FieldInfo,System.Object)
+  name.vb: SetFieldValueInstance(Of T)(T, FieldInfo, Object)
+  fullName: Magico.Reflection.FieldManager.SetFieldValueInstance<T>(T, System.Reflection.FieldInfo?, object?)
+  fullName.vb: Magico.Reflection.FieldManager.SetFieldValueInstance(Of T)(T, System.Reflection.FieldInfo, Object)
+  nameWithType: FieldManager.SetFieldValueInstance<T>(T, FieldInfo?, object?)
+  nameWithType.vb: FieldManager.SetFieldValueInstance(Of T)(T, FieldInfo, Object)
+- uid: Magico.Reflection.FieldManager.SetFieldValueInstance``1(``0,System.String,System.Object)
+  name: SetFieldValueInstance<T>(T, string, object?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValueInstance__1___0_System_String_System_Object_
+  commentId: M:Magico.Reflection.FieldManager.SetFieldValueInstance``1(``0,System.String,System.Object)
+  name.vb: SetFieldValueInstance(Of T)(T, String, Object)
+  fullName: Magico.Reflection.FieldManager.SetFieldValueInstance<T>(T, string, object?)
+  fullName.vb: Magico.Reflection.FieldManager.SetFieldValueInstance(Of T)(T, String, Object)
+  nameWithType: FieldManager.SetFieldValueInstance<T>(T, string, object?)
+  nameWithType.vb: FieldManager.SetFieldValueInstance(Of T)(T, String, Object)
+- uid: Magico.Reflection.FieldManager.SetFieldValueInstance``1(``0,System.String,System.Object,System.Type)
+  name: SetFieldValueInstance<T>(T, string, object?, Type?)
+  href: api/Magico.Reflection.FieldManager.html#Magico_Reflection_FieldManager_SetFieldValueInstance__1___0_System_String_System_Object_System_Type_
+  commentId: M:Magico.Reflection.FieldManager.SetFieldValueInstance``1(``0,System.String,System.Object,System.Type)
+  name.vb: SetFieldValueInstance(Of T)(T, String, Object, Type)
+  fullName: Magico.Reflection.FieldManager.SetFieldValueInstance<T>(T, string, object?, System.Type?)
+  fullName.vb: Magico.Reflection.FieldManager.SetFieldValueInstance(Of T)(T, String, Object, System.Type)
+  nameWithType: FieldManager.SetFieldValueInstance<T>(T, string, object?, Type?)
+  nameWithType.vb: FieldManager.SetFieldValueInstance(Of T)(T, String, Object, Type)
+- uid: Magico.Reflection.IntegerTools
+  name: IntegerTools
+  href: api/Magico.Reflection.IntegerTools.html
+  commentId: T:Magico.Reflection.IntegerTools
+  fullName: Magico.Reflection.IntegerTools
+  nameWithType: IntegerTools
+- uid: Magico.Reflection.IntegerTools.GetDigits(System.Int32)
+  name: GetDigits(int)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_GetDigits_System_Int32_
+  commentId: M:Magico.Reflection.IntegerTools.GetDigits(System.Int32)
+  name.vb: GetDigits(Integer)
+  fullName: Magico.Reflection.IntegerTools.GetDigits(int)
+  fullName.vb: Magico.Reflection.IntegerTools.GetDigits(Integer)
+  nameWithType: IntegerTools.GetDigits(int)
+  nameWithType.vb: IntegerTools.GetDigits(Integer)
+- uid: Magico.Reflection.IntegerTools.GetDigits(System.Int64)
+  name: GetDigits(long)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_GetDigits_System_Int64_
+  commentId: M:Magico.Reflection.IntegerTools.GetDigits(System.Int64)
+  name.vb: GetDigits(Long)
+  fullName: Magico.Reflection.IntegerTools.GetDigits(long)
+  fullName.vb: Magico.Reflection.IntegerTools.GetDigits(Long)
+  nameWithType: IntegerTools.GetDigits(long)
+  nameWithType.vb: IntegerTools.GetDigits(Long)
+- uid: Magico.Reflection.IntegerTools.GetDigits*
+  name: GetDigits
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_GetDigits_
+  commentId: Overload:Magico.Reflection.IntegerTools.GetDigits
+  isSpec: "True"
+  fullName: Magico.Reflection.IntegerTools.GetDigits
+  nameWithType: IntegerTools.GetDigits
+- uid: Magico.Reflection.IntegerTools.SizeString(System.Int32)
+  name: SizeString(int)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_System_Int32_
+  commentId: M:Magico.Reflection.IntegerTools.SizeString(System.Int32)
+  name.vb: SizeString(Integer)
+  fullName: Magico.Reflection.IntegerTools.SizeString(int)
+  fullName.vb: Magico.Reflection.IntegerTools.SizeString(Integer)
+  nameWithType: IntegerTools.SizeString(int)
+  nameWithType.vb: IntegerTools.SizeString(Integer)
+- uid: Magico.Reflection.IntegerTools.SizeString(System.Int64)
+  name: SizeString(long)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_System_Int64_
+  commentId: M:Magico.Reflection.IntegerTools.SizeString(System.Int64)
+  name.vb: SizeString(Long)
+  fullName: Magico.Reflection.IntegerTools.SizeString(long)
+  fullName.vb: Magico.Reflection.IntegerTools.SizeString(Long)
+  nameWithType: IntegerTools.SizeString(long)
+  nameWithType.vb: IntegerTools.SizeString(Long)
+- uid: Magico.Reflection.IntegerTools.SizeString(System.UInt32)
+  name: SizeString(uint)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_System_UInt32_
+  commentId: M:Magico.Reflection.IntegerTools.SizeString(System.UInt32)
+  name.vb: SizeString(UInteger)
+  fullName: Magico.Reflection.IntegerTools.SizeString(uint)
+  fullName.vb: Magico.Reflection.IntegerTools.SizeString(UInteger)
+  nameWithType: IntegerTools.SizeString(uint)
+  nameWithType.vb: IntegerTools.SizeString(UInteger)
+- uid: Magico.Reflection.IntegerTools.SizeString(System.UInt64)
+  name: SizeString(ulong)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_System_UInt64_
+  commentId: M:Magico.Reflection.IntegerTools.SizeString(System.UInt64)
+  name.vb: SizeString(ULong)
+  fullName: Magico.Reflection.IntegerTools.SizeString(ulong)
+  fullName.vb: Magico.Reflection.IntegerTools.SizeString(ULong)
+  nameWithType: IntegerTools.SizeString(ulong)
+  nameWithType.vb: IntegerTools.SizeString(ULong)
+- uid: Magico.Reflection.IntegerTools.SizeString*
+  name: SizeString
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_
+  commentId: Overload:Magico.Reflection.IntegerTools.SizeString
+  isSpec: "True"
+  fullName: Magico.Reflection.IntegerTools.SizeString
+  nameWithType: IntegerTools.SizeString
+- uid: Magico.Reflection.IntegerTools.SwapIfSourceLarger(System.Int32@,System.Int32@)
+  name: SwapIfSourceLarger(ref int, ref int)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SwapIfSourceLarger_System_Int32__System_Int32__
+  commentId: M:Magico.Reflection.IntegerTools.SwapIfSourceLarger(System.Int32@,System.Int32@)
+  name.vb: SwapIfSourceLarger(Integer, Integer)
+  fullName: Magico.Reflection.IntegerTools.SwapIfSourceLarger(ref int, ref int)
+  fullName.vb: Magico.Reflection.IntegerTools.SwapIfSourceLarger(Integer, Integer)
+  nameWithType: IntegerTools.SwapIfSourceLarger(ref int, ref int)
+  nameWithType.vb: IntegerTools.SwapIfSourceLarger(Integer, Integer)
+- uid: Magico.Reflection.IntegerTools.SwapIfSourceLarger(System.Int64@,System.Int64@)
+  name: SwapIfSourceLarger(ref long, ref long)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SwapIfSourceLarger_System_Int64__System_Int64__
+  commentId: M:Magico.Reflection.IntegerTools.SwapIfSourceLarger(System.Int64@,System.Int64@)
+  name.vb: SwapIfSourceLarger(Long, Long)
+  fullName: Magico.Reflection.IntegerTools.SwapIfSourceLarger(ref long, ref long)
+  fullName.vb: Magico.Reflection.IntegerTools.SwapIfSourceLarger(Long, Long)
+  nameWithType: IntegerTools.SwapIfSourceLarger(ref long, ref long)
+  nameWithType.vb: IntegerTools.SwapIfSourceLarger(Long, Long)
+- uid: Magico.Reflection.IntegerTools.SwapIfSourceLarger*
+  name: SwapIfSourceLarger
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SwapIfSourceLarger_
+  commentId: Overload:Magico.Reflection.IntegerTools.SwapIfSourceLarger
+  isSpec: "True"
+  fullName: Magico.Reflection.IntegerTools.SwapIfSourceLarger
+  nameWithType: IntegerTools.SwapIfSourceLarger
+- uid: Magico.Reflection.IntegerTools.ToBinary(System.Byte)
+  name: ToBinary(byte)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_Byte_
+  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.Byte)
+  name.vb: ToBinary(Byte)
+  fullName: Magico.Reflection.IntegerTools.ToBinary(byte)
+  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Byte)
+  nameWithType: IntegerTools.ToBinary(byte)
+  nameWithType.vb: IntegerTools.ToBinary(Byte)
+- uid: Magico.Reflection.IntegerTools.ToBinary(System.Int16)
+  name: ToBinary(short)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_Int16_
+  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.Int16)
+  name.vb: ToBinary(Short)
+  fullName: Magico.Reflection.IntegerTools.ToBinary(short)
+  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Short)
+  nameWithType: IntegerTools.ToBinary(short)
+  nameWithType.vb: IntegerTools.ToBinary(Short)
+- uid: Magico.Reflection.IntegerTools.ToBinary(System.Int32)
+  name: ToBinary(int)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_Int32_
+  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.Int32)
+  name.vb: ToBinary(Integer)
+  fullName: Magico.Reflection.IntegerTools.ToBinary(int)
+  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Integer)
+  nameWithType: IntegerTools.ToBinary(int)
+  nameWithType.vb: IntegerTools.ToBinary(Integer)
+- uid: Magico.Reflection.IntegerTools.ToBinary(System.Int64)
+  name: ToBinary(long)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_Int64_
+  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.Int64)
+  name.vb: ToBinary(Long)
+  fullName: Magico.Reflection.IntegerTools.ToBinary(long)
+  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Long)
+  nameWithType: IntegerTools.ToBinary(long)
+  nameWithType.vb: IntegerTools.ToBinary(Long)
+- uid: Magico.Reflection.IntegerTools.ToBinary(System.SByte)
+  name: ToBinary(sbyte)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_SByte_
+  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.SByte)
+  name.vb: ToBinary(SByte)
+  fullName: Magico.Reflection.IntegerTools.ToBinary(sbyte)
+  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(SByte)
+  nameWithType: IntegerTools.ToBinary(sbyte)
+  nameWithType.vb: IntegerTools.ToBinary(SByte)
+- uid: Magico.Reflection.IntegerTools.ToBinary(System.UInt16)
+  name: ToBinary(ushort)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_UInt16_
+  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.UInt16)
+  name.vb: ToBinary(UShort)
+  fullName: Magico.Reflection.IntegerTools.ToBinary(ushort)
+  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(UShort)
+  nameWithType: IntegerTools.ToBinary(ushort)
+  nameWithType.vb: IntegerTools.ToBinary(UShort)
+- uid: Magico.Reflection.IntegerTools.ToBinary(System.UInt32)
+  name: ToBinary(uint)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_UInt32_
+  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.UInt32)
+  name.vb: ToBinary(UInteger)
+  fullName: Magico.Reflection.IntegerTools.ToBinary(uint)
+  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(UInteger)
+  nameWithType: IntegerTools.ToBinary(uint)
+  nameWithType.vb: IntegerTools.ToBinary(UInteger)
+- uid: Magico.Reflection.IntegerTools.ToBinary*
+  name: ToBinary
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_
+  commentId: Overload:Magico.Reflection.IntegerTools.ToBinary
+  isSpec: "True"
+  fullName: Magico.Reflection.IntegerTools.ToBinary
+  nameWithType: IntegerTools.ToBinary
+- uid: Magico.Reflection.IntegerTools.ToHex(System.Byte)
+  name: ToHex(byte)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_Byte_
+  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.Byte)
+  name.vb: ToHex(Byte)
+  fullName: Magico.Reflection.IntegerTools.ToHex(byte)
+  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Byte)
+  nameWithType: IntegerTools.ToHex(byte)
+  nameWithType.vb: IntegerTools.ToHex(Byte)
+- uid: Magico.Reflection.IntegerTools.ToHex(System.Int16)
+  name: ToHex(short)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_Int16_
+  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.Int16)
+  name.vb: ToHex(Short)
+  fullName: Magico.Reflection.IntegerTools.ToHex(short)
+  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Short)
+  nameWithType: IntegerTools.ToHex(short)
+  nameWithType.vb: IntegerTools.ToHex(Short)
+- uid: Magico.Reflection.IntegerTools.ToHex(System.Int32)
+  name: ToHex(int)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_Int32_
+  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.Int32)
+  name.vb: ToHex(Integer)
+  fullName: Magico.Reflection.IntegerTools.ToHex(int)
+  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Integer)
+  nameWithType: IntegerTools.ToHex(int)
+  nameWithType.vb: IntegerTools.ToHex(Integer)
+- uid: Magico.Reflection.IntegerTools.ToHex(System.Int64)
+  name: ToHex(long)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_Int64_
+  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.Int64)
+  name.vb: ToHex(Long)
+  fullName: Magico.Reflection.IntegerTools.ToHex(long)
+  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Long)
+  nameWithType: IntegerTools.ToHex(long)
+  nameWithType.vb: IntegerTools.ToHex(Long)
+- uid: Magico.Reflection.IntegerTools.ToHex(System.SByte)
+  name: ToHex(sbyte)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_SByte_
+  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.SByte)
+  name.vb: ToHex(SByte)
+  fullName: Magico.Reflection.IntegerTools.ToHex(sbyte)
+  fullName.vb: Magico.Reflection.IntegerTools.ToHex(SByte)
+  nameWithType: IntegerTools.ToHex(sbyte)
+  nameWithType.vb: IntegerTools.ToHex(SByte)
+- uid: Magico.Reflection.IntegerTools.ToHex(System.UInt16)
+  name: ToHex(ushort)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_UInt16_
+  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.UInt16)
+  name.vb: ToHex(UShort)
+  fullName: Magico.Reflection.IntegerTools.ToHex(ushort)
+  fullName.vb: Magico.Reflection.IntegerTools.ToHex(UShort)
+  nameWithType: IntegerTools.ToHex(ushort)
+  nameWithType.vb: IntegerTools.ToHex(UShort)
+- uid: Magico.Reflection.IntegerTools.ToHex(System.UInt32)
+  name: ToHex(uint)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_UInt32_
+  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.UInt32)
+  name.vb: ToHex(UInteger)
+  fullName: Magico.Reflection.IntegerTools.ToHex(uint)
+  fullName.vb: Magico.Reflection.IntegerTools.ToHex(UInteger)
+  nameWithType: IntegerTools.ToHex(uint)
+  nameWithType.vb: IntegerTools.ToHex(UInteger)
+- uid: Magico.Reflection.IntegerTools.ToHex*
+  name: ToHex
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_
+  commentId: Overload:Magico.Reflection.IntegerTools.ToHex
+  isSpec: "True"
+  fullName: Magico.Reflection.IntegerTools.ToHex
+  nameWithType: IntegerTools.ToHex
+- uid: Magico.Reflection.IntegerTools.ToNumber(System.Byte)
+  name: ToNumber(byte)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_Byte_
+  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.Byte)
+  name.vb: ToNumber(Byte)
+  fullName: Magico.Reflection.IntegerTools.ToNumber(byte)
+  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Byte)
+  nameWithType: IntegerTools.ToNumber(byte)
+  nameWithType.vb: IntegerTools.ToNumber(Byte)
+- uid: Magico.Reflection.IntegerTools.ToNumber(System.Int16)
+  name: ToNumber(short)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_Int16_
+  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.Int16)
+  name.vb: ToNumber(Short)
+  fullName: Magico.Reflection.IntegerTools.ToNumber(short)
+  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Short)
+  nameWithType: IntegerTools.ToNumber(short)
+  nameWithType.vb: IntegerTools.ToNumber(Short)
+- uid: Magico.Reflection.IntegerTools.ToNumber(System.Int32)
+  name: ToNumber(int)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_Int32_
+  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.Int32)
+  name.vb: ToNumber(Integer)
+  fullName: Magico.Reflection.IntegerTools.ToNumber(int)
+  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Integer)
+  nameWithType: IntegerTools.ToNumber(int)
+  nameWithType.vb: IntegerTools.ToNumber(Integer)
+- uid: Magico.Reflection.IntegerTools.ToNumber(System.Int64)
+  name: ToNumber(long)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_Int64_
+  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.Int64)
+  name.vb: ToNumber(Long)
+  fullName: Magico.Reflection.IntegerTools.ToNumber(long)
+  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Long)
+  nameWithType: IntegerTools.ToNumber(long)
+  nameWithType.vb: IntegerTools.ToNumber(Long)
+- uid: Magico.Reflection.IntegerTools.ToNumber(System.SByte)
+  name: ToNumber(sbyte)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_SByte_
+  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.SByte)
+  name.vb: ToNumber(SByte)
+  fullName: Magico.Reflection.IntegerTools.ToNumber(sbyte)
+  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(SByte)
+  nameWithType: IntegerTools.ToNumber(sbyte)
+  nameWithType.vb: IntegerTools.ToNumber(SByte)
+- uid: Magico.Reflection.IntegerTools.ToNumber(System.UInt16)
+  name: ToNumber(ushort)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_UInt16_
+  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.UInt16)
+  name.vb: ToNumber(UShort)
+  fullName: Magico.Reflection.IntegerTools.ToNumber(ushort)
+  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(UShort)
+  nameWithType: IntegerTools.ToNumber(ushort)
+  nameWithType.vb: IntegerTools.ToNumber(UShort)
+- uid: Magico.Reflection.IntegerTools.ToNumber(System.UInt32)
+  name: ToNumber(uint)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_UInt32_
+  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.UInt32)
+  name.vb: ToNumber(UInteger)
+  fullName: Magico.Reflection.IntegerTools.ToNumber(uint)
+  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(UInteger)
+  nameWithType: IntegerTools.ToNumber(uint)
+  nameWithType.vb: IntegerTools.ToNumber(UInteger)
+- uid: Magico.Reflection.IntegerTools.ToNumber*
+  name: ToNumber
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_
+  commentId: Overload:Magico.Reflection.IntegerTools.ToNumber
+  isSpec: "True"
+  fullName: Magico.Reflection.IntegerTools.ToNumber
+  nameWithType: IntegerTools.ToNumber
+- uid: Magico.Reflection.IntegerTools.ToOctal(System.Byte)
+  name: ToOctal(byte)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_Byte_
+  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.Byte)
+  name.vb: ToOctal(Byte)
+  fullName: Magico.Reflection.IntegerTools.ToOctal(byte)
+  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Byte)
+  nameWithType: IntegerTools.ToOctal(byte)
+  nameWithType.vb: IntegerTools.ToOctal(Byte)
+- uid: Magico.Reflection.IntegerTools.ToOctal(System.Int16)
+  name: ToOctal(short)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_Int16_
+  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.Int16)
+  name.vb: ToOctal(Short)
+  fullName: Magico.Reflection.IntegerTools.ToOctal(short)
+  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Short)
+  nameWithType: IntegerTools.ToOctal(short)
+  nameWithType.vb: IntegerTools.ToOctal(Short)
+- uid: Magico.Reflection.IntegerTools.ToOctal(System.Int32)
+  name: ToOctal(int)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_Int32_
+  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.Int32)
+  name.vb: ToOctal(Integer)
+  fullName: Magico.Reflection.IntegerTools.ToOctal(int)
+  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Integer)
+  nameWithType: IntegerTools.ToOctal(int)
+  nameWithType.vb: IntegerTools.ToOctal(Integer)
+- uid: Magico.Reflection.IntegerTools.ToOctal(System.Int64)
+  name: ToOctal(long)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_Int64_
+  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.Int64)
+  name.vb: ToOctal(Long)
+  fullName: Magico.Reflection.IntegerTools.ToOctal(long)
+  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Long)
+  nameWithType: IntegerTools.ToOctal(long)
+  nameWithType.vb: IntegerTools.ToOctal(Long)
+- uid: Magico.Reflection.IntegerTools.ToOctal(System.SByte)
+  name: ToOctal(sbyte)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_SByte_
+  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.SByte)
+  name.vb: ToOctal(SByte)
+  fullName: Magico.Reflection.IntegerTools.ToOctal(sbyte)
+  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(SByte)
+  nameWithType: IntegerTools.ToOctal(sbyte)
+  nameWithType.vb: IntegerTools.ToOctal(SByte)
+- uid: Magico.Reflection.IntegerTools.ToOctal(System.UInt16)
+  name: ToOctal(ushort)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_UInt16_
+  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.UInt16)
+  name.vb: ToOctal(UShort)
+  fullName: Magico.Reflection.IntegerTools.ToOctal(ushort)
+  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(UShort)
+  nameWithType: IntegerTools.ToOctal(ushort)
+  nameWithType.vb: IntegerTools.ToOctal(UShort)
+- uid: Magico.Reflection.IntegerTools.ToOctal(System.UInt32)
+  name: ToOctal(uint)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_UInt32_
+  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.UInt32)
+  name.vb: ToOctal(UInteger)
+  fullName: Magico.Reflection.IntegerTools.ToOctal(uint)
+  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(UInteger)
+  nameWithType: IntegerTools.ToOctal(uint)
+  nameWithType.vb: IntegerTools.ToOctal(UInteger)
+- uid: Magico.Reflection.IntegerTools.ToOctal*
+  name: ToOctal
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_
+  commentId: Overload:Magico.Reflection.IntegerTools.ToOctal
+  isSpec: "True"
+  fullName: Magico.Reflection.IntegerTools.ToOctal
+  nameWithType: IntegerTools.ToOctal
+- uid: Magico.Reflection.MethodManager
+  name: MethodManager
+  href: api/Magico.Reflection.MethodManager.html
+  commentId: T:Magico.Reflection.MethodManager
+  fullName: Magico.Reflection.MethodManager
+  nameWithType: MethodManager
+- uid: Magico.Reflection.MethodManager.GetMethod(System.String,System.Type)
+  name: GetMethod(string, Type)
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_GetMethod_System_String_System_Type_
+  commentId: M:Magico.Reflection.MethodManager.GetMethod(System.String,System.Type)
+  name.vb: GetMethod(String, Type)
+  fullName: Magico.Reflection.MethodManager.GetMethod(string, System.Type)
+  fullName.vb: Magico.Reflection.MethodManager.GetMethod(String, System.Type)
+  nameWithType: MethodManager.GetMethod(string, Type)
+  nameWithType.vb: MethodManager.GetMethod(String, Type)
+- uid: Magico.Reflection.MethodManager.GetMethod*
+  name: GetMethod
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_GetMethod_
+  commentId: Overload:Magico.Reflection.MethodManager.GetMethod
+  isSpec: "True"
+  fullName: Magico.Reflection.MethodManager.GetMethod
+  nameWithType: MethodManager.GetMethod
+- uid: Magico.Reflection.MethodManager.InvokeMethod(System.Reflection.MethodBase,System.Object,System.Object[])
+  name: InvokeMethod(MethodBase?, object, params object?[]?)
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_InvokeMethod_System_Reflection_MethodBase_System_Object_System_Object___
+  commentId: M:Magico.Reflection.MethodManager.InvokeMethod(System.Reflection.MethodBase,System.Object,System.Object[])
+  name.vb: InvokeMethod(MethodBase, Object, ParamArray Object())
+  fullName: Magico.Reflection.MethodManager.InvokeMethod(System.Reflection.MethodBase?, object, params object?[]?)
+  fullName.vb: Magico.Reflection.MethodManager.InvokeMethod(System.Reflection.MethodBase, Object, ParamArray Object())
+  nameWithType: MethodManager.InvokeMethod(MethodBase?, object, params object?[]?)
+  nameWithType.vb: MethodManager.InvokeMethod(MethodBase, Object, ParamArray Object())
+- uid: Magico.Reflection.MethodManager.InvokeMethod(System.String,System.Object,System.Object[])
+  name: InvokeMethod(string, object, params object?[]?)
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_InvokeMethod_System_String_System_Object_System_Object___
+  commentId: M:Magico.Reflection.MethodManager.InvokeMethod(System.String,System.Object,System.Object[])
+  name.vb: InvokeMethod(String, Object, ParamArray Object())
+  fullName: Magico.Reflection.MethodManager.InvokeMethod(string, object, params object?[]?)
+  fullName.vb: Magico.Reflection.MethodManager.InvokeMethod(String, Object, ParamArray Object())
+  nameWithType: MethodManager.InvokeMethod(string, object, params object?[]?)
+  nameWithType.vb: MethodManager.InvokeMethod(String, Object, ParamArray Object())
+- uid: Magico.Reflection.MethodManager.InvokeMethod(System.String,System.Object,System.Type,System.Object[])
+  name: InvokeMethod(string, object, Type, params object?[]?)
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_InvokeMethod_System_String_System_Object_System_Type_System_Object___
+  commentId: M:Magico.Reflection.MethodManager.InvokeMethod(System.String,System.Object,System.Type,System.Object[])
+  name.vb: InvokeMethod(String, Object, Type, ParamArray Object())
+  fullName: Magico.Reflection.MethodManager.InvokeMethod(string, object, System.Type, params object?[]?)
+  fullName.vb: Magico.Reflection.MethodManager.InvokeMethod(String, Object, System.Type, ParamArray Object())
+  nameWithType: MethodManager.InvokeMethod(string, object, Type, params object?[]?)
+  nameWithType.vb: MethodManager.InvokeMethod(String, Object, Type, ParamArray Object())
+- uid: Magico.Reflection.MethodManager.InvokeMethod*
+  name: InvokeMethod
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_InvokeMethod_
+  commentId: Overload:Magico.Reflection.MethodManager.InvokeMethod
+  isSpec: "True"
+  fullName: Magico.Reflection.MethodManager.InvokeMethod
+  nameWithType: MethodManager.InvokeMethod
+- uid: Magico.Reflection.MethodManager.InvokeMethodStatic(System.Reflection.MethodBase,System.Object[])
+  name: InvokeMethodStatic(MethodBase?, params object?[]?)
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_InvokeMethodStatic_System_Reflection_MethodBase_System_Object___
+  commentId: M:Magico.Reflection.MethodManager.InvokeMethodStatic(System.Reflection.MethodBase,System.Object[])
+  name.vb: InvokeMethodStatic(MethodBase, ParamArray Object())
+  fullName: Magico.Reflection.MethodManager.InvokeMethodStatic(System.Reflection.MethodBase?, params object?[]?)
+  fullName.vb: Magico.Reflection.MethodManager.InvokeMethodStatic(System.Reflection.MethodBase, ParamArray Object())
+  nameWithType: MethodManager.InvokeMethodStatic(MethodBase?, params object?[]?)
+  nameWithType.vb: MethodManager.InvokeMethodStatic(MethodBase, ParamArray Object())
+- uid: Magico.Reflection.MethodManager.InvokeMethodStatic(System.String,System.Type,System.Object[])
+  name: InvokeMethodStatic(string, Type, params object?[]?)
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_InvokeMethodStatic_System_String_System_Type_System_Object___
+  commentId: M:Magico.Reflection.MethodManager.InvokeMethodStatic(System.String,System.Type,System.Object[])
+  name.vb: InvokeMethodStatic(String, Type, ParamArray Object())
+  fullName: Magico.Reflection.MethodManager.InvokeMethodStatic(string, System.Type, params object?[]?)
+  fullName.vb: Magico.Reflection.MethodManager.InvokeMethodStatic(String, System.Type, ParamArray Object())
+  nameWithType: MethodManager.InvokeMethodStatic(string, Type, params object?[]?)
+  nameWithType.vb: MethodManager.InvokeMethodStatic(String, Type, ParamArray Object())
+- uid: Magico.Reflection.MethodManager.InvokeMethodStatic*
+  name: InvokeMethodStatic
+  href: api/Magico.Reflection.MethodManager.html#Magico_Reflection_MethodManager_InvokeMethodStatic_
+  commentId: Overload:Magico.Reflection.MethodManager.InvokeMethodStatic
+  isSpec: "True"
+  fullName: Magico.Reflection.MethodManager.InvokeMethodStatic
+  nameWithType: MethodManager.InvokeMethodStatic
+- uid: Magico.Reflection.PropertyManager
+  name: PropertyManager
+  href: api/Magico.Reflection.PropertyManager.html
+  commentId: T:Magico.Reflection.PropertyManager
+  fullName: Magico.Reflection.PropertyManager
+  nameWithType: PropertyManager
+- uid: Magico.Reflection.PropertyManager.CheckProperty(System.String,System.Type)
+  name: CheckProperty(string, Type)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_CheckProperty_System_String_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.CheckProperty(System.String,System.Type)
+  name.vb: CheckProperty(String, Type)
+  fullName: Magico.Reflection.PropertyManager.CheckProperty(string, System.Type)
+  fullName.vb: Magico.Reflection.PropertyManager.CheckProperty(String, System.Type)
+  nameWithType: PropertyManager.CheckProperty(string, Type)
+  nameWithType.vb: PropertyManager.CheckProperty(String, Type)
+- uid: Magico.Reflection.PropertyManager.CheckProperty*
+  name: CheckProperty
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_CheckProperty_
+  commentId: Overload:Magico.Reflection.PropertyManager.CheckProperty
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.CheckProperty
+  nameWithType: PropertyManager.CheckProperty
+- uid: Magico.Reflection.PropertyManager.GetAllProperties(System.Type[])
+  name: GetAllProperties(Type[])
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetAllProperties_System_Type___
+  commentId: M:Magico.Reflection.PropertyManager.GetAllProperties(System.Type[])
+  name.vb: GetAllProperties(Type())
+  fullName: Magico.Reflection.PropertyManager.GetAllProperties(System.Type[])
+  fullName.vb: Magico.Reflection.PropertyManager.GetAllProperties(System.Type())
+  nameWithType: PropertyManager.GetAllProperties(Type[])
+  nameWithType.vb: PropertyManager.GetAllProperties(Type())
+- uid: Magico.Reflection.PropertyManager.GetAllProperties*
+  name: GetAllProperties
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetAllProperties_
+  commentId: Overload:Magico.Reflection.PropertyManager.GetAllProperties
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.GetAllProperties
+  nameWithType: PropertyManager.GetAllProperties
+- uid: Magico.Reflection.PropertyManager.GetAllPropertiesNoEvaluation(System.Type[])
+  name: GetAllPropertiesNoEvaluation(Type[])
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetAllPropertiesNoEvaluation_System_Type___
+  commentId: M:Magico.Reflection.PropertyManager.GetAllPropertiesNoEvaluation(System.Type[])
+  name.vb: GetAllPropertiesNoEvaluation(Type())
+  fullName: Magico.Reflection.PropertyManager.GetAllPropertiesNoEvaluation(System.Type[])
+  fullName.vb: Magico.Reflection.PropertyManager.GetAllPropertiesNoEvaluation(System.Type())
+  nameWithType: PropertyManager.GetAllPropertiesNoEvaluation(Type[])
+  nameWithType.vb: PropertyManager.GetAllPropertiesNoEvaluation(Type())
+- uid: Magico.Reflection.PropertyManager.GetAllPropertiesNoEvaluation*
+  name: GetAllPropertiesNoEvaluation
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetAllPropertiesNoEvaluation_
+  commentId: Overload:Magico.Reflection.PropertyManager.GetAllPropertiesNoEvaluation
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.GetAllPropertiesNoEvaluation
+  nameWithType: PropertyManager.GetAllPropertiesNoEvaluation
+- uid: Magico.Reflection.PropertyManager.GetAllProperties``1(``0,System.Type[])
+  name: GetAllProperties<T>(T, Type[])
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetAllProperties__1___0_System_Type___
+  commentId: M:Magico.Reflection.PropertyManager.GetAllProperties``1(``0,System.Type[])
+  name.vb: GetAllProperties(Of T)(T, Type())
+  fullName: Magico.Reflection.PropertyManager.GetAllProperties<T>(T, System.Type[])
+  fullName.vb: Magico.Reflection.PropertyManager.GetAllProperties(Of T)(T, System.Type())
+  nameWithType: PropertyManager.GetAllProperties<T>(T, Type[])
+  nameWithType.vb: PropertyManager.GetAllProperties(Of T)(T, Type())
+- uid: Magico.Reflection.PropertyManager.GetProperties(System.Type)
+  name: GetProperties(Type)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetProperties_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.GetProperties(System.Type)
+  fullName: Magico.Reflection.PropertyManager.GetProperties(System.Type)
+  nameWithType: PropertyManager.GetProperties(Type)
+- uid: Magico.Reflection.PropertyManager.GetProperties*
+  name: GetProperties
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetProperties_
+  commentId: Overload:Magico.Reflection.PropertyManager.GetProperties
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.GetProperties
+  nameWithType: PropertyManager.GetProperties
+- uid: Magico.Reflection.PropertyManager.GetPropertiesNoEvaluation(System.Type)
+  name: GetPropertiesNoEvaluation(Type)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertiesNoEvaluation_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.GetPropertiesNoEvaluation(System.Type)
+  fullName: Magico.Reflection.PropertyManager.GetPropertiesNoEvaluation(System.Type)
+  nameWithType: PropertyManager.GetPropertiesNoEvaluation(Type)
+- uid: Magico.Reflection.PropertyManager.GetPropertiesNoEvaluation*
+  name: GetPropertiesNoEvaluation
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertiesNoEvaluation_
+  commentId: Overload:Magico.Reflection.PropertyManager.GetPropertiesNoEvaluation
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.GetPropertiesNoEvaluation
+  nameWithType: PropertyManager.GetPropertiesNoEvaluation
+- uid: Magico.Reflection.PropertyManager.GetProperties``1(``0,System.Type)
+  name: GetProperties<T>(T, Type)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetProperties__1___0_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.GetProperties``1(``0,System.Type)
+  name.vb: GetProperties(Of T)(T, Type)
+  fullName: Magico.Reflection.PropertyManager.GetProperties<T>(T, System.Type)
+  fullName.vb: Magico.Reflection.PropertyManager.GetProperties(Of T)(T, System.Type)
+  nameWithType: PropertyManager.GetProperties<T>(T, Type)
+  nameWithType.vb: PropertyManager.GetProperties(Of T)(T, Type)
+- uid: Magico.Reflection.PropertyManager.GetProperty(System.String,System.Type)
+  name: GetProperty(string, Type)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetProperty_System_String_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.GetProperty(System.String,System.Type)
+  name.vb: GetProperty(String, Type)
+  fullName: Magico.Reflection.PropertyManager.GetProperty(string, System.Type)
+  fullName.vb: Magico.Reflection.PropertyManager.GetProperty(String, System.Type)
+  nameWithType: PropertyManager.GetProperty(string, Type)
+  nameWithType.vb: PropertyManager.GetProperty(String, Type)
+- uid: Magico.Reflection.PropertyManager.GetProperty*
+  name: GetProperty
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetProperty_
+  commentId: Overload:Magico.Reflection.PropertyManager.GetProperty
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.GetProperty
+  nameWithType: PropertyManager.GetProperty
+- uid: Magico.Reflection.PropertyManager.GetPropertyValue(System.Reflection.PropertyInfo)
+  name: GetPropertyValue(PropertyInfo?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValue_System_Reflection_PropertyInfo_
+  commentId: M:Magico.Reflection.PropertyManager.GetPropertyValue(System.Reflection.PropertyInfo)
+  name.vb: GetPropertyValue(PropertyInfo)
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValue(System.Reflection.PropertyInfo?)
+  fullName.vb: Magico.Reflection.PropertyManager.GetPropertyValue(System.Reflection.PropertyInfo)
+  nameWithType: PropertyManager.GetPropertyValue(PropertyInfo?)
+  nameWithType.vb: PropertyManager.GetPropertyValue(PropertyInfo)
+- uid: Magico.Reflection.PropertyManager.GetPropertyValue(System.String,System.Type)
+  name: GetPropertyValue(string, Type?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValue_System_String_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.GetPropertyValue(System.String,System.Type)
+  name.vb: GetPropertyValue(String, Type)
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValue(string, System.Type?)
+  fullName.vb: Magico.Reflection.PropertyManager.GetPropertyValue(String, System.Type)
+  nameWithType: PropertyManager.GetPropertyValue(string, Type?)
+  nameWithType.vb: PropertyManager.GetPropertyValue(String, Type)
+- uid: Magico.Reflection.PropertyManager.GetPropertyValue*
+  name: GetPropertyValue
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValue_
+  commentId: Overload:Magico.Reflection.PropertyManager.GetPropertyValue
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValue
+  nameWithType: PropertyManager.GetPropertyValue
+- uid: Magico.Reflection.PropertyManager.GetPropertyValueInstance*
+  name: GetPropertyValueInstance
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValueInstance_
+  commentId: Overload:Magico.Reflection.PropertyManager.GetPropertyValueInstance
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValueInstance
+  nameWithType: PropertyManager.GetPropertyValueInstance
+- uid: Magico.Reflection.PropertyManager.GetPropertyValueInstanceExplicit(System.Object,System.String,System.Type)
+  name: GetPropertyValueInstanceExplicit(object, string, Type?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValueInstanceExplicit_System_Object_System_String_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.GetPropertyValueInstanceExplicit(System.Object,System.String,System.Type)
+  name.vb: GetPropertyValueInstanceExplicit(Object, String, Type)
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValueInstanceExplicit(object, string, System.Type?)
+  fullName.vb: Magico.Reflection.PropertyManager.GetPropertyValueInstanceExplicit(Object, String, System.Type)
+  nameWithType: PropertyManager.GetPropertyValueInstanceExplicit(object, string, Type?)
+  nameWithType.vb: PropertyManager.GetPropertyValueInstanceExplicit(Object, String, Type)
+- uid: Magico.Reflection.PropertyManager.GetPropertyValueInstanceExplicit*
+  name: GetPropertyValueInstanceExplicit
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValueInstanceExplicit_
+  commentId: Overload:Magico.Reflection.PropertyManager.GetPropertyValueInstanceExplicit
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValueInstanceExplicit
+  nameWithType: PropertyManager.GetPropertyValueInstanceExplicit
+- uid: Magico.Reflection.PropertyManager.GetPropertyValueInstance``1(``0,System.Reflection.PropertyInfo)
+  name: GetPropertyValueInstance<T>(T, PropertyInfo?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValueInstance__1___0_System_Reflection_PropertyInfo_
+  commentId: M:Magico.Reflection.PropertyManager.GetPropertyValueInstance``1(``0,System.Reflection.PropertyInfo)
+  name.vb: GetPropertyValueInstance(Of T)(T, PropertyInfo)
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValueInstance<T>(T, System.Reflection.PropertyInfo?)
+  fullName.vb: Magico.Reflection.PropertyManager.GetPropertyValueInstance(Of T)(T, System.Reflection.PropertyInfo)
+  nameWithType: PropertyManager.GetPropertyValueInstance<T>(T, PropertyInfo?)
+  nameWithType.vb: PropertyManager.GetPropertyValueInstance(Of T)(T, PropertyInfo)
+- uid: Magico.Reflection.PropertyManager.GetPropertyValueInstance``1(``0,System.String)
+  name: GetPropertyValueInstance<T>(T, string)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValueInstance__1___0_System_String_
+  commentId: M:Magico.Reflection.PropertyManager.GetPropertyValueInstance``1(``0,System.String)
+  name.vb: GetPropertyValueInstance(Of T)(T, String)
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValueInstance<T>(T, string)
+  fullName.vb: Magico.Reflection.PropertyManager.GetPropertyValueInstance(Of T)(T, String)
+  nameWithType: PropertyManager.GetPropertyValueInstance<T>(T, string)
+  nameWithType.vb: PropertyManager.GetPropertyValueInstance(Of T)(T, String)
+- uid: Magico.Reflection.PropertyManager.GetPropertyValueInstance``1(``0,System.String,System.Type)
+  name: GetPropertyValueInstance<T>(T, string, Type?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_GetPropertyValueInstance__1___0_System_String_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.GetPropertyValueInstance``1(``0,System.String,System.Type)
+  name.vb: GetPropertyValueInstance(Of T)(T, String, Type)
+  fullName: Magico.Reflection.PropertyManager.GetPropertyValueInstance<T>(T, string, System.Type?)
+  fullName.vb: Magico.Reflection.PropertyManager.GetPropertyValueInstance(Of T)(T, String, System.Type)
+  nameWithType: PropertyManager.GetPropertyValueInstance<T>(T, string, Type?)
+  nameWithType.vb: PropertyManager.GetPropertyValueInstance(Of T)(T, String, Type)
+- uid: Magico.Reflection.PropertyManager.SetPropertyValue(System.Reflection.PropertyInfo,System.Object)
+  name: SetPropertyValue(PropertyInfo?, object?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValue_System_Reflection_PropertyInfo_System_Object_
+  commentId: M:Magico.Reflection.PropertyManager.SetPropertyValue(System.Reflection.PropertyInfo,System.Object)
+  name.vb: SetPropertyValue(PropertyInfo, Object)
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValue(System.Reflection.PropertyInfo?, object?)
+  fullName.vb: Magico.Reflection.PropertyManager.SetPropertyValue(System.Reflection.PropertyInfo, Object)
+  nameWithType: PropertyManager.SetPropertyValue(PropertyInfo?, object?)
+  nameWithType.vb: PropertyManager.SetPropertyValue(PropertyInfo, Object)
+- uid: Magico.Reflection.PropertyManager.SetPropertyValue(System.String,System.Object,System.Type)
+  name: SetPropertyValue(string, object?, Type?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValue_System_String_System_Object_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.SetPropertyValue(System.String,System.Object,System.Type)
+  name.vb: SetPropertyValue(String, Object, Type)
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValue(string, object?, System.Type?)
+  fullName.vb: Magico.Reflection.PropertyManager.SetPropertyValue(String, Object, System.Type)
+  nameWithType: PropertyManager.SetPropertyValue(string, object?, Type?)
+  nameWithType.vb: PropertyManager.SetPropertyValue(String, Object, Type)
+- uid: Magico.Reflection.PropertyManager.SetPropertyValue*
+  name: SetPropertyValue
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValue_
+  commentId: Overload:Magico.Reflection.PropertyManager.SetPropertyValue
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValue
+  nameWithType: PropertyManager.SetPropertyValue
+- uid: Magico.Reflection.PropertyManager.SetPropertyValueInstance*
+  name: SetPropertyValueInstance
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValueInstance_
+  commentId: Overload:Magico.Reflection.PropertyManager.SetPropertyValueInstance
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValueInstance
+  nameWithType: PropertyManager.SetPropertyValueInstance
+- uid: Magico.Reflection.PropertyManager.SetPropertyValueInstanceExplicit(System.Object,System.String,System.Object,System.Type)
+  name: SetPropertyValueInstanceExplicit(object, string, object?, Type?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValueInstanceExplicit_System_Object_System_String_System_Object_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.SetPropertyValueInstanceExplicit(System.Object,System.String,System.Object,System.Type)
+  name.vb: SetPropertyValueInstanceExplicit(Object, String, Object, Type)
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValueInstanceExplicit(object, string, object?, System.Type?)
+  fullName.vb: Magico.Reflection.PropertyManager.SetPropertyValueInstanceExplicit(Object, String, Object, System.Type)
+  nameWithType: PropertyManager.SetPropertyValueInstanceExplicit(object, string, object?, Type?)
+  nameWithType.vb: PropertyManager.SetPropertyValueInstanceExplicit(Object, String, Object, Type)
+- uid: Magico.Reflection.PropertyManager.SetPropertyValueInstanceExplicit*
+  name: SetPropertyValueInstanceExplicit
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValueInstanceExplicit_
+  commentId: Overload:Magico.Reflection.PropertyManager.SetPropertyValueInstanceExplicit
+  isSpec: "True"
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValueInstanceExplicit
+  nameWithType: PropertyManager.SetPropertyValueInstanceExplicit
+- uid: Magico.Reflection.PropertyManager.SetPropertyValueInstance``1(``0,System.Reflection.PropertyInfo,System.Object)
+  name: SetPropertyValueInstance<T>(T, PropertyInfo?, object?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValueInstance__1___0_System_Reflection_PropertyInfo_System_Object_
+  commentId: M:Magico.Reflection.PropertyManager.SetPropertyValueInstance``1(``0,System.Reflection.PropertyInfo,System.Object)
+  name.vb: SetPropertyValueInstance(Of T)(T, PropertyInfo, Object)
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValueInstance<T>(T, System.Reflection.PropertyInfo?, object?)
+  fullName.vb: Magico.Reflection.PropertyManager.SetPropertyValueInstance(Of T)(T, System.Reflection.PropertyInfo, Object)
+  nameWithType: PropertyManager.SetPropertyValueInstance<T>(T, PropertyInfo?, object?)
+  nameWithType.vb: PropertyManager.SetPropertyValueInstance(Of T)(T, PropertyInfo, Object)
+- uid: Magico.Reflection.PropertyManager.SetPropertyValueInstance``1(``0,System.String,System.Object)
+  name: SetPropertyValueInstance<T>(T, string, object?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValueInstance__1___0_System_String_System_Object_
+  commentId: M:Magico.Reflection.PropertyManager.SetPropertyValueInstance``1(``0,System.String,System.Object)
+  name.vb: SetPropertyValueInstance(Of T)(T, String, Object)
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValueInstance<T>(T, string, object?)
+  fullName.vb: Magico.Reflection.PropertyManager.SetPropertyValueInstance(Of T)(T, String, Object)
+  nameWithType: PropertyManager.SetPropertyValueInstance<T>(T, string, object?)
+  nameWithType.vb: PropertyManager.SetPropertyValueInstance(Of T)(T, String, Object)
+- uid: Magico.Reflection.PropertyManager.SetPropertyValueInstance``1(``0,System.String,System.Object,System.Type)
+  name: SetPropertyValueInstance<T>(T, string, object?, Type?)
+  href: api/Magico.Reflection.PropertyManager.html#Magico_Reflection_PropertyManager_SetPropertyValueInstance__1___0_System_String_System_Object_System_Type_
+  commentId: M:Magico.Reflection.PropertyManager.SetPropertyValueInstance``1(``0,System.String,System.Object,System.Type)
+  name.vb: SetPropertyValueInstance(Of T)(T, String, Object, Type)
+  fullName: Magico.Reflection.PropertyManager.SetPropertyValueInstance<T>(T, string, object?, System.Type?)
+  fullName.vb: Magico.Reflection.PropertyManager.SetPropertyValueInstance(Of T)(T, String, Object, System.Type)
+  nameWithType: PropertyManager.SetPropertyValueInstance<T>(T, string, object?, Type?)
+  nameWithType.vb: PropertyManager.SetPropertyValueInstance(Of T)(T, String, Object, Type)
+- uid: Magico.Reflection.ReflectionCommon
+  name: ReflectionCommon
+  href: api/Magico.Reflection.ReflectionCommon.html
+  commentId: T:Magico.Reflection.ReflectionCommon
+  fullName: Magico.Reflection.ReflectionCommon
+  nameWithType: ReflectionCommon
+- uid: Magico.Reflection.ReflectionCommon.IsDotnetAssemblyFile(System.String,System.Reflection.AssemblyName@)
+  name: IsDotnetAssemblyFile(string, out AssemblyName?)
+  href: api/Magico.Reflection.ReflectionCommon.html#Magico_Reflection_ReflectionCommon_IsDotnetAssemblyFile_System_String_System_Reflection_AssemblyName__
+  commentId: M:Magico.Reflection.ReflectionCommon.IsDotnetAssemblyFile(System.String,System.Reflection.AssemblyName@)
+  name.vb: IsDotnetAssemblyFile(String, AssemblyName)
+  fullName: Magico.Reflection.ReflectionCommon.IsDotnetAssemblyFile(string, out System.Reflection.AssemblyName?)
+  fullName.vb: Magico.Reflection.ReflectionCommon.IsDotnetAssemblyFile(String, System.Reflection.AssemblyName)
+  nameWithType: ReflectionCommon.IsDotnetAssemblyFile(string, out AssemblyName?)
+  nameWithType.vb: ReflectionCommon.IsDotnetAssemblyFile(String, AssemblyName)
+- uid: Magico.Reflection.ReflectionCommon.IsDotnetAssemblyFile*
+  name: IsDotnetAssemblyFile
+  href: api/Magico.Reflection.ReflectionCommon.html#Magico_Reflection_ReflectionCommon_IsDotnetAssemblyFile_
+  commentId: Overload:Magico.Reflection.ReflectionCommon.IsDotnetAssemblyFile
+  isSpec: "True"
+  fullName: Magico.Reflection.ReflectionCommon.IsDotnetAssemblyFile
+  nameWithType: ReflectionCommon.IsDotnetAssemblyFile

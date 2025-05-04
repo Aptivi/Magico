@@ -127,6 +127,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Reflection.ArrayTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Reflection.ArrayTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Reflection.ArrayTools",
+      "Summary": "<p sourcefile=\"api/Magico.Reflection.ArrayTools.yml\" sourcestartlinenumber=\"1\">Array tools that are useful</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Magico.Reflection.BaseClassTools.yml",
       "output": {
         ".html": {
@@ -138,6 +152,76 @@
       "IsMRef": true,
       "Title": "Magico.Reflection.BaseClassTools",
       "Summary": "<p sourcefile=\"api/Magico.Reflection.BaseClassTools.yml\" sourcestartlinenumber=\"1\">Tools for base classes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Reflection.FieldManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Reflection.FieldManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Reflection.FieldManager",
+      "Summary": "<p sourcefile=\"api/Magico.Reflection.FieldManager.yml\" sourcestartlinenumber=\"1\">Field management module</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Reflection.IntegerTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Reflection.IntegerTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Reflection.IntegerTools",
+      "Summary": "<p sourcefile=\"api/Magico.Reflection.IntegerTools.yml\" sourcestartlinenumber=\"1\">Tools to manipulate with integers</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Reflection.MethodManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Reflection.MethodManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Reflection.MethodManager",
+      "Summary": "<p sourcefile=\"api/Magico.Reflection.MethodManager.yml\" sourcestartlinenumber=\"1\">Method management module</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Reflection.PropertyManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Reflection.PropertyManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Reflection.PropertyManager",
+      "Summary": "<p sourcefile=\"api/Magico.Reflection.PropertyManager.yml\" sourcestartlinenumber=\"1\">Property management module</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Reflection.ReflectionCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Reflection.ReflectionCommon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Reflection.ReflectionCommon",
+      "Summary": "<p sourcefile=\"api/Magico.Reflection.ReflectionCommon.yml\" sourcestartlinenumber=\"1\">Common reflection tools</p>\n"
     },
     {
       "type": "ManagedReference",
