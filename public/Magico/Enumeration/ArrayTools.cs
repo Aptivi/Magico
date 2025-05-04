@@ -21,7 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Magico.Reflection
+namespace Magico.Enumeration
 {
     /// <summary>
     /// Array tools that are useful
@@ -61,18 +61,18 @@ namespace Magico.Reflection
         }
 
         /// <summary>
-        /// Sorts the byte numbers
+        /// Sorts the byte numbers using the bubble sort algorithm
         /// </summary>
         /// <param name="unsorted">An unsorted array of numbers</param>
         /// <returns>Sorted array of byte numbers</returns>
         public static T[] SortNumbers<T>(this T[] unsorted) where T : IConvertible
         {
             var thisType = typeof(T);
-            if (thisType != typeof(byte) || thisType != typeof(sbyte) ||
-                thisType != typeof(short) || thisType != typeof(ushort) ||
-                thisType != typeof(int) || thisType != typeof(uint) ||
-                thisType != typeof(long) || thisType != typeof(ulong) ||
-                thisType != typeof(float) || thisType != typeof(double) || thisType != typeof(decimal))
+            if (thisType != typeof(byte) && thisType != typeof(sbyte) &&
+                thisType != typeof(short) && thisType != typeof(ushort) &&
+                thisType != typeof(int) && thisType != typeof(uint) &&
+                thisType != typeof(long) && thisType != typeof(ulong) &&
+                thisType != typeof(float) && thisType != typeof(double) && thisType != typeof(decimal))
                 throw new ArgumentException("Not a numeric array");
 
             // Get the number of iterations
