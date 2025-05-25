@@ -1,11 +1,10 @@
-We've made this version to add some new features.
+We've made this version to add more supported number types!
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[+]` Added reflection tools straight from Nitrocid
-- `[+]` Added array sorting and shuffling (again from Nitrocid)
+- `[+]` Added more supported number types
 
 Review the commit history if you want to get a deep insight about the changes.
 
