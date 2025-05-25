@@ -1614,3 +1614,19 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.ReflectionCommon.IsDotnetAssemblyFile
   nameWithType: ReflectionCommon.IsDotnetAssemblyFile
+- uid: Magico.Reflection.ReflectionCommon.IsTypeNumeric*
+  name: IsTypeNumeric
+  href: api/Magico.Reflection.ReflectionCommon.html#Magico_Reflection_ReflectionCommon_IsTypeNumeric_
+  commentId: Overload:Magico.Reflection.ReflectionCommon.IsTypeNumeric
+  isSpec: "True"
+  fullName: Magico.Reflection.ReflectionCommon.IsTypeNumeric
+  nameWithType: ReflectionCommon.IsTypeNumeric
+- uid: Magico.Reflection.ReflectionCommon.IsTypeNumeric``1
+  name: IsTypeNumeric<T>()
+  href: api/Magico.Reflection.ReflectionCommon.html#Magico_Reflection_ReflectionCommon_IsTypeNumeric__1
+  commentId: M:Magico.Reflection.ReflectionCommon.IsTypeNumeric``1
+  name.vb: IsTypeNumeric(Of T)()
+  fullName: Magico.Reflection.ReflectionCommon.IsTypeNumeric<T>()
+  fullName.vb: Magico.Reflection.ReflectionCommon.IsTypeNumeric(Of T)()
+  nameWithType: ReflectionCommon.IsTypeNumeric<T>()
+  nameWithType.vb: ReflectionCommon.IsTypeNumeric(Of T)()
