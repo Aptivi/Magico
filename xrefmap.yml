@@ -874,24 +874,6 @@ references:
   commentId: T:Magico.Reflection.IntegerTools
   fullName: Magico.Reflection.IntegerTools
   nameWithType: IntegerTools
-- uid: Magico.Reflection.IntegerTools.GetDigits(System.Int32)
-  name: GetDigits(int)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_GetDigits_System_Int32_
-  commentId: M:Magico.Reflection.IntegerTools.GetDigits(System.Int32)
-  name.vb: GetDigits(Integer)
-  fullName: Magico.Reflection.IntegerTools.GetDigits(int)
-  fullName.vb: Magico.Reflection.IntegerTools.GetDigits(Integer)
-  nameWithType: IntegerTools.GetDigits(int)
-  nameWithType.vb: IntegerTools.GetDigits(Integer)
-- uid: Magico.Reflection.IntegerTools.GetDigits(System.Int64)
-  name: GetDigits(long)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_GetDigits_System_Int64_
-  commentId: M:Magico.Reflection.IntegerTools.GetDigits(System.Int64)
-  name.vb: GetDigits(Long)
-  fullName: Magico.Reflection.IntegerTools.GetDigits(long)
-  fullName.vb: Magico.Reflection.IntegerTools.GetDigits(Long)
-  nameWithType: IntegerTools.GetDigits(long)
-  nameWithType.vb: IntegerTools.GetDigits(Long)
 - uid: Magico.Reflection.IntegerTools.GetDigits*
   name: GetDigits
   href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_GetDigits_
@@ -899,42 +881,15 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.IntegerTools.GetDigits
   nameWithType: IntegerTools.GetDigits
-- uid: Magico.Reflection.IntegerTools.SizeString(System.Int32)
-  name: SizeString(int)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_System_Int32_
-  commentId: M:Magico.Reflection.IntegerTools.SizeString(System.Int32)
-  name.vb: SizeString(Integer)
-  fullName: Magico.Reflection.IntegerTools.SizeString(int)
-  fullName.vb: Magico.Reflection.IntegerTools.SizeString(Integer)
-  nameWithType: IntegerTools.SizeString(int)
-  nameWithType.vb: IntegerTools.SizeString(Integer)
-- uid: Magico.Reflection.IntegerTools.SizeString(System.Int64)
-  name: SizeString(long)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_System_Int64_
-  commentId: M:Magico.Reflection.IntegerTools.SizeString(System.Int64)
-  name.vb: SizeString(Long)
-  fullName: Magico.Reflection.IntegerTools.SizeString(long)
-  fullName.vb: Magico.Reflection.IntegerTools.SizeString(Long)
-  nameWithType: IntegerTools.SizeString(long)
-  nameWithType.vb: IntegerTools.SizeString(Long)
-- uid: Magico.Reflection.IntegerTools.SizeString(System.UInt32)
-  name: SizeString(uint)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_System_UInt32_
-  commentId: M:Magico.Reflection.IntegerTools.SizeString(System.UInt32)
-  name.vb: SizeString(UInteger)
-  fullName: Magico.Reflection.IntegerTools.SizeString(uint)
-  fullName.vb: Magico.Reflection.IntegerTools.SizeString(UInteger)
-  nameWithType: IntegerTools.SizeString(uint)
-  nameWithType.vb: IntegerTools.SizeString(UInteger)
-- uid: Magico.Reflection.IntegerTools.SizeString(System.UInt64)
-  name: SizeString(ulong)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_System_UInt64_
-  commentId: M:Magico.Reflection.IntegerTools.SizeString(System.UInt64)
-  name.vb: SizeString(ULong)
-  fullName: Magico.Reflection.IntegerTools.SizeString(ulong)
-  fullName.vb: Magico.Reflection.IntegerTools.SizeString(ULong)
-  nameWithType: IntegerTools.SizeString(ulong)
-  nameWithType.vb: IntegerTools.SizeString(ULong)
+- uid: Magico.Reflection.IntegerTools.GetDigits``1(``0)
+  name: GetDigits<T>(T)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_GetDigits__1___0_
+  commentId: M:Magico.Reflection.IntegerTools.GetDigits``1(``0)
+  name.vb: GetDigits(Of T)(T)
+  fullName: Magico.Reflection.IntegerTools.GetDigits<T>(T)
+  fullName.vb: Magico.Reflection.IntegerTools.GetDigits(Of T)(T)
+  nameWithType: IntegerTools.GetDigits<T>(T)
+  nameWithType.vb: IntegerTools.GetDigits(Of T)(T)
 - uid: Magico.Reflection.IntegerTools.SizeString*
   name: SizeString
   href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString_
@@ -942,6 +897,15 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.IntegerTools.SizeString
   nameWithType: IntegerTools.SizeString
+- uid: Magico.Reflection.IntegerTools.SizeString``1(``0)
+  name: SizeString<T>(T)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SizeString__1___0_
+  commentId: M:Magico.Reflection.IntegerTools.SizeString``1(``0)
+  name.vb: SizeString(Of T)(T)
+  fullName: Magico.Reflection.IntegerTools.SizeString<T>(T)
+  fullName.vb: Magico.Reflection.IntegerTools.SizeString(Of T)(T)
+  nameWithType: IntegerTools.SizeString<T>(T)
+  nameWithType.vb: IntegerTools.SizeString(Of T)(T)
 - uid: Magico.Reflection.IntegerTools.SwapIfSourceLarger(System.Int32@,System.Int32@)
   name: SwapIfSourceLarger(ref int, ref int)
   href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SwapIfSourceLarger_System_Int32__System_Int32__
@@ -967,69 +931,15 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.IntegerTools.SwapIfSourceLarger
   nameWithType: IntegerTools.SwapIfSourceLarger
-- uid: Magico.Reflection.IntegerTools.ToBinary(System.Byte)
-  name: ToBinary(byte)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_Byte_
-  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.Byte)
-  name.vb: ToBinary(Byte)
-  fullName: Magico.Reflection.IntegerTools.ToBinary(byte)
-  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Byte)
-  nameWithType: IntegerTools.ToBinary(byte)
-  nameWithType.vb: IntegerTools.ToBinary(Byte)
-- uid: Magico.Reflection.IntegerTools.ToBinary(System.Int16)
-  name: ToBinary(short)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_Int16_
-  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.Int16)
-  name.vb: ToBinary(Short)
-  fullName: Magico.Reflection.IntegerTools.ToBinary(short)
-  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Short)
-  nameWithType: IntegerTools.ToBinary(short)
-  nameWithType.vb: IntegerTools.ToBinary(Short)
-- uid: Magico.Reflection.IntegerTools.ToBinary(System.Int32)
-  name: ToBinary(int)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_Int32_
-  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.Int32)
-  name.vb: ToBinary(Integer)
-  fullName: Magico.Reflection.IntegerTools.ToBinary(int)
-  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Integer)
-  nameWithType: IntegerTools.ToBinary(int)
-  nameWithType.vb: IntegerTools.ToBinary(Integer)
-- uid: Magico.Reflection.IntegerTools.ToBinary(System.Int64)
-  name: ToBinary(long)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_Int64_
-  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.Int64)
-  name.vb: ToBinary(Long)
-  fullName: Magico.Reflection.IntegerTools.ToBinary(long)
-  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Long)
-  nameWithType: IntegerTools.ToBinary(long)
-  nameWithType.vb: IntegerTools.ToBinary(Long)
-- uid: Magico.Reflection.IntegerTools.ToBinary(System.SByte)
-  name: ToBinary(sbyte)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_SByte_
-  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.SByte)
-  name.vb: ToBinary(SByte)
-  fullName: Magico.Reflection.IntegerTools.ToBinary(sbyte)
-  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(SByte)
-  nameWithType: IntegerTools.ToBinary(sbyte)
-  nameWithType.vb: IntegerTools.ToBinary(SByte)
-- uid: Magico.Reflection.IntegerTools.ToBinary(System.UInt16)
-  name: ToBinary(ushort)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_UInt16_
-  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.UInt16)
-  name.vb: ToBinary(UShort)
-  fullName: Magico.Reflection.IntegerTools.ToBinary(ushort)
-  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(UShort)
-  nameWithType: IntegerTools.ToBinary(ushort)
-  nameWithType.vb: IntegerTools.ToBinary(UShort)
-- uid: Magico.Reflection.IntegerTools.ToBinary(System.UInt32)
-  name: ToBinary(uint)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_System_UInt32_
-  commentId: M:Magico.Reflection.IntegerTools.ToBinary(System.UInt32)
-  name.vb: ToBinary(UInteger)
-  fullName: Magico.Reflection.IntegerTools.ToBinary(uint)
-  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(UInteger)
-  nameWithType: IntegerTools.ToBinary(uint)
-  nameWithType.vb: IntegerTools.ToBinary(UInteger)
+- uid: Magico.Reflection.IntegerTools.SwapIfSourceLarger``1(``0,``0)
+  name: SwapIfSourceLarger<T>(T, T)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_SwapIfSourceLarger__1___0___0_
+  commentId: M:Magico.Reflection.IntegerTools.SwapIfSourceLarger``1(``0,``0)
+  name.vb: SwapIfSourceLarger(Of T)(T, T)
+  fullName: Magico.Reflection.IntegerTools.SwapIfSourceLarger<T>(T, T)
+  fullName.vb: Magico.Reflection.IntegerTools.SwapIfSourceLarger(Of T)(T, T)
+  nameWithType: IntegerTools.SwapIfSourceLarger<T>(T, T)
+  nameWithType.vb: IntegerTools.SwapIfSourceLarger(Of T)(T, T)
 - uid: Magico.Reflection.IntegerTools.ToBinary*
   name: ToBinary
   href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary_
@@ -1037,69 +947,15 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.IntegerTools.ToBinary
   nameWithType: IntegerTools.ToBinary
-- uid: Magico.Reflection.IntegerTools.ToHex(System.Byte)
-  name: ToHex(byte)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_Byte_
-  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.Byte)
-  name.vb: ToHex(Byte)
-  fullName: Magico.Reflection.IntegerTools.ToHex(byte)
-  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Byte)
-  nameWithType: IntegerTools.ToHex(byte)
-  nameWithType.vb: IntegerTools.ToHex(Byte)
-- uid: Magico.Reflection.IntegerTools.ToHex(System.Int16)
-  name: ToHex(short)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_Int16_
-  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.Int16)
-  name.vb: ToHex(Short)
-  fullName: Magico.Reflection.IntegerTools.ToHex(short)
-  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Short)
-  nameWithType: IntegerTools.ToHex(short)
-  nameWithType.vb: IntegerTools.ToHex(Short)
-- uid: Magico.Reflection.IntegerTools.ToHex(System.Int32)
-  name: ToHex(int)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_Int32_
-  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.Int32)
-  name.vb: ToHex(Integer)
-  fullName: Magico.Reflection.IntegerTools.ToHex(int)
-  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Integer)
-  nameWithType: IntegerTools.ToHex(int)
-  nameWithType.vb: IntegerTools.ToHex(Integer)
-- uid: Magico.Reflection.IntegerTools.ToHex(System.Int64)
-  name: ToHex(long)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_Int64_
-  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.Int64)
-  name.vb: ToHex(Long)
-  fullName: Magico.Reflection.IntegerTools.ToHex(long)
-  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Long)
-  nameWithType: IntegerTools.ToHex(long)
-  nameWithType.vb: IntegerTools.ToHex(Long)
-- uid: Magico.Reflection.IntegerTools.ToHex(System.SByte)
-  name: ToHex(sbyte)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_SByte_
-  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.SByte)
-  name.vb: ToHex(SByte)
-  fullName: Magico.Reflection.IntegerTools.ToHex(sbyte)
-  fullName.vb: Magico.Reflection.IntegerTools.ToHex(SByte)
-  nameWithType: IntegerTools.ToHex(sbyte)
-  nameWithType.vb: IntegerTools.ToHex(SByte)
-- uid: Magico.Reflection.IntegerTools.ToHex(System.UInt16)
-  name: ToHex(ushort)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_UInt16_
-  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.UInt16)
-  name.vb: ToHex(UShort)
-  fullName: Magico.Reflection.IntegerTools.ToHex(ushort)
-  fullName.vb: Magico.Reflection.IntegerTools.ToHex(UShort)
-  nameWithType: IntegerTools.ToHex(ushort)
-  nameWithType.vb: IntegerTools.ToHex(UShort)
-- uid: Magico.Reflection.IntegerTools.ToHex(System.UInt32)
-  name: ToHex(uint)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_System_UInt32_
-  commentId: M:Magico.Reflection.IntegerTools.ToHex(System.UInt32)
-  name.vb: ToHex(UInteger)
-  fullName: Magico.Reflection.IntegerTools.ToHex(uint)
-  fullName.vb: Magico.Reflection.IntegerTools.ToHex(UInteger)
-  nameWithType: IntegerTools.ToHex(uint)
-  nameWithType.vb: IntegerTools.ToHex(UInteger)
+- uid: Magico.Reflection.IntegerTools.ToBinary``1(``0)
+  name: ToBinary<T>(T)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToBinary__1___0_
+  commentId: M:Magico.Reflection.IntegerTools.ToBinary``1(``0)
+  name.vb: ToBinary(Of T)(T)
+  fullName: Magico.Reflection.IntegerTools.ToBinary<T>(T)
+  fullName.vb: Magico.Reflection.IntegerTools.ToBinary(Of T)(T)
+  nameWithType: IntegerTools.ToBinary<T>(T)
+  nameWithType.vb: IntegerTools.ToBinary(Of T)(T)
 - uid: Magico.Reflection.IntegerTools.ToHex*
   name: ToHex
   href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex_
@@ -1107,69 +963,15 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.IntegerTools.ToHex
   nameWithType: IntegerTools.ToHex
-- uid: Magico.Reflection.IntegerTools.ToNumber(System.Byte)
-  name: ToNumber(byte)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_Byte_
-  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.Byte)
-  name.vb: ToNumber(Byte)
-  fullName: Magico.Reflection.IntegerTools.ToNumber(byte)
-  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Byte)
-  nameWithType: IntegerTools.ToNumber(byte)
-  nameWithType.vb: IntegerTools.ToNumber(Byte)
-- uid: Magico.Reflection.IntegerTools.ToNumber(System.Int16)
-  name: ToNumber(short)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_Int16_
-  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.Int16)
-  name.vb: ToNumber(Short)
-  fullName: Magico.Reflection.IntegerTools.ToNumber(short)
-  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Short)
-  nameWithType: IntegerTools.ToNumber(short)
-  nameWithType.vb: IntegerTools.ToNumber(Short)
-- uid: Magico.Reflection.IntegerTools.ToNumber(System.Int32)
-  name: ToNumber(int)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_Int32_
-  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.Int32)
-  name.vb: ToNumber(Integer)
-  fullName: Magico.Reflection.IntegerTools.ToNumber(int)
-  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Integer)
-  nameWithType: IntegerTools.ToNumber(int)
-  nameWithType.vb: IntegerTools.ToNumber(Integer)
-- uid: Magico.Reflection.IntegerTools.ToNumber(System.Int64)
-  name: ToNumber(long)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_Int64_
-  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.Int64)
-  name.vb: ToNumber(Long)
-  fullName: Magico.Reflection.IntegerTools.ToNumber(long)
-  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Long)
-  nameWithType: IntegerTools.ToNumber(long)
-  nameWithType.vb: IntegerTools.ToNumber(Long)
-- uid: Magico.Reflection.IntegerTools.ToNumber(System.SByte)
-  name: ToNumber(sbyte)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_SByte_
-  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.SByte)
-  name.vb: ToNumber(SByte)
-  fullName: Magico.Reflection.IntegerTools.ToNumber(sbyte)
-  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(SByte)
-  nameWithType: IntegerTools.ToNumber(sbyte)
-  nameWithType.vb: IntegerTools.ToNumber(SByte)
-- uid: Magico.Reflection.IntegerTools.ToNumber(System.UInt16)
-  name: ToNumber(ushort)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_UInt16_
-  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.UInt16)
-  name.vb: ToNumber(UShort)
-  fullName: Magico.Reflection.IntegerTools.ToNumber(ushort)
-  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(UShort)
-  nameWithType: IntegerTools.ToNumber(ushort)
-  nameWithType.vb: IntegerTools.ToNumber(UShort)
-- uid: Magico.Reflection.IntegerTools.ToNumber(System.UInt32)
-  name: ToNumber(uint)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_System_UInt32_
-  commentId: M:Magico.Reflection.IntegerTools.ToNumber(System.UInt32)
-  name.vb: ToNumber(UInteger)
-  fullName: Magico.Reflection.IntegerTools.ToNumber(uint)
-  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(UInteger)
-  nameWithType: IntegerTools.ToNumber(uint)
-  nameWithType.vb: IntegerTools.ToNumber(UInteger)
+- uid: Magico.Reflection.IntegerTools.ToHex``1(``0)
+  name: ToHex<T>(T)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToHex__1___0_
+  commentId: M:Magico.Reflection.IntegerTools.ToHex``1(``0)
+  name.vb: ToHex(Of T)(T)
+  fullName: Magico.Reflection.IntegerTools.ToHex<T>(T)
+  fullName.vb: Magico.Reflection.IntegerTools.ToHex(Of T)(T)
+  nameWithType: IntegerTools.ToHex<T>(T)
+  nameWithType.vb: IntegerTools.ToHex(Of T)(T)
 - uid: Magico.Reflection.IntegerTools.ToNumber*
   name: ToNumber
   href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber_
@@ -1177,69 +979,15 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.IntegerTools.ToNumber
   nameWithType: IntegerTools.ToNumber
-- uid: Magico.Reflection.IntegerTools.ToOctal(System.Byte)
-  name: ToOctal(byte)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_Byte_
-  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.Byte)
-  name.vb: ToOctal(Byte)
-  fullName: Magico.Reflection.IntegerTools.ToOctal(byte)
-  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Byte)
-  nameWithType: IntegerTools.ToOctal(byte)
-  nameWithType.vb: IntegerTools.ToOctal(Byte)
-- uid: Magico.Reflection.IntegerTools.ToOctal(System.Int16)
-  name: ToOctal(short)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_Int16_
-  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.Int16)
-  name.vb: ToOctal(Short)
-  fullName: Magico.Reflection.IntegerTools.ToOctal(short)
-  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Short)
-  nameWithType: IntegerTools.ToOctal(short)
-  nameWithType.vb: IntegerTools.ToOctal(Short)
-- uid: Magico.Reflection.IntegerTools.ToOctal(System.Int32)
-  name: ToOctal(int)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_Int32_
-  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.Int32)
-  name.vb: ToOctal(Integer)
-  fullName: Magico.Reflection.IntegerTools.ToOctal(int)
-  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Integer)
-  nameWithType: IntegerTools.ToOctal(int)
-  nameWithType.vb: IntegerTools.ToOctal(Integer)
-- uid: Magico.Reflection.IntegerTools.ToOctal(System.Int64)
-  name: ToOctal(long)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_Int64_
-  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.Int64)
-  name.vb: ToOctal(Long)
-  fullName: Magico.Reflection.IntegerTools.ToOctal(long)
-  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Long)
-  nameWithType: IntegerTools.ToOctal(long)
-  nameWithType.vb: IntegerTools.ToOctal(Long)
-- uid: Magico.Reflection.IntegerTools.ToOctal(System.SByte)
-  name: ToOctal(sbyte)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_SByte_
-  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.SByte)
-  name.vb: ToOctal(SByte)
-  fullName: Magico.Reflection.IntegerTools.ToOctal(sbyte)
-  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(SByte)
-  nameWithType: IntegerTools.ToOctal(sbyte)
-  nameWithType.vb: IntegerTools.ToOctal(SByte)
-- uid: Magico.Reflection.IntegerTools.ToOctal(System.UInt16)
-  name: ToOctal(ushort)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_UInt16_
-  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.UInt16)
-  name.vb: ToOctal(UShort)
-  fullName: Magico.Reflection.IntegerTools.ToOctal(ushort)
-  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(UShort)
-  nameWithType: IntegerTools.ToOctal(ushort)
-  nameWithType.vb: IntegerTools.ToOctal(UShort)
-- uid: Magico.Reflection.IntegerTools.ToOctal(System.UInt32)
-  name: ToOctal(uint)
-  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_System_UInt32_
-  commentId: M:Magico.Reflection.IntegerTools.ToOctal(System.UInt32)
-  name.vb: ToOctal(UInteger)
-  fullName: Magico.Reflection.IntegerTools.ToOctal(uint)
-  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(UInteger)
-  nameWithType: IntegerTools.ToOctal(uint)
-  nameWithType.vb: IntegerTools.ToOctal(UInteger)
+- uid: Magico.Reflection.IntegerTools.ToNumber``1(``0)
+  name: ToNumber<T>(T)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToNumber__1___0_
+  commentId: M:Magico.Reflection.IntegerTools.ToNumber``1(``0)
+  name.vb: ToNumber(Of T)(T)
+  fullName: Magico.Reflection.IntegerTools.ToNumber<T>(T)
+  fullName.vb: Magico.Reflection.IntegerTools.ToNumber(Of T)(T)
+  nameWithType: IntegerTools.ToNumber<T>(T)
+  nameWithType.vb: IntegerTools.ToNumber(Of T)(T)
 - uid: Magico.Reflection.IntegerTools.ToOctal*
   name: ToOctal
   href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal_
@@ -1247,6 +995,15 @@ references:
   isSpec: "True"
   fullName: Magico.Reflection.IntegerTools.ToOctal
   nameWithType: IntegerTools.ToOctal
+- uid: Magico.Reflection.IntegerTools.ToOctal``1(``0)
+  name: ToOctal<T>(T)
+  href: api/Magico.Reflection.IntegerTools.html#Magico_Reflection_IntegerTools_ToOctal__1___0_
+  commentId: M:Magico.Reflection.IntegerTools.ToOctal``1(``0)
+  name.vb: ToOctal(Of T)(T)
+  fullName: Magico.Reflection.IntegerTools.ToOctal<T>(T)
+  fullName.vb: Magico.Reflection.IntegerTools.ToOctal(Of T)(T)
+  nameWithType: IntegerTools.ToOctal<T>(T)
+  nameWithType.vb: IntegerTools.ToOctal(Of T)(T)
 - uid: Magico.Reflection.MethodManager
   name: MethodManager
   href: api/Magico.Reflection.MethodManager.html
