@@ -50,5 +50,25 @@ namespace Magico.Reflection
                 return false;
             }
         }
+
+        /// <summary>
+        /// Checks to see if a specified type is numeric or not
+        /// </summary>
+        /// <typeparam name="T">Type to check</typeparam>
+        /// <returns>True if numeric; false otherwise</returns>
+        public static bool IsTypeNumeric<T>()
+        {
+            var thisType = typeof(T);
+            if (thisType != typeof(byte) && thisType != typeof(sbyte) &&
+                thisType != typeof(short) && thisType != typeof(ushort) &&
+                thisType != typeof(int) && thisType != typeof(uint) &&
+                thisType != typeof(long) && thisType != typeof(ulong) &&
+#if NET8_0_OR_GREATER
+                thisType != typeof(Int128) && thisType != typeof(UInt128) &&
+#endif
+                thisType != typeof(float) && thisType != typeof(double) && thisType != typeof(decimal))
+                return false;
+            return true;
+        }
     }
 }

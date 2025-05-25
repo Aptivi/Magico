@@ -35,7 +35,7 @@ namespace Magico.Reflection
         public static Type[] GetBaseTypes(Type sourceType)
         {
             List<Type> types = [];
-            Type baseType = sourceType.BaseType;
+            Type? baseType = sourceType.BaseType;
             while (baseType != null)
             {
                 types.Add(baseType);

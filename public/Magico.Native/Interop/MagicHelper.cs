@@ -128,7 +128,7 @@ namespace Magico.Native.Interop
             var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_error>(nameof(magic_error)) ??
                 throw new Exception("Can't get delegate.");
             var errorHandle = @delegate.Invoke(handle);
-            return Marshal.PtrToStringAnsi(errorHandle);
+            return Marshal.PtrToStringAnsi(errorHandle) ?? "";
         }
 
         internal static int GetErrorNumber(MagicSet* handle)

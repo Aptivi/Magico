@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Reflection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +35,11 @@ namespace Magico.Enumeration
         /// Shared random for the random number generator (in case you don't have <see cref="Random"/>.Shared)
         /// </summary>
         public static Random RandomShared =>
+#if NET8_0_OR_GREATER
+            Random.Shared;
+#else
             random;
+#endif
 
         /// <summary>
         /// Randomizes the array by shuffling elements, irrespective of the type, using a type of <seealso href="http://en.wikipedia.org/wiki/Schwartzian_transform">Schwartzian transform</seealso>
@@ -65,14 +70,9 @@ namespace Magico.Enumeration
         /// </summary>
         /// <param name="unsorted">An unsorted array of numbers</param>
         /// <returns>Sorted array of byte numbers</returns>
-        public static T[] SortNumbers<T>(this T[] unsorted) where T : IConvertible
+        public static T[] SortNumbers<T>(this T[] unsorted)
         {
-            var thisType = typeof(T);
-            if (thisType != typeof(byte) && thisType != typeof(sbyte) &&
-                thisType != typeof(short) && thisType != typeof(ushort) &&
-                thisType != typeof(int) && thisType != typeof(uint) &&
-                thisType != typeof(long) && thisType != typeof(ulong) &&
-                thisType != typeof(float) && thisType != typeof(double) && thisType != typeof(decimal))
+            if (!ReflectionCommon.IsTypeNumeric<T>())
                 throw new ArgumentException("Not a numeric array");
 
             // Get the number of iterations
@@ -80,6 +80,7 @@ namespace Magico.Enumeration
             bool swap;
 
             // Now, iterate through the whole array to check to see if we need to sort or not
+            var thisType = typeof(T);
             for (int i = 0; i < iteration - 1; i++)
             {
                 // Reset the swap requirement
@@ -93,68 +94,82 @@ namespace Magico.Enumeration
                     // Convert to the target type and determine whether swapping is needed
                     if (thisType == typeof(byte))
                     {
-                        byte source = (byte)Convert.ChangeType(unsorted[j], typeof(byte));
-                        byte target = (byte)Convert.ChangeType(unsorted[j + 1], typeof(byte));
+                        byte source = (byte?)Convert.ChangeType(unsorted[j], typeof(byte)) ?? 0;
+                        byte target = (byte?)Convert.ChangeType(unsorted[j + 1], typeof(byte)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(sbyte))
                     {
-                        sbyte source = (sbyte)Convert.ChangeType(unsorted[j], typeof(sbyte));
-                        sbyte target = (sbyte)Convert.ChangeType(unsorted[j + 1], typeof(sbyte));
+                        sbyte source = (sbyte?)Convert.ChangeType(unsorted[j], typeof(sbyte)) ?? 0;
+                        sbyte target = (sbyte?)Convert.ChangeType(unsorted[j + 1], typeof(sbyte)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(short))
                     {
-                        short source = (short)Convert.ChangeType(unsorted[j], typeof(short));
-                        short target = (short)Convert.ChangeType(unsorted[j + 1], typeof(short));
+                        short source = (short?)Convert.ChangeType(unsorted[j], typeof(short)) ?? 0;
+                        short target = (short?)Convert.ChangeType(unsorted[j + 1], typeof(short)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(ushort))
                     {
-                        ushort source = (ushort)Convert.ChangeType(unsorted[j], typeof(ushort));
-                        ushort target = (ushort)Convert.ChangeType(unsorted[j + 1], typeof(ushort));
+                        ushort source = (ushort?)Convert.ChangeType(unsorted[j], typeof(ushort)) ?? 0;
+                        ushort target = (ushort?)Convert.ChangeType(unsorted[j + 1], typeof(ushort)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(int))
                     {
-                        int source = (int)Convert.ChangeType(unsorted[j], typeof(int));
-                        int target = (int)Convert.ChangeType(unsorted[j + 1], typeof(int));
+                        int source = (int?)Convert.ChangeType(unsorted[j], typeof(int)) ?? 0;
+                        int target = (int?)Convert.ChangeType(unsorted[j + 1], typeof(int)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(uint))
                     {
-                        uint source = (uint)Convert.ChangeType(unsorted[j], typeof(uint));
-                        uint target = (uint)Convert.ChangeType(unsorted[j + 1], typeof(uint));
+                        uint source = (uint?)Convert.ChangeType(unsorted[j], typeof(uint)) ?? 0;
+                        uint target = (uint?)Convert.ChangeType(unsorted[j + 1], typeof(uint)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(long))
                     {
-                        long source = (long)Convert.ChangeType(unsorted[j], typeof(long));
-                        long target = (long)Convert.ChangeType(unsorted[j + 1], typeof(long));
+                        long source = (long?)Convert.ChangeType(unsorted[j], typeof(long)) ?? 0;
+                        long target = (long?)Convert.ChangeType(unsorted[j + 1], typeof(long)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(ulong))
                     {
-                        ulong source = (ulong)Convert.ChangeType(unsorted[j], typeof(ulong));
-                        ulong target = (ulong)Convert.ChangeType(unsorted[j + 1], typeof(ulong));
+                        ulong source = (ulong?)Convert.ChangeType(unsorted[j], typeof(ulong)) ?? 0;
+                        ulong target = (ulong?)Convert.ChangeType(unsorted[j + 1], typeof(ulong)) ?? 0;
                         needsToSwap = source > target;
                     }
+#if NET8_0_OR_GREATER
+                    else if (thisType == typeof(Int128))
+                    {
+                        Int128 source = (Int128?)Convert.ChangeType(unsorted[j], typeof(Int128)) ?? 0;
+                        Int128 target = (Int128?)Convert.ChangeType(unsorted[j + 1], typeof(Int128)) ?? 0;
+                        needsToSwap = source > target;
+                    }
+                    else if (thisType == typeof(UInt128))
+                    {
+                        UInt128 source = (UInt128?)Convert.ChangeType(unsorted[j], typeof(UInt128)) ?? 0;
+                        UInt128 target = (UInt128?)Convert.ChangeType(unsorted[j + 1], typeof(UInt128)) ?? 0;
+                        needsToSwap = source > target;
+                    }
+#endif
                     else if (thisType == typeof(float))
                     {
-                        float source = (float)Convert.ChangeType(unsorted[j], typeof(float));
-                        float target = (float)Convert.ChangeType(unsorted[j + 1], typeof(float));
+                        float source = (float?)Convert.ChangeType(unsorted[j], typeof(float)) ?? 0;
+                        float target = (float?)Convert.ChangeType(unsorted[j + 1], typeof(float)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(double))
                     {
-                        double source = (double)Convert.ChangeType(unsorted[j], typeof(double));
-                        double target = (double)Convert.ChangeType(unsorted[j + 1], typeof(double));
+                        double source = (double?)Convert.ChangeType(unsorted[j], typeof(double)) ?? 0;
+                        double target = (double?)Convert.ChangeType(unsorted[j + 1], typeof(double)) ?? 0;
                         needsToSwap = source > target;
                     }
                     else if (thisType == typeof(decimal))
                     {
-                        decimal source = (decimal)Convert.ChangeType(unsorted[j], typeof(decimal));
-                        decimal target = (decimal)Convert.ChangeType(unsorted[j + 1], typeof(decimal));
+                        decimal source = (decimal?)Convert.ChangeType(unsorted[j], typeof(decimal)) ?? 0;
+                        decimal target = (decimal?)Convert.ChangeType(unsorted[j + 1], typeof(decimal)) ?? 0;
                         needsToSwap = source > target;
                     }
 

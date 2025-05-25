@@ -65,7 +65,7 @@ namespace Magico.Files
                 throw new MagicException("Can't get delegate");
             var magicPathHandle = !string.IsNullOrEmpty(magicPath) ? Marshal.StringToHGlobalAnsi(magicPath) : IntPtr.Zero;
             var pathsStringHandle = @delegate.Invoke(magicPathHandle, systemWide ? 1 : 0);
-            string pathsString = Marshal.PtrToStringAnsi(pathsStringHandle);
+            string pathsString = Marshal.PtrToStringAnsi(pathsStringHandle) ?? "";
 
             // Dispose of our magic path handle
             if (magicPathHandle != IntPtr.Zero)
@@ -221,7 +221,7 @@ namespace Magico.Files
             }
 
             // Return the magic
-            string magicString = Marshal.PtrToStringAnsi(magicStringHandle);
+            string magicString = Marshal.PtrToStringAnsi(magicStringHandle) ?? "";
             return magicString;
         }
 

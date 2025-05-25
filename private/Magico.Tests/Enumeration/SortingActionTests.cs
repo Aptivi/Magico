@@ -21,6 +21,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 using System.Linq;
 using Magico.Enumeration;
+using System;
 
 namespace Magico.Tests.Enumeration
 {
@@ -64,14 +65,16 @@ namespace Magico.Tests.Enumeration
             data.SortNumbers().SequenceEqual(expected).ShouldBeTrue();
         }
 
+#if NET8_0_OR_GREATER
         [TestMethod]
         [Description("Action")]
         public void TestSortNumbersInt128BestCase()
         {
-            long[] expected = [1, 4, 8, 64, 255];
-            long[] data = [1, 4, 8, 64, 255];
+            Int128[] expected = [1, 4, 8, 64, 255];
+            Int128[] data = [1, 4, 8, 64, 255];
             data.SortNumbers().SequenceEqual(expected).ShouldBeTrue();
         }
+#endif
 
         [TestMethod]
         [Description("Action")]
@@ -127,14 +130,16 @@ namespace Magico.Tests.Enumeration
             data.SortNumbers().SequenceEqual(expected).ShouldBeTrue();
         }
 
+#if NET8_0_OR_GREATER
         [TestMethod]
         [Description("Action")]
         public void TestSortNumbersInt128MidCase()
         {
-            long[] expected = [1, 4, 8, 64, 255];
-            long[] data = [4, 1, 8, 64, 255];
+            Int128[] expected = [1, 4, 8, 64, 255];
+            Int128[] data = [4, 1, 8, 64, 255];
             data.SortNumbers().SequenceEqual(expected).ShouldBeTrue();
         }
+#endif
 
         [TestMethod]
         [Description("Action")]
@@ -190,14 +195,16 @@ namespace Magico.Tests.Enumeration
             data.SortNumbers().SequenceEqual(expected).ShouldBeTrue();
         }
 
+#if NET8_0_OR_GREATER
         [TestMethod]
         [Description("Action")]
         public void TestSortNumbersInt128WorstCase()
         {
-            long[] expected = [1, 4, 8, 64, 255];
-            long[] data = [8, 4, 64, 1, 255];
+            Int128[] expected = [1, 4, 8, 64, 255];
+            Int128[] data = [8, 4, 64, 1, 255];
             data.SortNumbers().SequenceEqual(expected).ShouldBeTrue();
         }
+#endif
 
         [TestMethod]
         [Description("Action")]
