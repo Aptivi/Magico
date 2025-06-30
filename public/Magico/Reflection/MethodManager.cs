@@ -69,7 +69,7 @@ namespace Magico.Reflection
             if (method is null)
                 throw new ArgumentException("This method is nonexistent.");
             if (method.IsStatic)
-                throw new ArgumentException($"This method is static. Use the non-object overload. {method.Name}");
+                throw new ArgumentException("This method is static. Use the non-object overload." + $" {method.Name}");
 
             // Now, invoke the method.
             if (args is not null && args.Length > 0)
@@ -98,7 +98,7 @@ namespace Magico.Reflection
             if (method is null)
                 throw new ArgumentException("This method is nonexistent.");
             if (!method.IsStatic)
-                throw new ArgumentException($"This method is not static. Use the object overload. {method.Name}");
+                throw new ArgumentException("This method is not static. Use the object overload." + $" {method.Name}");
 
             // Now, invoke the method.
             if (args is not null && args.Length > 0)

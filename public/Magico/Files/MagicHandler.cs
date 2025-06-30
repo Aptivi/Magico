@@ -160,9 +160,9 @@ namespace Magico.Files
 
             // Check the paths
             if (!File.Exists(filePath))
-                throw new MagicException($"Failed to load file from path {filePath} because it wasn't found.");
+                throw new MagicException(string.Format("Failed to load file from path {0} because it wasn't found.", filePath));
             if (!File.Exists(magicPath))
-                throw new MagicException($"Failed to load magic file from path {magicPath} because it wasn't found.");
+                throw new MagicException(string.Format("Failed to load magic file from path {0} because it wasn't found.", filePath));
 
             // Now, let's go back to the dark side
             unsafe
@@ -187,7 +187,7 @@ namespace Magico.Files
                         throw new MagicException("Can't get delegate");
                     int paramResult = delegate2.Invoke(handle, parameter, valueHandle);
                     if (paramResult != 0)
-                        throw new MagicException($"Failed to set parameter {parameter} to {paramValue}: [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                        throw new MagicException(string.Format("Failed to set parameter {0} to {1}:", parameter.ToString(), paramValue) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
 
                     // Validate the parameter
                     nint result;
@@ -195,10 +195,10 @@ namespace Magico.Files
                         throw new MagicException("Can't get delegate");
                     int paramGetResult = delegate3.Invoke(handle, parameter, valueHandleResult);
                     if (paramGetResult != 0)
-                        throw new MagicException($"Failed to get parameter {parameter} value: [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                        throw new MagicException(string.Format("Failed to get parameter {0} value:", parameter.ToString()) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
                     result = Marshal.ReadIntPtr(valueHandleResult);
                     if (result != valuePtr)
-                        throw new MagicException($"Failed to validate parameter {parameter} for value {paramValue} (got {result}): [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                        throw new MagicException(string.Format("Failed to validate parameter {0} for value {1} (got {2}):", parameter.ToString(), paramValue, result) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
 
                     // Free the addresses
                     Marshal.FreeHGlobal(valueHandle);
@@ -210,14 +210,14 @@ namespace Magico.Files
                     throw new MagicException("Can't get delegate");
                 int loadResult = delegate4.Invoke(handle, magicPath);
                 if (loadResult != 0)
-                    throw new MagicException($"Failed to load magic database file from path {magicPath}: [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                    throw new MagicException(string.Format("Failed to load magic database file from path {0}:", magicPath) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
 
                 // Now, get the magic
                 var delegate5 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_file>(nameof(MagicHelper.magic_file)) ??
                     throw new MagicException("Can't get delegate");
                 magicStringHandle = delegate5.Invoke(handle, filePath);
                 if (magicStringHandle == IntPtr.Zero)
-                    throw new MagicException($"Failed to get magic of file {filePath} from magic database {magicPath}: [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                    throw new MagicException(string.Format("Failed to get magic of file {0} from magic database {1}:", filePath, magicPath) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
             }
 
             // Return the magic

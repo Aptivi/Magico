@@ -38,7 +38,7 @@ namespace Magico.Native
                 return;
             string libPath = GetLibraryPath(LibraryName);
             if (!File.Exists(libPath))
-                throw new Exception($"Can't load magic library because it isn't found. Magic library was: {libPath}");
+                throw new Exception("Can't load magic library because it isn't found. Magic library was:" + $" {libPath}");
             var architecture = PlatformHelper.GetArchitecture();
             if (architecture == Architecture.X86 || architecture == Architecture.Arm)
                 throw new PlatformNotSupportedException("32-bit platforms are no longer supported.");
