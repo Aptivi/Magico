@@ -1,0 +1,94 @@
+{
+  "lang": "chi",
+  "name": "Chinese (Simplified)",
+  "cultures": [
+    "zh",
+    "zh-CN",
+    "zh-HK",
+    "zh-MO",
+    "zh-SG",
+    "zh-Hans",
+    "zh-Hans-CN",
+    "zh-Hans-HK",
+    "zh-Hans-MO",
+    "zh-Hans-SG"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC",
+      "text": "Fēi shùzhí shùzǔ"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGIC",
+      "text": "tōngyòng libmagic cuòwù"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED",
+      "text": "běn jī kù shàngwèi chūshǐhuà."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE",
+      "text": "Wúfǎ huòqǔ wěituō"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND",
+      "text": "wúfǎ cóng lùjìng {0} jiāzài wénjiàn, yīnwèi wèi zhǎodào gāi wénjiàn."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND",
+      "text": "Wúfǎ cóng lùjìng {0} jiāzài mófǎ wénjiàn, yīnwèi wèi zhǎodào gāi wénjiàn."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED",
+      "text": "Wúfǎ jiāng cānshù {0} shèzhì wèi {1}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED",
+      "text": "Wúfǎ huòqǔ cānshù {0} de zhí:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED",
+      "text": "Wúfǎ yànzhèng cānshù {0} de zhí shìfǒu wèi {1}(huòqǔ dào {2}):"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED",
+      "text": "Wúfǎ cóng lùjìng {0} jiāzài mófǎ shùjùkù wénjiàn:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED",
+      "text": "Wúfǎ cóng mófǎ shùjùkù {1} huòqǔ wénjiàn {0} de mófǎ zhí:"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE",
+      "text": "Wèi tígōng lèixíng."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR",
+      "text": "Wèi tígōng biànliàng."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND",
+      "text": "Wèi zhǎodào wénjiàn"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC",
+      "text": "fēi shùzhí"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL",
+      "text": "fēi zìránshù"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND",
+      "text": "cǐ fāngfǎ bù cúnzài."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC",
+      "text": "Cǐ fāngfǎ shì jìngtài de. Qǐng shǐyòng fēi duìxiàng zhòng zài."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC",
+      "text": "Cǐ fāngfǎ bùshì jìngtài de. Qǐng shǐyòng duìxiàng zhòng zài."
+    }
+  ]
+}

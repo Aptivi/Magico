@@ -1,0 +1,95 @@
+{
+  "lang": "ger",
+  "name": "German",
+  "cultures": [
+    "de",
+    "de-AT",
+    "de-BE",
+    "de-CH",
+    "de-DE",
+    "de-IT",
+    "de-LI",
+    "de-LU",
+    "nds",
+    "nds-DE",
+    "nds-NL"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC",
+      "text": "Kein numerisches Array"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGIC",
+      "text": "Allgemeiner libmagic-Fehler"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED",
+      "text": "Die native Bibliothek ist noch nicht initialisiert."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE",
+      "text": "Delegat kann nicht abgerufen werden."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND",
+      "text": "Datei konnte nicht aus Pfad {0} geladen werden, da sie nicht gefunden wurde."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND",
+      "text": "Magic-Datei konnte nicht aus Pfad {0} geladen werden, da sie nicht gefunden wurde."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED",
+      "text": "Parameter {0} konnte nicht auf {1} gesetzt werden:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED",
+      "text": "Wert von Parameter {0} konnte nicht abgerufen werden:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED",
+      "text": "Parameter {0} konnte nicht für Wert {1} validiert werden (erhielt {2}):"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED",
+      "text": "Magic-Datenbankdatei konnte nicht aus Pfad {0} geladen werden:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED",
+      "text": "Magic der Datei {0} konnte nicht aus Magic-Datenbank {1} abgerufen werden:"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE",
+      "text": "Typ nicht angegeben."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR",
+      "text": "Variable nicht angegeben."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND",
+      "text": "Datei nicht gefunden"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC",
+      "text": "Kein numerischer Wert"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL",
+      "text": "Keine natürliche Zahl"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND",
+      "text": "Diese Methode existiert nicht."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC",
+      "text": "Diese Methode ist statisch. Verwenden Sie die Nicht-Objekt-Überladung."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC",
+      "text": "Diese Methode ist nicht statisch. Verwenden Sie die Objekt-Überladung."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "lang": "arb",
+  "name": "Arabic",
+  "cultures": [
+    "ar",
+    "ar-001",
+    "ar-AE",
+    "ar-BH",
+    "ar-DJ",
+    "ar-DZ",
+    "ar-EG",
+    "ar-ER",
+    "ar-IL",
+    "ar-IQ",
+    "ar-JO",
+    "ar-KM",
+    "ar-KW",
+    "ar-LB",
+    "ar-LY",
+    "ar-MA",
+    "ar-MR",
+    "ar-OM",
+    "ar-PS",
+    "ar-QA",
+    "ar-SA",
+    "ar-SD",
+    "ar-SO",
+    "ar-SS",
+    "ar-SY",
+    "ar-TD",
+    "ar-TN",
+    "ar-YE"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC",
+      "text": "laysat masfufatan raqmiatan"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGIC",
+      "text": "khata eam fi libmagic"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED",
+      "text": "lam tatima tahyiat almaktabat al'asliat bieda."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE",
+      "text": "la yumkin alhusul ealaa almufawad"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND",
+      "text": "fashal tahmil almilafi min almasar {0} lieadam aleuthur ealayhi."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND",
+      "text": "fashil tahmil milafi majik min almasar {0} lieadam aleuthur ealayhi."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED",
+      "text": "fashal taeyin almuealima {0} 'iilaa {1}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED",
+      "text": "fashil alhusul ealaa qimat almuealima {0}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED",
+      "text": "fashil altahaquq min sihat almuealima {0} lilqima {1} (hasalat ealaa {2}):"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED",
+      "text": "fashil tahmil milafi qaeidat bayanat majik min almasar {0}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED",
+      "text": "fashal alhusul ealaa majik lilmilafi {0} min qaeidat bayanat majik {1}:"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE",
+      "text": "alnawe ghayr mutawafiri."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR",
+      "text": "almutaghayir ghayr mutawafiri."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND",
+      "text": "lam yatima aleuthur ealaa almilafa."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC",
+      "text": "laysat qimatan raqmiatan."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL",
+      "text": "laysat eddan tbyeyan."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND",
+      "text": "hadhih altariqat ghayr mawjudatin."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC",
+      "text": "hadhih altariqat thabitatun. astakhdim altahmil alzaayid ghayr alkayini."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC",
+      "text": "hadhih altariqat ghayr thabitatin. astakhdim altahmil alzaayid lilkayinati."
+    }
+  ]
+}

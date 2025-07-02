@@ -1,0 +1,86 @@
+{
+  "lang": "ind-T",
+  "name": "Hindi",
+  "cultures": [
+    "hi",
+    "hi-IN"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC",
+      "text": "संख्यात्मक सरणी नहीं"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGIC",
+      "text": "जेनेरिक libmagic त्रुटि"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED",
+      "text": "मूल लाइब्रेरी अभी आरंभ नहीं हुई है।"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE",
+      "text": "प्रतिनिधि नहीं मिल सकता"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND",
+      "text": "पथ {0} से फ़ाइल लोड करने में विफल रहा क्योंकि यह नहीं मिली।"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND",
+      "text": "पथ {0} से मैजिक फ़ाइल लोड करने में विफल रहा क्योंकि यह नहीं मिली।"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED",
+      "text": "पैरामीटर {0} को {1} पर सेट करने में विफल:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED",
+      "text": "पैरामीटर {0} मान प्राप्त करने में विफल:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED",
+      "text": "मान {1} के लिए पैरामीटर {0} को मान्य करने में विफल ({2} मिला):"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED",
+      "text": "पथ {0} से मैजिक डेटाबेस फ़ाइल लोड करने में विफल:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED",
+      "text": "मैजिक डेटाबेस {1} से फ़ाइल {0} का मैजिक प्राप्त करने में विफल:"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE",
+      "text": "प्रकार प्रदान नहीं किया गया है।"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR",
+      "text": "चर प्रदान नहीं किया गया है।"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND",
+      "text": "फ़ाइल नहीं मिली"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC",
+      "text": "संख्यात्मक मान नहीं"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL",
+      "text": "प्राकृतिक संख्या नहीं"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND",
+      "text": "यह विधि अस्तित्वहीन है।"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC",
+      "text": "यह विधि स्थिर है। गैर-ऑब्जेक्ट ओवरलोड का उपयोग करें।"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC",
+      "text": "यह विधि स्थिर नहीं है। ऑब्जेक्ट ओवरलोड का उपयोग करें।"
+    }
+  ]
+}

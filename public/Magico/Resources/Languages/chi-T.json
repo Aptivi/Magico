@@ -1,0 +1,94 @@
+{
+  "lang": "chi-T",
+  "name": "Chinese (Simplified)",
+  "cultures": [
+    "zh",
+    "zh-CN",
+    "zh-HK",
+    "zh-MO",
+    "zh-SG",
+    "zh-Hans",
+    "zh-Hans-CN",
+    "zh-Hans-HK",
+    "zh-Hans-MO",
+    "zh-Hans-SG"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC",
+      "text": "非数值数组"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGIC",
+      "text": "通用 libmagic 错误"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED",
+      "text": "本机库尚未初始化。"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE",
+      "text": "无法获取委托"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND",
+      "text": "无法从路径 {0} 加载文件，因为未找到该文件。"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND",
+      "text": "无法从路径 {0} 加载魔法文件，因为未找到该文件。"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED",
+      "text": "无法将参数 {0} 设置为 {1}："
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED",
+      "text": "无法获取参数 {0} 的值："
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED",
+      "text": "无法验证参数 {0} 的值是否为 {1}（获取到 {2}）："
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED",
+      "text": "无法从路径 {0} 加载魔法数据库文件："
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED",
+      "text": "无法从魔法数据库 {1} 获取文件 {0} 的魔法值："
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE",
+      "text": "未提供类型。"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR",
+      "text": "未提供变量。"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND",
+      "text": "未找到文件"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC",
+      "text": "非数值"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL",
+      "text": "非自然数"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND",
+      "text": "此方法不存在。"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC",
+      "text": "此方法是静态的。请使用非对象重载。"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC",
+      "text": "此方法不是静态的。请使用对象重载。"
+    }
+  ]
+}

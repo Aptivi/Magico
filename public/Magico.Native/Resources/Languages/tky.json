@@ -1,0 +1,27 @@
+{
+  "lang": "tky",
+  "name": "Turkish",
+  "cultures": [
+    "tr",
+    "tr-CY",
+    "tr-TR"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NOTINITED",
+      "text": "Yerel kütüphane henüz başlatılmadı."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NODELEGATE",
+      "text": "Temsilci alınamıyor"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND",
+      "text": "Sihirli kütüphane yüklenemiyor çünkü bulunamadı. Sihirli kütüphane:"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED",
+      "text": "32 bit platformlar artık desteklenmiyor."
+    }
+  ]
+}

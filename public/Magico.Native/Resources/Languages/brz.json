@@ -1,0 +1,25 @@
+{
+  "lang": "brz",
+  "name": "Portuguese (Brazil)",
+  "cultures": [
+    "pt-BR"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NOTINITED",
+      "text": "A biblioteca nativa ainda não foi inicializada."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NODELEGATE",
+      "text": "Não é possível obter o delegado."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND",
+      "text": "Não é possível carregar a biblioteca Magic porque ela não foi encontrada. A biblioteca Magic era:"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED",
+      "text": "Plataformas de 32 bits não são mais suportadas."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "lang": "ind",
+  "name": "Hindi",
+  "cultures": [
+    "hi-Latn",
+    "hi-Latn-IN"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NOTINITED",
+      "text": "mool laibreree abhee tak aarambh nahin huee hai."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NODELEGATE",
+      "text": "pratinidhi nahin mil sakata"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND",
+      "text": "maijik laibreree lod nahin ho sakatee kyonki yah nahin milee hai. maijik laibreree thee:"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED",
+      "text": "32-bit pletaform ab samarthit nahin hain."
+    }
+  ]
+}

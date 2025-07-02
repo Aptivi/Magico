@@ -1,0 +1,32 @@
+{
+  "lang": "dtc",
+  "name": "Dutch",
+  "cultures": [
+    "nl",
+    "nl-AW",
+    "nl-BE",
+    "nl-BQ",
+    "nl-CW",
+    "nl-NL",
+    "nl-SR",
+    "nl-SX"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NOTINITED",
+      "text": "De native bibliotheek is nog niet geïnitialiseerd."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NODELEGATE",
+      "text": "Kan geen gemachtigde verkrijgen."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND",
+      "text": "Kan de magische bibliotheek niet laden omdat deze niet gevonden is. De magische bibliotheek was:"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED",
+      "text": "32-bits platforms worden niet langer ondersteund."
+    }
+  ]
+}

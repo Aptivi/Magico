@@ -1,0 +1,30 @@
+{
+  "lang": "nor",
+  "name": "Norwegian",
+  "cultures": [
+    "nb",
+    "nb-NO",
+    "nb-SJ",
+    "nn",
+    "nn-NO",
+    "no"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NOTINITED",
+      "text": "Det opprinnelige biblioteket er ikke initialisert ennå."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NODELEGATE",
+      "text": "Kan ikke hente delegat"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND",
+      "text": "Kan ikke laste inn magic-biblioteket fordi det ikke finnes. Magic-biblioteket var:"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED",
+      "text": "32-biters plattformer støttes ikke lenger."
+    }
+  ]
+}

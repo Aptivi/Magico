@@ -1,0 +1,27 @@
+{
+  "lang": "grk",
+  "name": "Greek",
+  "cultures": [
+    "el",
+    "el-CY",
+    "el-GR"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NOTINITED",
+      "text": "Η εγγενής βιβλιοθήκη δεν έχει αρχικοποιηθεί ακόμα."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NODELEGATE",
+      "text": "Δεν είναι δυνατή η λήψη του εκπροσώπου"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND",
+      "text": "Δεν είναι δυνατή η φόρτωση της μαγικής βιβλιοθήκης επειδή δεν βρέθηκε. Η μαγική βιβλιοθήκη ήταν:"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED",
+      "text": "Οι πλατφόρμες 32-bit δεν υποστηρίζονται πλέον."
+    }
+  ]
+}

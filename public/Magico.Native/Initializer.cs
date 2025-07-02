@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2023-2024  Aptivi
 //
 // This file is part of Magico
@@ -21,6 +21,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using Magico.Native.Languages;
 using SpecProbe.Loader;
 using SpecProbe.Software.Platform;
 
@@ -38,10 +39,10 @@ namespace Magico.Native
                 return;
             string libPath = GetLibraryPath(LibraryName);
             if (!File.Exists(libPath))
-                throw new Exception("Can't load magic library because it isn't found. Magic library was:" + $" {libPath}");
+                throw new Exception(LanguageTools.GetLocalized("MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND") + $" {libPath}");
             var architecture = PlatformHelper.GetArchitecture();
             if (architecture == Architecture.X86 || architecture == Architecture.Arm)
-                throw new PlatformNotSupportedException("32-bit platforms are no longer supported.");
+                throw new PlatformNotSupportedException(LanguageTools.GetLocalized("MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED"));
             libManager = new LibraryManager(new LibraryFile(libPath));
             if (PlatformHelper.IsOnWindows())
             {

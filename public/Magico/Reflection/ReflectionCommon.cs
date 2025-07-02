@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2024  Aptivi
 //
 // This file is part of Magico
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Languages;
 using System;
 using System.IO;
 using System.Reflection;
@@ -37,7 +38,7 @@ namespace Magico.Reflection
         public static bool IsDotnetAssemblyFile(string path, out AssemblyName? asmName)
         {
             if (!File.Exists(path))
-                throw new FileNotFoundException("File not found", path);
+                throw new FileNotFoundException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND"), path);
 
             try
             {

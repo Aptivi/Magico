@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2024  Aptivi
 //
 // This file is part of Magico
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Native.Languages;
 using System;
 using System.Runtime.InteropServices;
 
@@ -124,7 +125,7 @@ namespace Magico.Native.Interop
         internal static string GetError(MagicSet* handle)
         {
             if (Initializer.libManager is null)
-                throw new Exception("The native library is not initialized yet.");
+                throw new Exception(LanguageTools.GetLocalized("MAGICO_NATIVE_EXCEPTION_NOTINITED"));
             var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_error>(nameof(magic_error)) ??
                 throw new Exception("Can't get delegate.");
             var errorHandle = @delegate.Invoke(handle);
@@ -134,7 +135,7 @@ namespace Magico.Native.Interop
         internal static int GetErrorNumber(MagicSet* handle)
         {
             if (Initializer.libManager is null)
-                throw new Exception("The native library is not initialized yet.");
+                throw new Exception(LanguageTools.GetLocalized("MAGICO_NATIVE_EXCEPTION_NOTINITED"));
             var @delegate = Initializer.libManager.GetNativeMethodDelegate<magic_errno>(nameof(magic_errno)) ??
                 throw new Exception("Can't get delegate.");
             return @delegate.Invoke(handle);

@@ -1,0 +1,27 @@
+{
+  "lang": "iri",
+  "name": "Irish",
+  "cultures": [
+    "ga",
+    "ga-GB",
+    "ga-IE"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NOTINITED",
+      "text": "Níl an leabharlann dhúchasach tosaithe fós."
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NODELEGATE",
+      "text": "Ní féidir toscaire a fháil"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND",
+      "text": "Ní féidir an leabharlann draíochta a luchtú mar níl sí le fáil. Bhí an leabharlann draíochta:"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED",
+      "text": "Ní thacaítear le hardáin 32-giotán a thuilleadh."
+    }
+  ]
+}

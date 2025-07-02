@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2024  Aptivi
 //
 // This file is part of Magico
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Languages;
 using System;
 
 namespace Magico.Reflection
@@ -49,7 +50,7 @@ namespace Magico.Reflection
         public static (T source, T target) SwapIfSourceLarger<T>(this T SourceNumber, T TargetNumber)
         {
             if (!ReflectionCommon.IsTypeNumeric<T>())
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
 
             var thisType = typeof(T);
             if (thisType == typeof(byte))
@@ -159,7 +160,7 @@ namespace Magico.Reflection
                 return (SourceNumber, TargetNumber);
             }
             else
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
         }
 
         /// <summary>
@@ -194,7 +195,7 @@ namespace Magico.Reflection
         public static int GetDigits<T>(this T Number)
         {
             if (!ReflectionCommon.IsTypeNumeric<T>())
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
 
             var thisType = typeof(T);
             if (thisType == typeof(byte))
@@ -265,7 +266,7 @@ namespace Magico.Reflection
                 return source == 0 ? 1 : (int)Math.Log10((double)Math.Abs(source)) + 1;
             }
             else
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
         }
 
         /// <summary>
@@ -274,7 +275,7 @@ namespace Magico.Reflection
         public static string SizeString<T>(this T bytes)
         {
             if (!ReflectionCommon.IsTypeNumeric<T>())
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
 
             var thisType = typeof(T);
             if (thisType == typeof(byte))
@@ -501,7 +502,7 @@ namespace Magico.Reflection
                 return string.Format("{0:0.#} {1}", len, sizeOrders[orderIdx]);
             }
             else
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
         }
 
         /// <summary>
@@ -512,7 +513,7 @@ namespace Magico.Reflection
         public static string ToBinary<T>(this T num)
         {
             if (!ReflectionCommon.IsTypeNumeric<T>())
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
 
             var thisType = typeof(T);
             if (thisType == typeof(byte))
@@ -551,7 +552,7 @@ namespace Magico.Reflection
                 return Convert.ToString(source, 2);
             }
             else
-                throw new ArgumentException("Not a natural number");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL"));
         }
 
         /// <summary>
@@ -562,7 +563,7 @@ namespace Magico.Reflection
         public static string ToOctal<T>(this T num)
         {
             if (!ReflectionCommon.IsTypeNumeric<T>())
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
 
             var thisType = typeof(T);
             if (thisType == typeof(byte))
@@ -601,7 +602,7 @@ namespace Magico.Reflection
                 return Convert.ToString(source, 8);
             }
             else
-                throw new ArgumentException("Not a natural number");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL"));
         }
 
         /// <summary>
@@ -612,7 +613,7 @@ namespace Magico.Reflection
         public static string ToNumber<T>(this T num)
         {
             if (!ReflectionCommon.IsTypeNumeric<T>())
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
 
             var thisType = typeof(T);
             if (thisType == typeof(byte))
@@ -651,7 +652,7 @@ namespace Magico.Reflection
                 return Convert.ToString(source);
             }
             else
-                throw new ArgumentException("Not a natural number");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL"));
         }
 
         /// <summary>
@@ -662,7 +663,7 @@ namespace Magico.Reflection
         public static string ToHex<T>(this T num)
         {
             if (!ReflectionCommon.IsTypeNumeric<T>())
-                throw new ArgumentException("Not a numeric value");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC"));
 
             var thisType = typeof(T);
             if (thisType == typeof(byte))
@@ -701,7 +702,7 @@ namespace Magico.Reflection
                 return Convert.ToString(source, 16);
             }
             else
-                throw new ArgumentException("Not a natural number");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL"));
         }
     }
 }

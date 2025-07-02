@@ -1,0 +1,192 @@
+{
+  "lang": "eng",
+  "name": "English",
+  "cultures": [
+    "en",
+    "en-001",
+    "en-029",
+    "en-150",
+    "en-AE",
+    "en-AG",
+    "en-AI",
+    "en-AS",
+    "en-AT",
+    "en-AU",
+    "en-BB",
+    "en-BE",
+    "en-BI",
+    "en-BM",
+    "en-BS",
+    "en-BW",
+    "en-BZ",
+    "en-CA",
+    "en-CC",
+    "en-CH",
+    "en-CK",
+    "en-CM",
+    "en-CX",
+    "en-CY",
+    "en-DE",
+    "en-DK",
+    "en-DM",
+    "en-ER",
+    "en-FI",
+    "en-FJ",
+    "en-FK",
+    "en-FM",
+    "en-GD",
+    "en-GG",
+    "en-GH",
+    "en-GI",
+    "en-GM",
+    "en-GU",
+    "en-GY",
+    "en-HK",
+    "en-ID",
+    "en-IE",
+    "en-IL",
+    "en-IM",
+    "en-IN",
+    "en-IO",
+    "en-JE",
+    "en-JM",
+    "en-KE",
+    "en-KI",
+    "en-KN",
+    "en-KY",
+    "en-LC",
+    "en-LR",
+    "en-LS",
+    "en-MG",
+    "en-MH",
+    "en-MO",
+    "en-MP",
+    "en-MS",
+    "en-MT",
+    "en-MU",
+    "en-MV",
+    "en-MW",
+    "en-MY",
+    "en-NA",
+    "en-NF",
+    "en-NG",
+    "en-NL",
+    "en-NR",
+    "en-NU",
+    "en-NZ",
+    "en-PG",
+    "en-PH",
+    "en-PK",
+    "en-PN",
+    "en-PR",
+    "en-PW",
+    "en-RW",
+    "en-SB",
+    "en-SC",
+    "en-SD",
+    "en-SE",
+    "en-SG",
+    "en-SH",
+    "en-SI",
+    "en-SL",
+    "en-SS",
+    "en-SX",
+    "en-SZ",
+    "en-TC",
+    "en-TK",
+    "en-TO",
+    "en-TT",
+    "en-TV",
+    "en-TZ",
+    "en-UG",
+    "en-UM",
+    "en-US",
+    "en-US-POSIX",
+    "en-VC",
+    "en-VG",
+    "en-VI",
+    "en-VU",
+    "en-WS",
+    "en-ZA",
+    "en-ZM",
+    "en-ZW"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC",
+      "text": "Not a numeric array"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGIC",
+      "text": "Generic libmagic error"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED",
+      "text": "The native library is not initialized yet."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE",
+      "text": "Can't get delegate"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND",
+      "text": "Failed to load file from path {0} because it wasn't found."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND",
+      "text": "Failed to load magic file from path {0} because it wasn't found."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED",
+      "text": "Failed to set parameter {0} to {1}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED",
+      "text": "Failed to get parameter {0} value:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED",
+      "text": "Failed to validate parameter {0} for value {1} (got {2}):"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED",
+      "text": "Failed to load magic database file from path {0}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED",
+      "text": "Failed to get magic of file {0} from magic database {1}:"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE",
+      "text": "Type is not provided."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR",
+      "text": "Variable is not provided."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND",
+      "text": "File not found"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC",
+      "text": "Not a numeric value"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL",
+      "text": "Not a natural number"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND",
+      "text": "This method is nonexistent."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC",
+      "text": "This method is static. Use the non-object overload."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC",
+      "text": "This method is not static. Use the object overload."
+    }
+  ]
+}

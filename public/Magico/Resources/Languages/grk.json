@@ -1,0 +1,87 @@
+{
+  "lang": "grk",
+  "name": "Greek",
+  "cultures": [
+    "el",
+    "el-CY",
+    "el-GR"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC",
+      "text": "Δεν είναι αριθμητικός πίνακας"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGIC",
+      "text": "Γενικό σφάλμα libmagic"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED",
+      "text": "Η εγγενής βιβλιοθήκη δεν έχει αρχικοποιηθεί ακόμα."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE",
+      "text": "Δεν είναι δυνατή η λήψη του εκπροσώπου"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND",
+      "text": "Αποτυχία φόρτωσης αρχείου από τη διαδρομή {0} επειδή δεν βρέθηκε."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND",
+      "text": "Αποτυχία φόρτωσης μαγικού αρχείου από τη διαδρομή {0} επειδή δεν βρέθηκε."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED",
+      "text": "Αποτυχία ορισμού της παραμέτρου {0} σε {1}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED",
+      "text": "Αποτυχία λήψης τιμής παραμέτρου {0}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED",
+      "text": "Αποτυχία επικύρωσης παραμέτρου {0} για την τιμή {1} (λήψη {2}):"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED",
+      "text": "Αποτυχία φόρτωσης αρχείου βάσης δεδομένων μαγείας από τη διαδρομή {0}:"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED",
+      "text": "Αποτυχία λήψης μαγικού αρχείου {0} από τη μαγική βάση δεδομένων {1}:"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE",
+      "text": "Ο τύπος δεν παρέχεται."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR",
+      "text": "Η μεταβλητή δεν παρέχεται."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND",
+      "text": "Το αρχείο δεν βρέθηκε"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC",
+      "text": "Δεν είναι αριθμητική τιμή"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL",
+      "text": "Δεν είναι φυσικός αριθμός"
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND",
+      "text": "Αυτή η μέθοδος δεν υπάρχει."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC",
+      "text": "Αυτή η μέθοδος είναι στατική. Χρησιμοποιήστε την υπερφόρτωση μη αντικειμένου."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC",
+      "text": "Αυτή η μέθοδος δεν είναι στατική. Χρησιμοποιήστε την υπερφόρτωση αντικειμένου."
+    }
+  ]
+}

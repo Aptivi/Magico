@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2024  Aptivi
 //
 // This file is part of Magico
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Languages;
 using Magico.Reflection;
 using System;
 using System.Collections.Generic;
@@ -73,7 +74,7 @@ namespace Magico.Enumeration
         public static T[] SortNumbers<T>(this T[] unsorted)
         {
             if (!ReflectionCommon.IsTypeNumeric<T>())
-                throw new ArgumentException("Not a numeric array");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC"));
 
             // Get the number of iterations
             int iteration = unsorted.Length;

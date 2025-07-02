@@ -1,0 +1,26 @@
+{
+  "lang": "ind-T",
+  "name": "Hindi",
+  "cultures": [
+    "hi",
+    "hi-IN"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NOTINITED",
+      "text": "मूल लाइब्रेरी अभी तक आरंभ नहीं हुई है।"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_NODELEGATE",
+      "text": "प्रतिनिधि नहीं मिल सकता"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND",
+      "text": "मैजिक लाइब्रेरी लोड नहीं हो सकती क्योंकि यह नहीं मिली है। मैजिक लाइब्रेरी थी:"
+    },
+    {
+      "loc": "MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED",
+      "text": "32-बिट प्लेटफ़ॉर्म अब समर्थित नहीं हैं।"
+    }
+  ]
+}

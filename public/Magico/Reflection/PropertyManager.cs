@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2024  Aptivi
 //
 // This file is part of Magico
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Languages;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -42,7 +43,7 @@ namespace Magico.Reflection
             if (VariableType is not null)
                 TargetProperty = GetProperty(Variable, VariableType);
             else
-                throw new ArgumentException("Type is not provided.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE"));
 
             // Set the variable if found
             SetPropertyValue(TargetProperty, VariableValue);
@@ -57,7 +58,7 @@ namespace Magico.Reflection
         {
             // Check the property
             if (Variable is null)
-                throw new ArgumentException("Variable is not provided.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR"));
 
             // The "obj" description says this: "The object whose property value will be set."
             // Apparently, SetValue works on modules if you specify a variable name as an object (first argument). Not only classes.
@@ -88,7 +89,7 @@ namespace Magico.Reflection
             if (VariableType is not null)
                 TargetProperty = GetProperty(Variable, VariableType);
             else
-                throw new ArgumentException("Type is not provided.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE"));
 
             // Set the variable if found
             SetPropertyValueInstance(instance, TargetProperty, VariableValue);
@@ -104,7 +105,7 @@ namespace Magico.Reflection
         {
             // Check the property
             if (Variable is null)
-                throw new ArgumentException("Variable is not provided.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR"));
 
             // This is how to set a value in instance variables.
             Variable.SetValue(instance, VariableValue);
@@ -141,7 +142,7 @@ namespace Magico.Reflection
             if (VariableType is not null)
                 TargetProperty = GetProperty(Variable, VariableType);
             else
-                throw new ArgumentException("Type is not provided.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE"));
 
             // Get the variable if found
             return GetPropertyValue(TargetProperty);
@@ -156,7 +157,7 @@ namespace Magico.Reflection
         {
             // Check the property
             if (Variable is null)
-                throw new ArgumentException("Variable is not provided.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR"));
 
             // The "obj" description says this: "The object whose property value will be set."
             // Apparently, SetValue works on modules if you specify a variable name as an object (first argument). Not only classes.
@@ -187,7 +188,7 @@ namespace Magico.Reflection
             if (VariableType is not null)
                 TargetProperty = GetProperty(Variable, VariableType);
             else
-                throw new ArgumentException("Type is not provided.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE"));
 
             // Get the variable if found
             return GetPropertyValueInstance(instance, TargetProperty);
@@ -203,7 +204,7 @@ namespace Magico.Reflection
         {
             // Check the property
             if (Variable is null)
-                throw new ArgumentException("Variable is not provided.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR"));
 
             // This is how to get a value in instance variables.
             return Variable.GetValue(instance);

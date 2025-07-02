@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2024  Aptivi
 //
 // This file is part of Magico
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Languages;
 using Magico.Native;
 using Magico.Native.Interop;
 using SpecProbe.Software.Platform;
@@ -42,9 +43,9 @@ namespace Magico.Files
             get
             {
                 if (Initializer.libManager is null)
-                    throw new MagicException("The native library is not initialized yet.");
+                    throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED"));
                 var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_version>(nameof(MagicHelper.magic_version)) ??
-                    throw new MagicException("Can't get delegate");
+                    throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE"));
                 return @delegate.Invoke();
             }
         }
@@ -60,9 +61,9 @@ namespace Magico.Files
             // We need to make another magicPath handle, because if we directly passed the magicPath string, we'll get corrupt
             // string. We need to make a native handle to our string.
             if (Initializer.libManager is null)
-                throw new MagicException("The native library is not initialized yet.");
+                throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED"));
             var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_getpath>(nameof(MagicHelper.magic_getpath)) ??
-                throw new MagicException("Can't get delegate");
+                throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE"));
             var magicPathHandle = !string.IsNullOrEmpty(magicPath) ? Marshal.StringToHGlobalAnsi(magicPath) : IntPtr.Zero;
             var pathsStringHandle = @delegate.Invoke(magicPathHandle, systemWide ? 1 : 0);
             string pathsString = Marshal.PtrToStringAnsi(pathsStringHandle) ?? "";
@@ -160,18 +161,18 @@ namespace Magico.Files
 
             // Check the paths
             if (!File.Exists(filePath))
-                throw new MagicException(string.Format("Failed to load file from path {0} because it wasn't found.", filePath));
+                throw new MagicException(string.Format(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND"), filePath));
             if (!File.Exists(magicPath))
-                throw new MagicException(string.Format("Failed to load magic file from path {0} because it wasn't found.", filePath));
+                throw new MagicException(string.Format(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND"), filePath));
 
             // Now, let's go back to the dark side
             unsafe
             {
                 // Open the magic handle
                 if (Initializer.libManager is null)
-                    throw new MagicException("The native library is not initialized yet.");
+                    throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED"));
                 var @delegate = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_open>(nameof(MagicHelper.magic_open)) ??
-                    throw new MagicException("Can't get delegate");
+                    throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE"));
                 var handle = @delegate.Invoke(flags);
 
                 // Check to see if we're going to set the parameter
@@ -184,21 +185,21 @@ namespace Magico.Files
 
                     // Set the parameter
                     var delegate2 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_setparam>(nameof(MagicHelper.magic_setparam)) ??
-                        throw new MagicException("Can't get delegate");
+                        throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE"));
                     int paramResult = delegate2.Invoke(handle, parameter, valueHandle);
                     if (paramResult != 0)
-                        throw new MagicException(string.Format("Failed to set parameter {0} to {1}:", parameter.ToString(), paramValue) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                        throw new MagicException(string.Format(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED"), parameter.ToString(), paramValue) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
 
                     // Validate the parameter
                     nint result;
                     var delegate3 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_getparam>(nameof(MagicHelper.magic_getparam)) ??
-                        throw new MagicException("Can't get delegate");
+                        throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE"));
                     int paramGetResult = delegate3.Invoke(handle, parameter, valueHandleResult);
                     if (paramGetResult != 0)
-                        throw new MagicException(string.Format("Failed to get parameter {0} value:", parameter.ToString()) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                        throw new MagicException(string.Format(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED"), parameter.ToString()) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
                     result = Marshal.ReadIntPtr(valueHandleResult);
                     if (result != valuePtr)
-                        throw new MagicException(string.Format("Failed to validate parameter {0} for value {1} (got {2}):", parameter.ToString(), paramValue, result) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                        throw new MagicException(string.Format(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED"), parameter.ToString(), paramValue, result) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
 
                     // Free the addresses
                     Marshal.FreeHGlobal(valueHandle);
@@ -207,17 +208,17 @@ namespace Magico.Files
 
                 // Use this handle to load the magic database
                 var delegate4 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_load>(nameof(MagicHelper.magic_load)) ??
-                    throw new MagicException("Can't get delegate");
+                    throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE"));
                 int loadResult = delegate4.Invoke(handle, magicPath);
                 if (loadResult != 0)
-                    throw new MagicException(string.Format("Failed to load magic database file from path {0}:", magicPath) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                    throw new MagicException(string.Format(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED"), magicPath) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
 
                 // Now, get the magic
                 var delegate5 = Initializer.libManager.GetNativeMethodDelegate<MagicHelper.magic_file>(nameof(MagicHelper.magic_file)) ??
-                    throw new MagicException("Can't get delegate");
+                    throw new MagicException(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE"));
                 magicStringHandle = delegate5.Invoke(handle, filePath);
                 if (magicStringHandle == IntPtr.Zero)
-                    throw new MagicException(string.Format("Failed to get magic of file {0} from magic database {1}:", filePath, magicPath) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
+                    throw new MagicException(string.Format(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED"), filePath, magicPath) + $" [{MagicHelper.GetErrorNumber(handle)}] {MagicHelper.GetError(handle)}");
             }
 
             // Return the magic

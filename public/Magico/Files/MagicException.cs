@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2024  Aptivi
 //
 // This file is part of Magico
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Languages;
 using System;
 
 namespace Magico.Files
@@ -30,7 +31,7 @@ namespace Magico.Files
         /// Raises the libmagic exception
         /// </summary>
         public MagicException()
-            : base("Generic libmagic error")
+            : base(LanguageTools.GetLocalized("MAGICO_FILE_EXCEPTION_LIBMAGIC"))
         { }
 
         /// <summary>

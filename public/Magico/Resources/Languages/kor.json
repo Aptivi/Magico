@@ -1,0 +1,87 @@
+{
+  "lang": "kor",
+  "name": "Korean",
+  "cultures": [
+    "ko",
+    "ko-KP",
+    "ko-KR"
+  ],
+  "locs": [
+    {
+      "loc": "MAGICO_ENUM_EXCEPTION_ARRAYNOTNUMERIC",
+      "text": "susjahyeong baeyeol-i anibnida."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGIC",
+      "text": "ilban libmagic olyu"
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICNOTINITED",
+      "text": "neitibeu laibeuleoliga ajig chogihwadoeji anh-assseubnida."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_LIBMAGICDELEGATE",
+      "text": "daelijaleul gajyeool su eobs-seubnida."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_FILENOTFOUND",
+      "text": "gyeonglo {0}eseo pail-eul chaj-eul su eobs-eo lodeuhaji moshaessseubnida."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICFILENOTFOUND",
+      "text": "gyeonglo {0}eseo maejig pail-eul chaj-eul su eobs-eo lodeuhaji moshaessseubnida."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMSETFAILED",
+      "text": "maegae byeonsu {0}eul(leul) {1}lo seoljeonghaji moshaessseubnida."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMGETFAILED",
+      "text": "maegae byeonsu {0} gabs-eul gajyeooji moshaessseubnida."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_PARAMVALIDATEFAILED",
+      "text": "gabs {1}e daehan maegaebyeonsu {0}ui yuhyoseong-eul geomsahaji moshaessseubnida({2}leul bad-assseubnida)."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBLOADFAILED",
+      "text": "gyeonglo {0}eseo maejig deiteobeiseu pail-eul lodeuhaji moshaessseubnida."
+    },
+    {
+      "loc": "MAGICO_FILE_EXCEPTION_MAGIC_MAGICDBGETFAILED",
+      "text": "maegae byeonsu deiteobeiseu {1}eseo pail {0}ui maejig-eul gajyeooji moshaessseubnida."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSTYPE",
+      "text": "yuhyeong-i jegongdoeji anh-assseubnida."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_NEEDSVAR",
+      "text": "byeonsuga jegongdoeji anh-assseubnida."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_COMMON_EXCEPTION_FILENOTFOUND",
+      "text": "pail-eul chaj-eul su eobs-seubnida."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_VALUENOTNUMERIC",
+      "text": "susja gabs-i anibnida."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_INTTOOLS_EXCEPTION_NUMBERNOTNATURAL",
+      "text": "jayeonsuga anibnida."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND",
+      "text": "i meseodeuneun jonjaehaji anhseubnida."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC",
+      "text": "i meseodeuneun jeongjeog-ibnida. bigaegche obeolodeuleul sayonghaseyo."
+    },
+    {
+      "loc": "MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC",
+      "text": "i meseodeuneun jeongjeog-i anibnida. gaegche obeolodeuleul sayonghaseyo."
+    }
+  ]
+}

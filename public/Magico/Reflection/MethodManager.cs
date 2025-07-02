@@ -1,4 +1,4 @@
-﻿//
+//
 // Magico  Copyright (C) 2024  Aptivi
 //
 // This file is part of Magico
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Magico.Languages;
 using System;
 using System.Reflection;
 
@@ -67,9 +68,9 @@ namespace Magico.Reflection
         public static object? InvokeMethod(MethodBase? method, object obj, params object?[]? args)
         {
             if (method is null)
-                throw new ArgumentException("This method is nonexistent.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND"));
             if (method.IsStatic)
-                throw new ArgumentException("This method is static. Use the non-object overload." + $" {method.Name}");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODSTATIC") + $" {method.Name}");
 
             // Now, invoke the method.
             if (args is not null && args.Length > 0)
@@ -96,9 +97,9 @@ namespace Magico.Reflection
         public static object? InvokeMethodStatic(MethodBase? method, params object?[]? args)
         {
             if (method is null)
-                throw new ArgumentException("This method is nonexistent.");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTFOUND"));
             if (!method.IsStatic)
-                throw new ArgumentException("This method is not static. Use the object overload." + $" {method.Name}");
+                throw new ArgumentException(LanguageTools.GetLocalized("MAGICO_REFLECTION_METHODMANAGER_EXCEPTION_METHODNOTSTATIC") + $" {method.Name}");
 
             // Now, invoke the method.
             if (args is not null && args.Length > 0)
