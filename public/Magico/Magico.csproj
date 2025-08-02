@@ -9,9 +9,9 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <Description>Magico is a C# library that provides various magical tools for your applications and libraries.</Description>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/Aptivi/Magico</PackageProjectUrl>
+    <PackageProjectUrl>https://gitlab.com/aptivi/main/Magico</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>git://github.com/Aptivi/Magico.git</RepositoryUrl>
+    <RepositoryUrl>git://gitlab.com/aptivi/main/Magico.git</RepositoryUrl>
     <PackageIcon>OfficialAppIcon-Magico-512.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>hardware, information</PackageTags>
