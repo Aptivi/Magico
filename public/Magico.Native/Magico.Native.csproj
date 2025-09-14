@@ -8,13 +8,13 @@
     <Title>Magico.Native</Title>
     <PackageDescription>libmagic native library wrapper for C#</PackageDescription>
     <PackageTags>Magico;native;runtime;csharp;library</PackageTags>
-    <PackageProjectUrl>https://gitlab.com/aptivi/main/Magico</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Aptivi/Magico</PackageProjectUrl>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <PackageIcon>OfficialAppIcon-Magico-512.png</PackageIcon>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://gitlab.com/aptivi/main/Magico.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Aptivi/Magico.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     
     <!-- For cross platform and .NET 8.0+ support -->

@@ -36,7 +36,7 @@
 
 <!----------------------------------------------------------------------------->
 
-[Releases]: https://gitlab.com/aptivi/main/Magico/-/releases
+[Releases]: https://github.com/Aptivi/Magico/releases
 [NuGet]: https://www.nuget.org/packages/Magico/
 
 [Libraries]: https://aptivi.gitbook.io/magico-manual/project-dependencies
