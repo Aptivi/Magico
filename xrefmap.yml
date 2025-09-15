@@ -309,6 +309,108 @@ references:
   isSpec: "True"
   fullName: Magico.Files.MagicHandler.MagicVersionId
   nameWithType: MagicHandler.MagicVersionId
+- uid: Magico.Localized
+  name: Magico.Localized
+  href: api/Magico.Localized.html
+  commentId: N:Magico.Localized
+  fullName: Magico.Localized
+  nameWithType: Magico.Localized
+- uid: Magico.Localized.LocalStrings
+  name: LocalStrings
+  href: api/Magico.Localized.LocalStrings.html
+  commentId: T:Magico.Localized.LocalStrings
+  fullName: Magico.Localized.LocalStrings
+  nameWithType: LocalStrings
+- uid: Magico.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name: CheckCulture(string, string)
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_CheckCulture_System_String_System_String_
+  commentId: M:Magico.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name.vb: CheckCulture(String, String)
+  fullName: Magico.Localized.LocalStrings.CheckCulture(string, string)
+  fullName.vb: Magico.Localized.LocalStrings.CheckCulture(String, String)
+  nameWithType: LocalStrings.CheckCulture(string, string)
+  nameWithType.vb: LocalStrings.CheckCulture(String, String)
+- uid: Magico.Localized.LocalStrings.CheckCulture*
+  name: CheckCulture
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_CheckCulture_
+  commentId: Overload:Magico.Localized.LocalStrings.CheckCulture
+  isSpec: "True"
+  fullName: Magico.Localized.LocalStrings.CheckCulture
+  nameWithType: LocalStrings.CheckCulture
+- uid: Magico.Localized.LocalStrings.Exists(System.String,System.String)
+  name: Exists(string, string)
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_Exists_System_String_System_String_
+  commentId: M:Magico.Localized.LocalStrings.Exists(System.String,System.String)
+  name.vb: Exists(String, String)
+  fullName: Magico.Localized.LocalStrings.Exists(string, string)
+  fullName.vb: Magico.Localized.LocalStrings.Exists(String, String)
+  nameWithType: LocalStrings.Exists(string, string)
+  nameWithType.vb: LocalStrings.Exists(String, String)
+- uid: Magico.Localized.LocalStrings.Exists*
+  name: Exists
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_Exists_
+  commentId: Overload:Magico.Localized.LocalStrings.Exists
+  isSpec: "True"
+  fullName: Magico.Localized.LocalStrings.Exists
+  nameWithType: LocalStrings.Exists
+- uid: Magico.Localized.LocalStrings.Languages
+  name: Languages
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_Languages
+  commentId: P:Magico.Localized.LocalStrings.Languages
+  fullName: Magico.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Magico.Localized.LocalStrings.Languages*
+  name: Languages
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_Languages_
+  commentId: Overload:Magico.Localized.LocalStrings.Languages
+  isSpec: "True"
+  fullName: Magico.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Magico.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name: ListLanguagesCulture(string)
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_ListLanguagesCulture_System_String_
+  commentId: M:Magico.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name.vb: ListLanguagesCulture(String)
+  fullName: Magico.Localized.LocalStrings.ListLanguagesCulture(string)
+  fullName.vb: Magico.Localized.LocalStrings.ListLanguagesCulture(String)
+  nameWithType: LocalStrings.ListLanguagesCulture(string)
+  nameWithType.vb: LocalStrings.ListLanguagesCulture(String)
+- uid: Magico.Localized.LocalStrings.ListLanguagesCulture*
+  name: ListLanguagesCulture
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_ListLanguagesCulture_
+  commentId: Overload:Magico.Localized.LocalStrings.ListLanguagesCulture
+  isSpec: "True"
+  fullName: Magico.Localized.LocalStrings.ListLanguagesCulture
+  nameWithType: LocalStrings.ListLanguagesCulture
+- uid: Magico.Localized.LocalStrings.Localizations
+  name: Localizations
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_Localizations
+  commentId: P:Magico.Localized.LocalStrings.Localizations
+  fullName: Magico.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Magico.Localized.LocalStrings.Localizations*
+  name: Localizations
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_Localizations_
+  commentId: Overload:Magico.Localized.LocalStrings.Localizations
+  isSpec: "True"
+  fullName: Magico.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Magico.Localized.LocalStrings.Translate(System.String,System.String)
+  name: Translate(string, string)
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_Translate_System_String_System_String_
+  commentId: M:Magico.Localized.LocalStrings.Translate(System.String,System.String)
+  name.vb: Translate(String, String)
+  fullName: Magico.Localized.LocalStrings.Translate(string, string)
+  fullName.vb: Magico.Localized.LocalStrings.Translate(String, String)
+  nameWithType: LocalStrings.Translate(string, string)
+  nameWithType.vb: LocalStrings.Translate(String, String)
+- uid: Magico.Localized.LocalStrings.Translate*
+  name: Translate
+  href: api/Magico.Localized.LocalStrings.html#Magico_Localized_LocalStrings_Translate_
+  commentId: Overload:Magico.Localized.LocalStrings.Translate
+  isSpec: "True"
+  fullName: Magico.Localized.LocalStrings.Translate
+  nameWithType: LocalStrings.Translate
 - uid: Magico.Native.Interop
   name: Magico.Native.Interop
   href: api/Magico.Native.Interop.html
@@ -579,6 +681,108 @@ references:
   commentId: F:Magico.Native.Interop.MagicParameters.RegexMax
   fullName: Magico.Native.Interop.MagicParameters.RegexMax
   nameWithType: MagicParameters.RegexMax
+- uid: Magico.Native.Localized
+  name: Magico.Native.Localized
+  href: api/Magico.Native.Localized.html
+  commentId: N:Magico.Native.Localized
+  fullName: Magico.Native.Localized
+  nameWithType: Magico.Native.Localized
+- uid: Magico.Native.Localized.LocalStrings
+  name: LocalStrings
+  href: api/Magico.Native.Localized.LocalStrings.html
+  commentId: T:Magico.Native.Localized.LocalStrings
+  fullName: Magico.Native.Localized.LocalStrings
+  nameWithType: LocalStrings
+- uid: Magico.Native.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name: CheckCulture(string, string)
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_CheckCulture_System_String_System_String_
+  commentId: M:Magico.Native.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name.vb: CheckCulture(String, String)
+  fullName: Magico.Native.Localized.LocalStrings.CheckCulture(string, string)
+  fullName.vb: Magico.Native.Localized.LocalStrings.CheckCulture(String, String)
+  nameWithType: LocalStrings.CheckCulture(string, string)
+  nameWithType.vb: LocalStrings.CheckCulture(String, String)
+- uid: Magico.Native.Localized.LocalStrings.CheckCulture*
+  name: CheckCulture
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_CheckCulture_
+  commentId: Overload:Magico.Native.Localized.LocalStrings.CheckCulture
+  isSpec: "True"
+  fullName: Magico.Native.Localized.LocalStrings.CheckCulture
+  nameWithType: LocalStrings.CheckCulture
+- uid: Magico.Native.Localized.LocalStrings.Exists(System.String,System.String)
+  name: Exists(string, string)
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_Exists_System_String_System_String_
+  commentId: M:Magico.Native.Localized.LocalStrings.Exists(System.String,System.String)
+  name.vb: Exists(String, String)
+  fullName: Magico.Native.Localized.LocalStrings.Exists(string, string)
+  fullName.vb: Magico.Native.Localized.LocalStrings.Exists(String, String)
+  nameWithType: LocalStrings.Exists(string, string)
+  nameWithType.vb: LocalStrings.Exists(String, String)
+- uid: Magico.Native.Localized.LocalStrings.Exists*
+  name: Exists
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_Exists_
+  commentId: Overload:Magico.Native.Localized.LocalStrings.Exists
+  isSpec: "True"
+  fullName: Magico.Native.Localized.LocalStrings.Exists
+  nameWithType: LocalStrings.Exists
+- uid: Magico.Native.Localized.LocalStrings.Languages
+  name: Languages
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_Languages
+  commentId: P:Magico.Native.Localized.LocalStrings.Languages
+  fullName: Magico.Native.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Magico.Native.Localized.LocalStrings.Languages*
+  name: Languages
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_Languages_
+  commentId: Overload:Magico.Native.Localized.LocalStrings.Languages
+  isSpec: "True"
+  fullName: Magico.Native.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Magico.Native.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name: ListLanguagesCulture(string)
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_ListLanguagesCulture_System_String_
+  commentId: M:Magico.Native.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name.vb: ListLanguagesCulture(String)
+  fullName: Magico.Native.Localized.LocalStrings.ListLanguagesCulture(string)
+  fullName.vb: Magico.Native.Localized.LocalStrings.ListLanguagesCulture(String)
+  nameWithType: LocalStrings.ListLanguagesCulture(string)
+  nameWithType.vb: LocalStrings.ListLanguagesCulture(String)
+- uid: Magico.Native.Localized.LocalStrings.ListLanguagesCulture*
+  name: ListLanguagesCulture
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_ListLanguagesCulture_
+  commentId: Overload:Magico.Native.Localized.LocalStrings.ListLanguagesCulture
+  isSpec: "True"
+  fullName: Magico.Native.Localized.LocalStrings.ListLanguagesCulture
+  nameWithType: LocalStrings.ListLanguagesCulture
+- uid: Magico.Native.Localized.LocalStrings.Localizations
+  name: Localizations
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_Localizations
+  commentId: P:Magico.Native.Localized.LocalStrings.Localizations
+  fullName: Magico.Native.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Magico.Native.Localized.LocalStrings.Localizations*
+  name: Localizations
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_Localizations_
+  commentId: Overload:Magico.Native.Localized.LocalStrings.Localizations
+  isSpec: "True"
+  fullName: Magico.Native.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Magico.Native.Localized.LocalStrings.Translate(System.String,System.String)
+  name: Translate(string, string)
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_Translate_System_String_System_String_
+  commentId: M:Magico.Native.Localized.LocalStrings.Translate(System.String,System.String)
+  name.vb: Translate(String, String)
+  fullName: Magico.Native.Localized.LocalStrings.Translate(string, string)
+  fullName.vb: Magico.Native.Localized.LocalStrings.Translate(String, String)
+  nameWithType: LocalStrings.Translate(string, string)
+  nameWithType.vb: LocalStrings.Translate(String, String)
+- uid: Magico.Native.Localized.LocalStrings.Translate*
+  name: Translate
+  href: api/Magico.Native.Localized.LocalStrings.html#Magico_Native_Localized_LocalStrings_Translate_
+  commentId: Overload:Magico.Native.Localized.LocalStrings.Translate
+  isSpec: "True"
+  fullName: Magico.Native.Localized.LocalStrings.Translate
+  nameWithType: LocalStrings.Translate
 - uid: Magico.Reflection
   name: Magico.Reflection
   href: api/Magico.Reflection.html

@@ -99,6 +99,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Localized.LocalStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Localized.LocalStrings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Localized.LocalStrings",
+      "Summary": "<p sourcefile=\"api/Magico.Localized.LocalStrings.yml\" sourcestartlinenumber=\"1\">Localized string tools</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Localized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Localized.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Localized",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Magico.Native.Interop.MagicFlags.yml",
       "output": {
         ".html": {
@@ -137,6 +165,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Magico.Native.Interop",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Native.Localized.LocalStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Native.Localized.LocalStrings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Native.Localized.LocalStrings",
+      "Summary": "<p sourcefile=\"api/Magico.Native.Localized.LocalStrings.yml\" sourcestartlinenumber=\"1\">Localized string tools</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Magico.Native.Localized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Magico.Native.Localized.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Magico.Native.Localized",
       "Summary": null
     },
     {
@@ -241,11 +297,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -264,11 +320,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
