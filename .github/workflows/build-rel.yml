@@ -12,7 +12,7 @@ jobs:
   build:
     strategy:
       matrix:
-        runs-on: [ubuntu-latest, windows-latest, macos-latest, macos-13]
+        runs-on: [ubuntu-latest, windows-latest, macos-latest, macos-15-intel]
       fail-fast: false
     runs-on: ${{ matrix.runs-on }}
 
@@ -42,5 +42,5 @@ jobs:
         run: dotnet test --no-build --configuration Release
       - name: Testing (macOS ARM64)
         if: matrix.runs-on == 'macos-latest'
-        run: dotnet test --no-build --configuration Release --framework net8.0
+        run: dotnet test --no-build --configuration Release --framework net10.0
         
