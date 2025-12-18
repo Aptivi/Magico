@@ -30,7 +30,7 @@ jobs:
             autoconf
             automake
             libtool
-      - name: MPG123 compilation
+      - name: libmagic compilation
         shell: msys2 {0}
         run: |
           export lt_cv_deplibs_check_method=pass_all

@@ -21,7 +21,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install libbz2-dev liblzma-dev zlib1g-dev
-      - name: MPG123 compilation
+      - name: libmagic compilation
         run: |
           cd assets/file ; autoreconf -f -i ; ./configure --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
       - name: Artifacts

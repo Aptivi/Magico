@@ -30,9 +30,10 @@ jobs:
             autoconf
             automake
             libtool
-      - name: MPG123 compilation
+      - name: libmagic compilation
         shell: msys2 {0}
         run: |
+          sed -i -b 's/c = cdf_ctime(&ts.tv_sec, tbuf);/c = cdf_ctime((const time_t *)\&ts.tv_sec, tbuf);/' assets/file/src/readcdf.c
           cd assets/file ; autoreconf -f -i ; ./configure --prefix=/mingw64 --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
       - name: Artifacts
         uses: actions/upload-artifact@v4
