@@ -26,6 +26,7 @@ jobs:
             base-devel
             mingw-w64-clang-aarch64-clang
             mingw-w64-clang-aarch64-make
+            mingw-w64-clang-aarch64-libgnurx
             autoconf
             automake
             libtool
