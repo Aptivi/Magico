@@ -1,4 +1,4 @@
-name: Build libmagic library (macOS - AMD64)
+name: Build libmagic library (Linux - AMD64)
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
     
 jobs:
   build:
-    runs-on: macos-13
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/checkout@v4
@@ -19,8 +19,9 @@ jobs:
           ref: ${{ github.ref }}
       - name: Setting up environment
         run: |
-          brew install automake
-      - name: libmagic compilation
+          sudo apt update
+          sudo apt install libbz2-dev liblzma-dev zlib1g-dev
+      - name: MPG123 compilation
         run: |
           cd assets/file ; autoreconf -f -i ; ./configure --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
       - name: Artifacts

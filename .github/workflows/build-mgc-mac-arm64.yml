@@ -22,14 +22,9 @@ jobs:
           brew install autoconf automake libtool
       - name: libmagic compilation
         run: |
-          cd assets/file ; autoreconf -f -i ; ./configure --disable-silent-rules ; make -j4
-      - name: libmagic artifacts
+          cd assets/file ; autoreconf -f -i ; ./configure --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
+      - name: Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: "libmagic library"
-          path: assets/file/src/.libs/libmagic.1.dylib
-      - name: magic.mgc artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: "magic.mgc"
-          path: assets/file/magic/magic.mgc
+          path: assets/file/outlib
