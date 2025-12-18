@@ -1,10 +1,11 @@
-We've updated this project for further refinements!
+We've updated this project to update libmagic and to add more file types!
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[*]` General improvements
+- `[*]` Updated libmagic
+- `[*]` Added support for more file types
 
 Review the commit history if you want to get a deep insight about the changes.
 
