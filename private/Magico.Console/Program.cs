@@ -25,6 +25,7 @@ using System.Linq;
 using Terminaux.Colors.Data;
 using Terminaux.Writer.ConsoleWriters;
 using Terminaux.Writer.CyclicWriters;
+using Terminaux.Writer.CyclicWriters.Simple;
 
 namespace Magico.Console
 {
@@ -81,24 +82,15 @@ namespace Magico.Console
                     File.Exists(customMagic) ? customMagic : "";
                 if (verbose)
                 {
-                    void WriteList(string[] array)
-                    {
-                        var listing = new Listing()
-                        {
-                            Objects = array
-                        };
-                        TextWriterRaw.WriteRaw(listing.Render());
-                    }
-
                     TextWriterColor.WriteColor($"libmagic version {MagicHandler.MagicVersionId}", ConsoleColors.Green);
                     TextWriterColor.WriteColor("Magic paths:", ConsoleColors.White);
-                    WriteList(magicPaths);
+                    ListWriterColor.WriteList(magicPaths);
                     TextWriterColor.WriteColor("Magic paths (systemwide):", ConsoleColors.White);
-                    WriteList(magicPathsSystemwide);
+                    ListWriterColor.WriteList(magicPathsSystemwide);
                     TextWriterColor.WriteColor("Magic paths (probed):", ConsoleColors.White);
-                    WriteList(magicPathsProbed);
+                    ListWriterColor.WriteList(magicPathsProbed);
                     TextWriterColor.WriteColor("Magic paths (probed, systemwide):", ConsoleColors.White);
-                    WriteList(magicPathsProbedSystemwide);
+                    ListWriterColor.WriteList(magicPathsProbedSystemwide);
                     ListEntryWriterColor.WriteListEntry("Final path", string.IsNullOrEmpty(finalPath) ? "default path" : finalPath);
                     TextWriterColor.WriteColor("File info:", ConsoleColors.White);
                 }
