@@ -35,6 +35,7 @@ jobs:
         run: |
           export lt_cv_deplibs_check_method=pass_all
           cd assets/file ; autoreconf -f -i ; ./configure --prefix=/clangarm64 --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
+          cp /clangarm64/bin/libgnurx-0.dll outlib/ || true
       - name: Artifacts
         uses: actions/upload-artifact@v4
         with:

@@ -35,6 +35,7 @@ jobs:
         run: |
           sed -i -b 's/c = cdf_ctime(&ts.tv_sec, tbuf);/c = cdf_ctime((const time_t *)\&ts.tv_sec, tbuf);/' assets/file/src/readcdf.c
           cd assets/file ; autoreconf -f -i ; ./configure --prefix=/mingw64 --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
+          cp /mingw64/bin/libgnurx-0.dll outlib/ || true
       - name: Artifacts
         uses: actions/upload-artifact@v4
         with:
