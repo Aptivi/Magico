@@ -46,15 +46,9 @@ namespace Magico.Native
             libManager = new LibraryManager(new LibraryFile(libPath));
             if (PlatformHelper.IsOnWindows())
             {
-                string gnuRxTrePath = GetLibraryPath("libsystre-0");
-                string trePath = GetLibraryPath("libtre-5");
-                string intlPath = GetLibraryPath("libintl-8");
-                string convPath = GetLibraryPath("libiconv-2");
+                string gnuRxPath = GetLibraryPath("libgnurx-0");
                 var libManagerGnuRx = new LibraryManager(
-                    new LibraryFile(convPath),
-                    new LibraryFile(intlPath),
-                    new LibraryFile(trePath),
-                    new LibraryFile(gnuRxTrePath));
+                    new LibraryFile(gnuRxPath));
                 libManagerGnuRx.LoadNativeLibrary();
             }
             libManager.LoadNativeLibrary();
