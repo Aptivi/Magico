@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Assets/">
+    <File Path="CHANGES" />
+    <File Path="CHANGES.TITLE" />
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Folder Name="/Private/">
+    <Project Path="private/BuildTargets/BuildTargets.csproj" />
+    <Project Path="private/Magico.Console/Magico.Console.csproj" />
+    <Project Path="private/Magico.Tests/Magico.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Public/">
+    <Project Path="public/Magico.Native/Magico.Native.csproj" />
+    <Project Path="public/Magico/Magico.csproj" />
+  </Folder>
+</Solution>
