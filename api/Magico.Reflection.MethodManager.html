@@ -21,13 +21,15 @@
     
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Space Mono:wght@400;500;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
-      <header class="apt-head">
+      <header class="apt-head translucency-rule-black">
 
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
+          <div class="container-header">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -49,14 +51,6 @@
             </div>
           </div>
         </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
       <div class="container body-content">
 
@@ -91,8 +85,8 @@
     <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">MethodManager</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Magico.html">Magico</a>.<a class="xref" href="Magico.Reflection.html">Reflection</a></h6>
-  <h6><strong>Assembly</strong>: Magico.dll</h6>
+  <h6>Namespace: <a class="xref" href="Magico.html">Magico</a>.<a class="xref" href="Magico.Reflection.html">Reflection</a></h6>
+  <h6>Assembly: Magico.dll</h6>
   <h5 id="Magico_Reflection_MethodManager_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class MethodManager</code></pre>
@@ -104,7 +98,7 @@
     <a href="https://github.com/Aptivi/Magico/new/main/apiSpec/new?filename=Magico_Reflection_MethodManager_GetMethod_System_String_System_Type_.md&amp;value=---%0Auid%3A%20Magico.Reflection.MethodManager.GetMethod(System.String%2CSystem.Type)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L36">View Source</a>
+    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L37">View Source</a>
   </span>
   <a id="Magico_Reflection_MethodManager_GetMethod_" data-uid="Magico.Reflection.MethodManager.GetMethod*"></a>
   <h4 id="Magico_Reflection_MethodManager_GetMethod_System_String_System_Type_" data-uid="Magico.Reflection.MethodManager.GetMethod(System.String,System.Type)">GetMethod(string, Type)</h4>
@@ -116,7 +110,7 @@
     <pre><code class="lang-csharp hljs">public static MethodBase? GetMethod(string Method, Type methodType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -140,7 +134,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -160,7 +154,7 @@
     <a href="https://github.com/Aptivi/Magico/new/main/apiSpec/new?filename=Magico_Reflection_MethodManager_InvokeMethod_System_Reflection_MethodBase_System_Object_System_Object___.md&amp;value=---%0Auid%3A%20Magico.Reflection.MethodManager.InvokeMethod(System.Reflection.MethodBase%2CSystem.Object%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L67">View Source</a>
+    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L68">View Source</a>
   </span>
   <a id="Magico_Reflection_MethodManager_InvokeMethod_" data-uid="Magico.Reflection.MethodManager.InvokeMethod*"></a>
   <h4 id="Magico_Reflection_MethodManager_InvokeMethod_System_Reflection_MethodBase_System_Object_System_Object___" data-uid="Magico.Reflection.MethodManager.InvokeMethod(System.Reflection.MethodBase,System.Object,System.Object[])">InvokeMethod(MethodBase?, object, params object?[]?)</h4>
@@ -172,7 +166,7 @@
     <pre><code class="lang-csharp hljs">public static object? InvokeMethod(MethodBase? method, object obj, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -202,7 +196,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -222,7 +216,7 @@
     <a href="https://github.com/Aptivi/Magico/new/main/apiSpec/new?filename=Magico_Reflection_MethodManager_InvokeMethod_System_String_System_Object_System_Object___.md&amp;value=---%0Auid%3A%20Magico.Reflection.MethodManager.InvokeMethod(System.String%2CSystem.Object%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L46">View Source</a>
+    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L47">View Source</a>
   </span>
   <a id="Magico_Reflection_MethodManager_InvokeMethod_" data-uid="Magico.Reflection.MethodManager.InvokeMethod*"></a>
   <h4 id="Magico_Reflection_MethodManager_InvokeMethod_System_String_System_Object_System_Object___" data-uid="Magico.Reflection.MethodManager.InvokeMethod(System.String,System.Object,System.Object[])">InvokeMethod(string, object, params object?[]?)</h4>
@@ -234,7 +228,7 @@
     <pre><code class="lang-csharp hljs">public static object? InvokeMethod(string method, object obj, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -264,7 +258,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -284,7 +278,7 @@
     <a href="https://github.com/Aptivi/Magico/new/main/apiSpec/new?filename=Magico_Reflection_MethodManager_InvokeMethod_System_String_System_Object_System_Type_System_Object___.md&amp;value=---%0Auid%3A%20Magico.Reflection.MethodManager.InvokeMethod(System.String%2CSystem.Object%2CSystem.Type%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L57">View Source</a>
+    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L58">View Source</a>
   </span>
   <a id="Magico_Reflection_MethodManager_InvokeMethod_" data-uid="Magico.Reflection.MethodManager.InvokeMethod*"></a>
   <h4 id="Magico_Reflection_MethodManager_InvokeMethod_System_String_System_Object_System_Type_System_Object___" data-uid="Magico.Reflection.MethodManager.InvokeMethod(System.String,System.Object,System.Type,System.Object[])">InvokeMethod(string, object, Type, params object?[]?)</h4>
@@ -296,7 +290,7 @@
     <pre><code class="lang-csharp hljs">public static object? InvokeMethod(string method, object obj, Type methodType, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -332,7 +326,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -352,7 +346,7 @@
     <a href="https://github.com/Aptivi/Magico/new/main/apiSpec/new?filename=Magico_Reflection_MethodManager_InvokeMethodStatic_System_Reflection_MethodBase_System_Object___.md&amp;value=---%0Auid%3A%20Magico.Reflection.MethodManager.InvokeMethodStatic(System.Reflection.MethodBase%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L96">View Source</a>
+    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L97">View Source</a>
   </span>
   <a id="Magico_Reflection_MethodManager_InvokeMethodStatic_" data-uid="Magico.Reflection.MethodManager.InvokeMethodStatic*"></a>
   <h4 id="Magico_Reflection_MethodManager_InvokeMethodStatic_System_Reflection_MethodBase_System_Object___" data-uid="Magico.Reflection.MethodManager.InvokeMethodStatic(System.Reflection.MethodBase,System.Object[])">InvokeMethodStatic(MethodBase?, params object?[]?)</h4>
@@ -364,7 +358,7 @@
     <pre><code class="lang-csharp hljs">public static object? InvokeMethodStatic(MethodBase? method, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -388,7 +382,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -408,7 +402,7 @@
     <a href="https://github.com/Aptivi/Magico/new/main/apiSpec/new?filename=Magico_Reflection_MethodManager_InvokeMethodStatic_System_String_System_Type_System_Object___.md&amp;value=---%0Auid%3A%20Magico.Reflection.MethodManager.InvokeMethodStatic(System.String%2CSystem.Type%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L87">View Source</a>
+    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L88">View Source</a>
   </span>
   <a id="Magico_Reflection_MethodManager_InvokeMethodStatic_" data-uid="Magico.Reflection.MethodManager.InvokeMethodStatic*"></a>
   <h4 id="Magico_Reflection_MethodManager_InvokeMethodStatic_System_String_System_Type_System_Object___" data-uid="Magico.Reflection.MethodManager.InvokeMethodStatic(System.String,System.Type,System.Object[])">InvokeMethodStatic(string, Type, params object?[]?)</h4>
@@ -420,7 +414,7 @@
     <pre><code class="lang-csharp hljs">public static object? InvokeMethodStatic(string method, Type methodType, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -450,7 +444,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -477,7 +471,7 @@
                     <a href="https://github.com/Aptivi/Magico/new/main/apiSpec/new?filename=Magico_Reflection_MethodManager.md&amp;value=---%0Auid%3A%20Magico.Reflection.MethodManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L28" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Aptivi/Magico/blob/main/public/Magico/Reflection/MethodManager.cs/#L29" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -489,19 +483,6 @@
           </div>
         </div>
       </div>
-
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
     </div>
 
     <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>

@@ -21,13 +21,15 @@
     
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Space Mono:wght@400;500;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
-      <header class="apt-head">
+      <header class="apt-head translucency-rule-black">
 
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
+          <div class="container-header">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -49,14 +51,6 @@
             </div>
           </div>
         </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
       <div class="container body-content">
 
@@ -91,8 +85,8 @@
     <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">EnumerableExtensions</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Magico.html">Magico</a>.<a class="xref" href="Magico.Enumeration.html">Enumeration</a></h6>
-  <h6><strong>Assembly</strong>: Magico.dll</h6>
+  <h6>Namespace: <a class="xref" href="Magico.html">Magico</a>.<a class="xref" href="Magico.Enumeration.html">Enumeration</a></h6>
+  <h6>Assembly: Magico.dll</h6>
   <h5 id="Magico_Enumeration_EnumerableExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class EnumerableExtensions</code></pre>
@@ -116,7 +110,7 @@
     <pre><code class="lang-csharp hljs">public static object? GetElementFromIndex(this IEnumerable enumerable, int index)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -140,7 +134,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -172,7 +166,7 @@
     <pre><code class="lang-csharp hljs">public static int Length(this IEnumerable enumerable)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -190,7 +184,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -222,7 +216,7 @@
     <pre><code class="lang-csharp hljs">public static Dictionary&lt;TKey, TValue&gt; ToDictionarySafe&lt;TSource, TKey, TValue&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector, Func&lt;TSource, TValue&gt; valueSelector) where TKey : notnull</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -249,7 +243,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -264,7 +258,7 @@
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Name</th>
@@ -306,7 +300,7 @@
     <pre><code class="lang-csharp hljs">public static IEnumerable&lt;(TFirst First, TSecond Second)&gt; Zip&lt;TFirst, TSecond&gt;(this IEnumerable&lt;TFirst&gt; source, IEnumerable&lt;TSecond&gt; second)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -330,7 +324,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -346,7 +340,7 @@
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Name</th>
@@ -390,19 +384,6 @@
           </div>
         </div>
       </div>
-
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
     </div>
 
     <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
