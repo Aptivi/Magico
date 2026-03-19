@@ -37,7 +37,7 @@ jobs:
           cd assets/file ; autoreconf -f -i ; ./configure --prefix=/mingw64 --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
           cp /mingw64/bin/libgnurx-0.dll outlib/ || true
       - name: Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: "libmagic library"
           path: assets/file/outlib
