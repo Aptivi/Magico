@@ -1,0 +1,32 @@
+name: Build libmagic library (FreeBSD - ARM64)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          submodules: 'true'
+          ref: ${{ github.ref }}
+      - name: Build library in FreeBSD VM
+        id: build-lib-arm64
+        uses: vmactions/freebsd-vm@v1
+        with:
+          release: "15.0"
+          arch: "aarch64"
+          run: |
+            cd assets/file ; autoreconf -f -i ; ./configure --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
+      - name: Artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: "libmagic library"
+          path: assets/file/outlib
