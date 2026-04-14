@@ -30,10 +30,12 @@ jobs:
             autoconf
             automake
             libtool
+            git
       - name: libmagic compilation
         shell: msys2 {0}
         run: |
           export lt_cv_deplibs_check_method=pass_all
+          git -C assets/file apply $PWD/assets/0001-fix-Patch-to-fix-readcdf-casting.patch
           cd assets/file ; autoreconf -f -i ; ./configure --prefix=/clangarm64 --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
           cp /clangarm64/bin/libgnurx-0.dll outlib/ || true
       - name: Artifacts

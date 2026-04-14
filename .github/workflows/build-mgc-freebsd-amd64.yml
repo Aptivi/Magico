@@ -24,6 +24,7 @@ jobs:
           release: "15.0"
           arch: "x86_64"
           run: |
+            pkg install -y autoconf automake libtool pkgconf
             cd assets/file ; autoreconf -f -i ; ./configure --disable-silent-rules ; make -j4 ; make install DESTDIR=$PWD/outlib
       - name: Artifacts
         uses: actions/upload-artifact@v7
