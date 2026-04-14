@@ -35,14 +35,21 @@ namespace Magico.Native
 
         internal static void InitializeNative()
         {
+            // Exit if already initialized
             if (_initialized)
                 return;
+
+            // Get the library path according to platform
             string libPath = GetLibraryPath(LibraryName);
             if (!File.Exists(libPath))
                 throw new Exception(LanguageTools.GetLocalized("MAGICO_NATIVE_EXCEPTION_LIBNOTFOUND") + $" {libPath}");
+
+            // Architecture detection
             var architecture = PlatformHelper.GetArchitecture();
             if (architecture == Architecture.X86 || architecture == Architecture.Arm)
                 throw new PlatformNotSupportedException(LanguageTools.GetLocalized("MAGICO_NATIVE_EXCEPTION_32BITUNSUPPORTED"));
+
+            // Start the library up
             libManager = new LibraryManager(new LibraryFile(libPath));
             if (PlatformHelper.IsOnWindows())
             {
@@ -58,16 +65,11 @@ namespace Magico.Native
         private static string GetLibraryPath(string libraryName)
         {
             var asm = Assembly.GetEntryAssembly() ?? Assembly.GetExecutingAssembly();
+            string genericRid = PlatformHelper.GetCurrentGenericRid();
             string execPath = Path.GetDirectoryName(asm.Location) + "/";
-            string nonSpecificRid =
-                (PlatformHelper.IsOnWindows() ? "win-" :
-                 PlatformHelper.IsOnMacOS() ? "osx-" :
-                 PlatformHelper.IsOnUnix() ? "linux-" :
-                 "freebsd-") + RuntimeInformation.OSArchitecture.ToString().ToLower();
-            string directory = $"runtimes/{nonSpecificRid}/native/";
-            string libName = $"{libraryName}{(PlatformHelper.IsOnWindows() ? ".dll" : PlatformHelper.IsOnMacOS() ? ".dylib" : ".so")}";
-            string path = $"{execPath}{directory}{libName}";
-            return path;
+            string extension = PlatformHelper.IsOnWindows() ? ".dll" : PlatformHelper.IsOnMacOS() ? ".dylib" : ".so";
+            string runtimesPath = execPath + $"/runtimes/{genericRid}/native/{libraryName}{extension}";
+            return runtimesPath;
         }
     }
 }

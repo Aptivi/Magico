@@ -22,10 +22,8 @@ using Magico.Native.Interop;
 using System;
 using System.IO;
 using System.Linq;
-using Terminaux.Colors.Data;
+using Colorimetry.Data;
 using Terminaux.Writer.ConsoleWriters;
-using Terminaux.Writer.CyclicWriters;
-using Terminaux.Writer.CyclicWriters.Simple;
 
 namespace Magico.Console
 {
