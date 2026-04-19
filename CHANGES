@@ -1,10 +1,10 @@
-This version of Magico is the first version that adds initial FreeBSD support.
+This version of Magico finalizes the FreeBSD support.
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[+]` Added initial FreeBSD support
+- `[*]` Updated SpecProbe
 
 Review the commit history if you want to get a deep insight about the changes.
 
