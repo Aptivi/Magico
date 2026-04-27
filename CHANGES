@@ -1,10 +1,10 @@
-This version of Magico finalizes the FreeBSD support.
+This version of Magico adds unmanaged array tools.
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[*]` Updated SpecProbe
+- `[+]` Added unmanaged array tools
 
 Review the commit history if you want to get a deep insight about the changes.
 
