@@ -35,8 +35,8 @@ jobs:
         run: python tools/adt.py build -b "-p:Configuration=Debug -p:ContinuousIntegrationBuild=true"
       - name: Testing
         if: matrix.runs-on != 'macos-latest'
-        run: dotnet test --no-build --configuration Debug
+        run: python tools/adt.py test -t="--no-build --configuration Debug"
       - name: Testing (macOS ARM64)
         if: matrix.runs-on == 'macos-latest'
-        run: dotnet test --no-build --configuration Debug --framework net10.0
+        run: python tools/adt.py test -t="--no-build --configuration Debug --framework net10.0"
         
