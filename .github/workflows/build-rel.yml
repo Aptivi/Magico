@@ -32,11 +32,13 @@ jobs:
         if: matrix.runs-on == 'macos-15-intel'
         run: brew install mono
       - name: Solution Compilation
-        run: python tools/adt.py build -b "-p:Configuration=Release -p:ContinuousIntegrationBuild=true"
+        run: |
+          pip install aptivi-adt
+          adt build -b "-p:Configuration=Release -p:ContinuousIntegrationBuild=true"
       - name: Testing
         if: matrix.runs-on != 'macos-latest'
-        run: python tools/adt.py test -t="--no-build --configuration Release"
+        run: adt test -t="--no-build --configuration Release"
       - name: Testing (macOS ARM64)
         if: matrix.runs-on == 'macos-latest'
-        run: python tools/adt.py test -t="--no-build --configuration Release --framework net10.0"
+        run: adt test -t="--no-build --configuration Release --framework net10.0"
         
