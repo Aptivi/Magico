@@ -1,10 +1,10 @@
-This version of Magico adds unmanaged array tools.
+This version of Magico focuses on fixing native library copy for .NET Framework 4.8.
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[+]` Added unmanaged array tools
+- `[*]` Fixed native library copy for .NET Framework 4.8
 
 Review the commit history if you want to get a deep insight about the changes.
 
